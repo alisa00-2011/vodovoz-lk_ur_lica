@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html xmlns:umi="http://www.umi-cms.ru/TR/umi" xmlns:xlink="http://www.w3.org/TR/xlink">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no">
+      <meta name="keywords" content="">
+      <meta name="description" content="Наш интернет-магазин предлагает широкий ассортимент товаров по лучшим ценам. %gsProMarket24 getCurrentPageNameWithPrefixAndPostfix(,.)%Телефон для связи: %gsProMarket24 getShopFirstPhone()%">
+      <meta name="format-detection" content="telephone=no">
+      <title>Список заказов</title>
+      <link rel="preload" href="/templates/newvodovoz/assets/fonts/cuprum/Cuprum-Regular.eot" as="font" type="font/woff2" crossorigin="anonymous">
+      <link rel="preload" href="/templates/newvodovoz/assets/fonts/cuprum/Cuprum-Bold.eot" as="font" type="font/woff2" crossorigin="anonymous">
+      <style type="text/css">
+         @font-face{font-family:Cuprum;font-display:swap;src:url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Regular.eot);src:local('Cuprum'),local('Cuprum-Regular'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Regular.eot?#iefix) format('embedded-opentype'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Regular.woff2) format('woff2'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Regular.woff) format('woff'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Regular.ttf) format('truetype'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Regular.svg#Cuprum-Regular) format('svg')}@font-face{font-family:Cuprum;font-display:swap;src:url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Bold.eot);src:local('Cuprum Bold'),local('Cuprum-Bold'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Bold.eot?#iefix) format('embedded-opentype'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Bold.woff2) format('woff2'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Bold.woff) format('woff'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Bold.ttf) format('truetype'),url(/templates/newvodovoz//assets/fonts/cuprum/Cuprum-Bold.svg#Cuprum-Bold) format('svg');font-weight:700}
+      </style>
+      <style type="text/css" id="critical-styles">
+         *{margin:0;outline:none}article,aside,figure,footer,header,nav,main,section,details,summary{display:block}body,p,ul,li,ol,pre,caption,h1,h2,h3,h4,h5,h6,form,div,fieldset,legend{padding:0}html{width:100%;height:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{display:block;position:relative;min-height:100%;height:100%;width:100%;font:400 .625em 'Cuprum',sans-serif;color:#363636;background:#eafbff;box-sizing:border-box;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-ms-overflow-style:scrollbar}img,fieldset{border:0}input,textarea{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}input::-moz-focus-inner,textarea::-moz-focus-inner,select::-moz-focus-inner,button::-moz-focus-inner{padding:0;border:0}input[type="text"],input[type="password"],button,textarea{-webkit-appearance:none}.disable-hover,.disable-hover *{pointer-events:none!important}.disable-transition,.disable-transition *,.disable-transition *:after,.disable-transition *:before{transition-property:none!important}html:not(.domIsReady),html:not(.domIsReady) *,html:not(.domIsReady) *:after,html:not(.domIsReady) *:before{transition-property:none!important}.container{margin-right:auto;margin-left:auto;padding-left:10px;padding-right:10px;max-width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.row,.flex{margin-left:-10px;margin-right:-10px}.row:after,.flex:after{display:table;clear:both;content:''}@media (min-width:480px){.container{padding-left:20px;padding-right:20px;max-width:480px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1200px){.container{max-width:1200px}}@media (max-width:479px){.hidden-xs{display:none!important}}@media (min-width:480px) and (max-width:767px){.hidden-sm{display:none!important}}@media (min-width:768px) and (max-width:1199px){.hidden-md{display:none!important}}@media (min-width:1200px){.hidden-lg{display:none!important}}.b-page{position:relative;min-width:320px;min-height:100%;color:#363636;background:#eafbff;overflow:hidden;box-sizing:border-box}.b-page_content{position:relative;padding:40px 0 100px;font:400 20px/1.4 'Cuprum',sans-serif;visibility:visible}.b-page_content>*{display:none;opacity:0;pointer-events:none}
+         .v-header {position: fixed;top: 0;font-size: 1rem;z-index: 500;left: 0;width: 100%;}
+         .v-header-darkline {position: relative;height: 2rem;background: #0076C0;border-bottom: 0.1rem solid #1D4899;color: white;z-index: 10;}
+         .v-header-darkline .container > * {display:none;}
+         .v-header-main {height: 9rem;background: white;box-shadow: 0 0 0.4rem hsl(234deg 30% 60% / 30%);position: relative;z-index: 5;transition: all 0.2s ease-out;}
+         .v-header-main .container > * {display:none;}.v-header-mobileline{display:none;}
+         .b-footer{display:none;position:relative;z-index:1;min-width:320px;height:379px;color:#fff;background:#1d4899;cursor:default;box-sizing:border-box}.b-footer>*{opacity:0;pointer-events:none}@media (max-width:1199px){.b-footer{height:358px}}@media (max-width:1023px){.b-footer{height:357px}}@media (max-width:767px){.b-footer{height:418px}}@media (max-width:479px){.b-footer{height:478px}}@supports (display:flex){.b-page{display:flex;flex-direction:column}.b-page_content{flex:1 0 auto}.b-footer{display:block}}.b-feedback{display:none}.e-pageUp{display:none}
+      </style>
+      <link rel="icon" href="/templates/newvodovoz/assets/img/icons/favicons/favicon.ico">
+      <link rel="apple-touch-icon" href="/templates/newvodovoz/assets/img/icons/favicons/apple-touch-icon.png">
+      <link rel="apple-touch-icon" href="/templates/newvodovoz/assets/img/icons/favicons/apple-touch-icon-76x76.png" sizes="76x76">
+      <link rel="apple-touch-icon" href="/templates/newvodovoz/assets/img/icons/favicons/apple-touch-icon-120x120.png" sizes="120x120">
+      <link rel="apple-touch-icon" href="/templates/newvodovoz/assets/img/icons/favicons/apple-touch-icon-152x152.png" sizes="152x152">
+      <style type="text/css">
+         .svg-sprite { display: none; }
+      </style>
+      <style type="text/css">
+         #intro-banner-01, #intro-banner-02, #intro-banner-03 { background-image: url('/templates/newvodovoz/temp/banner-01.png'); }
+         #intro-banner-04 { background-image: url('/templates/newvodovoz/temp/banner-02.png'); }
+         #intro-banner-05 { background-image: url('/templates/newvodovoz/temp/banner-03.png'); }
+      </style>
+      <meta name="smartbanner:title" content="Веселый водовоз">
+      <meta name="smartbanner:author" content="Лимонад в подарок при ">
+      <meta name="smartbanner:price" content="заказе через приложение">
+      <meta name="smartbanner:price-suffix-apple" content=" ">
+      <meta name="smartbanner:price-suffix-google" content=" ">
+      <meta name="smartbanner:icon-apple" content="https://vodovoz-spb.ru/images/store_icon.png">
+      <meta name="smartbanner:icon-google" content="https://vodovoz-spb.ru/images/store_icon.png">
+      <meta name="smartbanner:button" content="Установить">
+      <meta name="smartbanner:button-url-apple" content="https://apps.apple.com/ru/app/веселый-водовоз-доставка/id1625660499">
+      <meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=com.funwater.app&amp;hl=ru&amp;gl=US">
+      <meta name="smartbanner:enabled-platforms" content="android,ios">
+      <meta name="smartbanner:close-label" content="Закрыть баннер">
+   </head>
+   <body>
+      <div class="b-page js-headerMenu" data-lock="true">
+         <svg xmlns="http://www.w3.org/2000/svg" class="svg-sprite">
+            <symbol id="close" viewBox="0 0 16 16">
+               <path d="M8,6.52912936 C8,6.52912936 10.1755296,4.35275291 14.5265888,0 L16,1.46775658 L9.47029831,8 L16,14.5322434 L14.5265888,16 L8,9.47087064 L1.47341115,16 L0,14.5322434 L6.52970169,8 L0,1.46775658 L1.47341115,0 C5.82447038,4.35275291 8,6.52912936 8,6.52912936 Z"></path>
+            </symbol>
+            <symbol id="arrow-next" viewBox="0 0 25 46">
+               <path d="M.406.357C1.06-.236 1.937-.09 3.043.794L24.54 21.6c.307.323.46.654.46.994 0 .34-.153.675-.46 1.007L2.873 45.297c-1.105.776-1.927.91-2.467.4-.685-.81-.503-1.702.546-2.676l20.652-20.426L1.02 3.183C-.03 1.987-.233 1.044.406.357z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="arrow-prev" viewBox="0 0 25 46">
+               <path d="M24.594.357c.64.687.435 1.63-.614 2.826L3.396 22.595l20.652 20.426c1.05.974 1.231 1.866.546 2.677-.54.508-1.362.375-2.467-.4L.46 23.601C.153 23.27 0 22.935 0 22.595c0-.34.153-.67.46-.994L21.957.794c1.106-.884 1.984-1.03 2.637-.437z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="dart-next" viewBox="0 0 28 12">
+               <path d="M24.59 5l-3.295-3.286a1.002 1.002 0 0 1 0-1.42 1.01 1.01 0 0 1 1.424 0l4.986 4.97A1 1 0 0 1 28 6a1 1 0 0 1-.295.735l-4.986 4.97a1.01 1.01 0 0 1-1.424 0 1.002 1.002 0 0 1 0-1.42l3.402-3.391L0 7V5h24.59z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="dart-prev" viewBox="0 0 28 12">
+               <path d="M3.41 5H28v2L3.303 6.894l3.402 3.392a1.002 1.002 0 0 1 0 1.42 1.01 1.01 0 0 1-1.424 0L.295 6.736A1 1 0 0 1 0 6a1 1 0 0 1 .295-.735L5.281.295a1.01 1.01 0 0 1 1.424 0 1.002 1.002 0 0 1 0 1.42L3.409 5z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="double-angle-left" viewBox="0 0 36 25">
+               <path d="M36 0v7l-9.075 5.5L36 18v7L17 12.5 36 0zM19 0v7l-9.075 5.5L19 18v7L0 12.5 19 0z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="double-angle-right" viewBox="0 0 36 25">
+               <path d="M0 0l19 12.5L0 25v-7l9.075-5.5L0 7V0zm17 0l19 12.5L17 25v-7l9.075-5.5L17 7V0z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="chevron-down" viewBox="0 0 24 24">
+               <path d="M23.76 7.549L12.553 18.755a.76.76 0 0 1-.553.241.76.76 0 0 1-.553-.24L.241 7.548A.76.76 0 0 1 0 6.996a.76.76 0 0 1 .24-.553L1.444 5.24A.76.76 0 0 1 1.996 5a.76.76 0 0 1 .553.24L12 14.691l9.452-9.451a.76.76 0 0 1 .552-.24c.21 0 .394.08.554.24l1.202 1.202a.76.76 0 0 1 0 1.107z" fill-rule="nonzero"></path>
+            </symbol>
+            <symbol id="chevron-up" viewBox="0 0 24 24">
+               <path d="M23.76 16.447L12.553 5.241A.76.76 0 0 0 12 5a.76.76 0 0 0-.553.24L.241 16.448A.76.76 0 0 0 0 17c0 .209.08.393.24.553l1.203 1.203c.16.16.344.24.553.24a.76.76 0 0 0 .553-.24L12 9.305l9.452 9.451c.16.16.344.24.552.24.21 0 .394-.08.554-.24l1.202-1.202a.76.76 0 0 0 0-1.107z" fill-rule="nonzero"></path>
+            </symbol>
+            <symbol id="magnifier" viewBox="0 0 21 22">
+               <path d="M14.881 17.318a9.504 9.504 0 0 1-5.36 1.645C4.263 18.963 0 14.718 0 9.48 0 4.245 4.263 0 9.52 0c5.259 0 9.522 4.245 9.522 9.481 0 2.536-1 4.84-2.628 6.54l4.292 4.275a.995.995 0 0 1 0 1.412c-.39.39-1.025.39-1.417 0l-4.408-4.39zm-5.36-.351c4.151 0 7.516-3.352 7.516-7.486s-3.365-7.485-7.516-7.485-7.517 3.351-7.517 7.485 3.366 7.486 7.517 7.486z" fill-rule="nonzero"></path>
+            </symbol>
+            <symbol id="sign-in" viewBox="0 0 24 22">
+               <path d="M12.924 0C19.03 0 24 4.935 24 11s-4.969 11-11.076 11a11.1 11.1 0 0 1-5.914-1.698A11.059 11.059 0 0 1 3 15.889l1.725-.85c1.559 3.113 4.7 5.048 8.199 5.048 5.045 0 9.15-4.076 9.15-9.087 0-5.01-4.105-9.087-9.15-9.087-3.499 0-6.64 1.935-8.199 5.049L3 6.11a11.06 11.06 0 0 1 4.01-4.413A11.1 11.1 0 0 1 12.924 0zM12 15l2.757-3H0v-2h14.757L12 7l1.4-1.5L18 11l-4.6 5.5L12 15z" fill-rule="nonzero"></path>
+            </symbol>
+            <symbol id="callback" viewBox="0 0 22 22">
+               <path d="M16.7256062,14.5534296 C17.6000023,15.4232477 18.4743983,16.2930657 19.3442164,17.1674618 C20.0721168,17.8999401 20.0675388,18.7972261 19.3350604,19.5388605 C18.8406375,20.0378614 18.3141687,20.5139723 17.8472137,21.0358632 C17.1650932,21.8003875 16.3135871,22.0475989 15.3338973,21.992663 C13.9101425,21.9148372 12.6008374,21.4433042 11.3373122,20.8298536 C8.53100446,19.4656127 6.1321378,17.5749029 4.12240028,15.1851922 C2.63455359,13.4180881 1.40765232,11.4907544 0.601926115,9.32078724 C0.208218992,8.27242758 -0.0710383862,7.19659997 0.0159434201,6.05668051 C0.0708792978,5.35624807 0.331824717,4.75653141 0.849137565,4.2666865 C1.40765232,3.73563968 1.93412115,3.18170291 2.48347993,2.64150012 C3.19764633,1.93648969 4.09493234,1.93648969 4.81367674,2.63692213 C5.25774175,3.07183116 5.69265078,3.51589617 6.1321378,3.95538319 C6.55789085,4.38571423 6.9836439,4.8068893 7.40939696,5.23722034 C8.16018728,5.99258866 8.16018728,6.8715627 7.41397495,7.62235303 C6.87835014,8.16255582 6.34730332,8.70275862 5.80252253,9.22922745 C5.66060485,9.37114513 5.64687088,9.48559488 5.72011872,9.65955849 C6.08177991,10.5202206 6.59909276,11.2847449 7.18049747,11.9989113 C8.35246286,13.4364001 9.67550191,14.7136592 11.2549084,15.707083 C11.5936796,15.9176706 11.9690748,16.0733222 12.32158,16.2655978 C12.5001216,16.3663136 12.6237273,16.3342676 12.770223,16.183194 C13.3058478,15.6338352 13.8506286,15.0936324 14.3954094,14.5534296 C15.1095758,13.8438412 16.0068618,13.8438412 16.7256062,14.5534296 Z M15.8512102,10.9047717 C15.6452006,9.70533839 15.0821079,8.61577681 14.2214458,7.75511473 C13.3104258,6.84409476 12.1567724,6.27184603 10.8886692,6.09330443 L11.1267247,4.39487021 C12.765645,4.6237697 14.2534917,5.36540405 15.4300351,6.54194743 C16.5424866,7.65897694 17.274965,9.06441981 17.5404884,10.6163584 L15.8512102,10.9047717 Z M18.4927103,3.56167607 C20.3422182,5.41576194 21.5553855,7.75053674 21.9994505,10.323367 L20.3101722,10.6117804 C19.9301991,8.39145531 18.8818394,6.37256181 17.284121,4.77484337 C15.5994207,3.09472111 13.4660775,2.02804948 11.1129907,1.69843422 L11.3510462,0 C14.0749501,0.379973154 16.5424866,1.61145241 18.4927103,3.56167607 Z" fill-rule="nonzero"></path>
+            </symbol>
+            <symbol id="whatsapp" viewBox="0 0 512 512">
+               <path d="M112.64,400.05l20.25-74a142.49,142.49,0,0,1-19.06-71.37c0-78.71,64.07-142.75,142.76-142.75A142.79,142.79,0,0,1,399.36,254.82c0,78.71-64.08,142.76-142.76,142.76h-.06a142.61,142.61,0,0,1-68.22-17.38Zm79.18-45.7,4.34,2.57a118.49,118.49,0,0,0,60.39,16.54h.05c65.4,0,118.63-53.23,118.66-118.66a118.66,118.66,0,1,0-219.18,63.05l2.82,4.49-12,43.79Z" fill="#00e676"></path>
+               <path d="M328.52,288.76c-.89-1.49-3.27-2.38-6.84-4.17S300.58,274.18,297.31,273s-5.65-1.79-8,1.79-9.21,11.61-11.29,14-4.16,2.68-7.73.89-15.06-5.55-28.68-17.71c-10.61-9.46-17.77-21.14-19.84-24.71s-.22-5.5,1.56-7.28c1.61-1.6,3.57-4.17,5.35-6.25a24.49,24.49,0,0,0,3.57-6,6.58,6.58,0,0,0-.3-6.25c-.89-1.79-8-19.34-11-26.48-2.89-7-5.84-6-8-6.13s-4.46-.12-6.84-.12a13.11,13.11,0,0,0-9.51,4.46c-3.27,3.57-12.48,12.2-12.48,29.76s12.78,34.52,14.57,36.9,25.15,38.41,60.94,53.86a204.73,204.73,0,0,0,20.34,7.52,48.89,48.89,0,0,0,22.46,1.41c6.86-1,21.11-8.63,24.08-17S329.41,290.25,328.52,288.76Z" fill="#00e676" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="schedule" viewBox="0 0 40 40">
+               <path d="M27.3152539,4.4256152 C25.0334185,3.33715349 22.5673082,2.78875969 19.9864341,2.78875969 C10.5030007,2.78875969 2.7751938,10.5165666 2.7751938,20 C2.7751938,29.4719141 10.5050483,37.1976744 19.9864341,37.1976744 C23.1461625,37.1976744 26.2230451,36.3379074 28.9152884,34.7014458 C31.1638401,33.3339056 33.0967033,31.4349523 34.517058,29.2048641 C36.2716106,26.4609022 37.1976744,23.2790417 37.1976744,20 C37.1976744,19.2276195 37.8264567,18.5988372 38.5988372,18.5988372 C39.3712177,18.5988372 40,19.2276195 40,20 C40,23.8014117 38.9262111,27.4850053 36.8888721,30.7084651 C35.2433257,33.3022925 32.9901697,35.5196842 30.3891786,37.09688 C27.2694032,38.9964765 23.6731466,40 20,40 C8.97180554,40 -7.10542736e-15,31.0281945 -7.10542736e-15,20 C-7.10542736e-15,8.97180554 8.97180554,0 20,0 C22.9843231,0 25.8467271,0.638804794 28.5278319,1.90295266 C30.0898518,2.6395149 31.5504732,3.5802784 32.9037903,4.71556772 L36.3985802,1.22077786 L39.5945959,13.2097344 L27.6072361,9.99855608 L30.8986163,6.70717588 C29.7927618,5.799129 28.5975333,5.03734486 27.3152539,4.4256152 Z M36,10 L34.9220779,6 L32,8.92207792 L36,10 Z" fill="#1D72B4" fill-rule="nonzero"></path>
+               <path d="M7.50390625,22 L7.50390625,20.5625 C8.21745148,19.7395792 8.83333074,19.0208364 9.3515625,18.40625 C9.86979426,17.7916636 10.2929671,17.2343775 10.6210938,16.734375 C11.261722,15.7708285 11.5820312,14.8593793 11.5820312,14 C11.5820312,12.5624928 11.022141,11.84375 9.90234375,11.84375 L7.66015625,11.84375 L7.66015625,10.9609375 C8.28515938,10.7473948 9.1393175,10.640625 10.2226562,10.640625 C12.4101672,10.640625 13.5039062,11.7604055 13.5039062,14 C13.5039062,14.9166713 13.1028686,15.9687441 12.3007812,17.15625 C11.790362,17.9114621 10.8294341,19.0989502 9.41796875,20.71875 L13.4179688,20.71875 L13.4179688,22 L7.50390625,22 Z M14.3789062,19.28125 L14.3789062,17.84375 L18.3789062,10.796875 L20.4570312,10.796875 L20.4570312,18 L21.3398438,18 L21.3398438,19.28125 L20.4570312,19.28125 L20.4570312,22 L18.5429688,22 L18.5429688,19.28125 L14.3789062,19.28125 Z M16.1367188,18 L18.5429688,18 L18.5429688,13.6796875 L18.4726562,13.6796875 L16.1367188,18 Z M25.9375,13.796875 L27.859375,13.796875 L21.0625,29 L19.140625,29 L25.9375,13.796875 Z M26.3828125,21.078125 L26.3828125,19.796875 L32.4609375,19.796875 L32.4609375,21.2421875 C31.0442638,24.8099137 30.1119814,28.0624853 29.6640625,31 L27.7421875,31 C28.184898,28.1354023 29.1458259,24.8281437 30.625,21.078125 L26.3828125,21.078125 Z" fill="#1D72B4" fill-rule="nonzero"></path>
+            </symbol>
+            <symbol id="page-up" viewBox="0 0 22 36">
+               <polygon fill-rule="nonzero" points="22 11 19.9768092 13.0231908 12.5 5.47694884 12.5 36 9.5 36 9.5 5.47694884 2.02319082 13.0231908 0 11 11 -2.84217094e-14"></polygon>
+            </symbol>
+            <symbol id="social-ig" viewBox="0 0 24 24">
+               <path d="M21.233 10.151h-2.087c.152.591.241 1.207.241 1.847a7.384 7.384 0 0 1-7.385 7.384 7.384 7.384 0 0 1-7.384-7.385c0-.64.088-1.255.241-1.846H2.767v10.157c0 .507.413.92.925.92h16.616a.923.923 0 0 0 .925-.92V10.15zm0-6.459a.923.923 0 0 0-.925-.92H17.54a.92.92 0 0 0-.92.92v2.772c0 .507.413.92.92.92h2.767a.923.923 0 0 0 .925-.92V3.692zm-9.236 3.693a4.613 4.613 0 0 0-4.612 4.613 4.617 4.617 0 0 0 4.613 4.617 4.621 4.621 0 0 0 4.617-4.617 4.617 4.617 0 0 0-4.617-4.613zM21.233 24H2.772A2.771 2.771 0 0 1 0 21.228V2.767A2.77 2.77 0 0 1 2.767 0h18.461a2.766 2.766 0 0 1 2.767 2.767v18.461A2.763 2.763 0 0 1 21.233 24z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="social-vk" viewBox="0 0 24 24">
+               <path d="M20.296 0a3.691 3.691 0 0 1 3.692 3.692v16.604a3.691 3.691 0 0 1-3.692 3.692H3.692C1.658 24 0 22.342 0 20.296V3.692A3.699 3.699 0 0 1 3.692 0h16.604zm-2.857 12.194s2.069-2.928 2.28-3.892c.071-.341-.082-.541-.434-.541h-1.8c-.411 0-.564.176-.681.435 0 0-.976 2.07-2.152 3.375-.377.423-.577.553-.788.553-.165 0-.247-.142-.247-.518V8.29c0-.47-.059-.6-.435-.6H10.3c-.224 0-.353.13-.353.306 0 .435.67.541.67 1.729v2.457c0 .494-.023.682-.258.682-.624 0-2.093-2.128-2.917-4.55-.164-.494-.34-.635-.811-.635h-1.8c-.258 0-.458.176-.458.435 0 .482.565 2.704 2.775 5.691 1.482 2.01 3.434 3.093 5.186 3.093 1.07 0 1.329-.177 1.329-.635v-1.54c0-.389.153-.553.376-.553.247 0 .682.082 1.705 1.082 1.211 1.152 1.294 1.634 1.952 1.634h2.023c.211 0 .4-.094.4-.435 0-.459-.588-1.258-1.494-2.223-.376-.493-.976-1.034-1.164-1.281-.306-.282-.223-.447-.023-.753z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="social-yt" viewBox="0 0 24 24">
+               <path d="M20.306 0A3.693 3.693 0 0124 3.694v16.612A3.693 3.693 0 0120.306 24H3.694C1.66 24.012 0 22.353 0 20.306V3.694A3.7 3.7 0 013.694 0h16.612zM6.21 2l1.418 4.588v3.13h1.193v-3.13L10.208 2H8.997l-.764 3.085L7.41 2h-1.2zm5.495 1.978c-.932 0-1.55.616-1.55 1.529v2.79c0 1.004.523 1.526 1.55 1.526.852 0 1.522-.569 1.522-1.525V5.507c0-.891-.664-1.53-1.522-1.53zm.443 4.272c0 .31-.159.538-.444.538-.292 0-.461-.239-.461-.538V5.6c0-.31.143-.542.44-.542.325 0 .465.225.465.543v2.65zm3.94-4.225v4.322c-.129.161-.416.426-.622.426-.226 0-.282-.155-.282-.383V4.025h-1.058v4.758c0 .563.172 1.017.74 1.017.32 0 .764-.167 1.222-.71v.628h1.059V4.025h-1.059zm1.836 11.548c-.373 0-.45.263-.45.636v.55h.89v-.55c.001-.367-.076-.636-.44-.636zm-3.919.034a.773.773 0 00-.208.165v3.379a.884.884 0 00.239.19c.164.084.404.09.516-.055.058-.077.087-.2.087-.374v-2.8c0-.183-.036-.321-.107-.416-.123-.16-.35-.178-.527-.09zm4.023-4.33c-2.17-.147-9.222-.147-11.389 0-2.345.16-2.621 1.577-2.639 5.306.018 3.723.292 5.146 2.64 5.306 2.166.148 9.218.148 11.388 0 2.345-.16 2.621-1.577 2.639-5.306-.018-3.722-.292-5.145-2.64-5.305zm-10.27 8.906H6.622v-6.284H5.447v-1.066h3.485v1.066H7.757v6.284zm4.038 0h-1.008v-.599c-.186.221-.38.39-.58.505-.544.311-1.29.304-1.29-.796V14.76h1.008v4.157c0 .218.052.365.268.365.197 0 .47-.253.593-.406V14.76h1.008v5.422zm3.88-1.124c0 .671-.25 1.193-.92 1.193-.37 0-.678-.135-.958-.486v.417H12.78v-7.35h1.018v2.366c.227-.277.536-.506.896-.506.739 0 .984.624.984 1.359v3.007h-.001zm3.727-1.46h-1.929v1.024c0 .406.035.758.44.758.426 0 .451-.287.451-.758v-.377h1.038v.408c0 1.044-.449 1.677-1.511 1.677-.963 0-1.455-.702-1.455-1.677v-2.435c0-.94.621-1.595 1.53-1.595.968 0 1.435.615 1.435 1.595v1.38z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="social-tt" viewBox="0 0 24 24">
+               <path d="M20.306 0A3.693 3.693 0 0124 3.694v16.612A3.693 3.693 0 0120.306 24H3.694C1.66 24.012 0 22.353 0 20.306V3.694A3.7 3.7 0 013.694 0h16.612zM6.21 2l1.418 4.588v3.13h1.193v-3.13L10.208 2H8.997l-.764 3.085L7.41 2h-1.2zm5.495 1.978c-.932 0-1.55.616-1.55 1.529v2.79c0 1.004.523 1.526 1.55 1.526.852 0 1.522-.569 1.522-1.525V5.507c0-.891-.664-1.53-1.522-1.53zm.443 4.272c0 .31-.159.538-.444.538-.292 0-.461-.239-.461-.538V5.6c0-.31.143-.542.44-.542.325 0 .465.225.465.543v2.65zm3.94-4.225v4.322c-.129.161-.416.426-.622.426-.226 0-.282-.155-.282-.383V4.025h-1.058v4.758c0 .563.172 1.017.74 1.017.32 0 .764-.167 1.222-.71v.628h1.059V4.025h-1.059zm1.836 11.548c-.373 0-.45.263-.45.636v.55h.89v-.55c.001-.367-.076-.636-.44-.636zm-3.919.034a.773.773 0 00-.208.165v3.379a.884.884 0 00.239.19c.164.084.404.09.516-.055.058-.077.087-.2.087-.374v-2.8c0-.183-.036-.321-.107-.416-.123-.16-.35-.178-.527-.09zm4.023-4.33c-2.17-.147-9.222-.147-11.389 0-2.345.16-2.621 1.577-2.639 5.306.018 3.723.292 5.146 2.64 5.306 2.166.148 9.218.148 11.388 0 2.345-.16 2.621-1.577 2.639-5.306-.018-3.722-.292-5.145-2.64-5.305zm-10.27 8.906H6.622v-6.284H5.447v-1.066h3.485v1.066H7.757v6.284zm4.038 0h-1.008v-.599c-.186.221-.38.39-.58.505-.544.311-1.29.304-1.29-.796V14.76h1.008v4.157c0 .218.052.365.268.365.197 0 .47-.253.593-.406V14.76h1.008v5.422zm3.88-1.124c0 .671-.25 1.193-.92 1.193-.37 0-.678-.135-.958-.486v.417H12.78v-7.35h1.018v2.366c.227-.277.536-.506.896-.506.739 0 .984.624.984 1.359v3.007h-.001zm3.727-1.46h-1.929v1.024c0 .406.035.758.44.758.426 0 .451-.287.451-.758v-.377h1.038v.408c0 1.044-.449 1.677-1.511 1.677-.963 0-1.455-.702-1.455-1.677v-2.435c0-.94.621-1.595 1.53-1.595.968 0 1.435.615 1.435 1.595v1.38z" fill-rule="evenodd"></path>
+            </symbol>
+            <symbol id="visa" viewBox="0 0 40 24">
+               <g fill="none" fill-rule="nonzero">
+                  <rect fill="#FFF" width="40" height="24" rx="4"></rect>
+                  <path d="M10.138 10.102a7.99 7.99 0 0 0-.093-.052C8.933 9.442 8 9.255 8 9.255l.042-.137h3.206c.88 0 .964.668.964.668l.692 3.303-.01-.026.01.046.23 1.081 1.949-5.053h2.2l-3.248 7.353H11.92l-1.781-6.388zm8.696 6.389h-2.032l1.278-7.353h2.033l-1.279 7.353zm12.28 0l-.23-1.101h-2.6l-.418 1.1h-2.117l3.018-6.802s.188-.55.943-.55h1.634l1.635 7.353h-1.865zm-2.243-2.615h1.677l-.608-2.753-1.069 2.753zm-2.974-2.969c-.88-.452-2.85-.57-2.85.295 0 .845 2.85 1.022 2.85 2.93 0 1.847-2.117 2.516-3.5 2.516-1.404 0-2.305-.413-2.305-.413l.293-1.651c.838.629 3.374.806 3.374-.197 0-1.003-2.829-1.022-2.829-2.93 0-2.025 2.41-2.437 3.416-2.437.943 0 1.844.314 1.844.314l-.294 1.573z" fill="#1B2072"></path>
+               </g>
+            </symbol>
+            <symbol id="mastercard" viewBox="0 0 40 24">
+               <g fill="none" fill-rule="nonzero">
+                  <rect fill="#FFF" width="40" height="24" rx="4"></rect>
+                  <path fill="#FF5F00" d="M23.57 7.089h-5.508v10.279h5.508z"></path>
+                  <path d="M18.412 12.23a6.735 6.735 0 0 1 .631-2.858 6.486 6.486 0 0 1 1.773-2.282 6.169 6.169 0 0 0-3.218-1.36 6.09 6.09 0 0 0-3.422.62 6.383 6.383 0 0 0-2.584 2.411 6.724 6.724 0 0 0-.96 3.468c0 1.226.333 2.428.96 3.468a6.383 6.383 0 0 0 2.584 2.411 6.09 6.09 0 0 0 3.422.62 6.168 6.168 0 0 0 3.218-1.36 6.486 6.486 0 0 1-1.772-2.281 6.735 6.735 0 0 1-.632-2.857z" fill="#EB001B"></path>
+                  <path d="M31 12.229a6.724 6.724 0 0 1-.96 3.468 6.384 6.384 0 0 1-2.584 2.411 6.09 6.09 0 0 1-3.423.62 6.169 6.169 0 0 1-3.218-1.36 6.495 6.495 0 0 0 1.772-2.283c.417-.89.633-1.867.633-2.857 0-.99-.216-1.967-.633-2.857a6.496 6.496 0 0 0-1.772-2.283 6.17 6.17 0 0 1 3.218-1.36 6.09 6.09 0 0 1 3.423.62 6.383 6.383 0 0 1 2.585 2.41 6.724 6.724 0 0 1 .958 3.469v.002zM30.398 16.277v-.21h.082v-.044h-.207v.044h.089v.21h.036zm.404 0v-.254h-.063l-.073.181-.074-.181h-.055v.254h.045v-.19l.068.165h.047l.069-.165v.192l.036-.002z" fill="#F79E1B"></path>
+               </g>
+            </symbol>
+            <symbol id="a-pay" viewBox="0 0 40 24">
+               <g fill="none" fill-rule="nonzero">
+                  <rect fill="#FFF" width="40" height="24" rx="4"></rect>
+                  <path d="M12.302 8.547c-.34.405-.883.725-1.427.68-.068-.549.198-1.13.51-1.49.34-.417.934-.714 1.416-.737.056.57-.164 1.13-.499 1.547zm.493.788c-.787-.046-1.461.45-1.835.45-.38 0-.952-.427-1.575-.416-.81.012-1.564.474-1.977 1.21-.85 1.473-.221 3.654.6 4.853.403.594.884 1.244 1.519 1.222.6-.023.838-.394 1.563-.394.73 0 .94.394 1.575.382.657-.011 1.07-.593 1.473-1.187.458-.674.645-1.33.657-1.365-.012-.011-1.27-.496-1.28-1.958-.012-1.221.99-1.804 1.036-1.838-.566-.845-1.45-.936-1.756-.96zm4.549-1.656v8.9h1.37v-3.042h1.898c1.734 0 2.952-1.2 2.952-2.935S22.368 7.68 20.658 7.68h-3.314zm1.37 1.165h1.581c1.19 0 1.87.64 1.87 1.764 0 1.125-.68 1.77-1.875 1.77h-1.575V8.844zm7.354 7.804c.86 0 1.66-.44 2.022-1.136h.028v1.067h1.27v-4.43c0-1.284-1.02-2.112-2.59-2.112-1.456 0-2.532.84-2.571 1.992h1.234c.102-.548.607-.907 1.298-.907.838 0 1.308.394 1.308 1.119v.49l-1.71.103c-1.592.097-2.453.754-2.453 1.896 0 1.153.889 1.918 2.164 1.918zm.368-1.056c-.731 0-1.196-.354-1.196-.896 0-.56.448-.885 1.303-.937l1.524-.097v.503c0 .833-.702 1.427-1.631 1.427zM31.08 19c1.337 0 1.965-.514 2.515-2.072l2.407-6.805H34.61l-1.615 5.258h-.028l-1.614-5.258H29.92l2.322 6.48-.125.393c-.21.668-.549.925-1.155.925a4.26 4.26 0 01-.402-.023v1.068c.079.023.419.034.52.034z" fill="#000"></path>
+               </g>
+            </symbol>
+            <symbol id="g-pay" viewBox="0 0 40 24">
+               <g fill="none" fill-rule="nonzero">
+                  <rect fill="#FFF" width="40" height="24" rx="4"></rect>
+                  <path d="M20.134 13.357v3.77h-1.182v-9.31h3.134a2.815 2.815 0 012.03.806c.55.5.858 1.217.847 1.965a2.594 2.594 0 01-.847 1.976c-.548.529-1.225.793-2.03.793h-1.952zm0-4.394v3.25h1.982c.439.014.863-.161 1.169-.481a1.596 1.596 0 000-2.275 1.532 1.532 0 00-1.17-.494h-1.981zm7.552 1.586c.874 0 1.563.237 2.068.71.506.472.758 1.12.758 1.942v3.926h-1.13v-.884h-.052c-.489.728-1.14 1.092-1.952 1.092-.693 0-1.273-.208-1.74-.624a2.003 2.003 0 01-.7-1.56c0-.659.246-1.183.738-1.572.492-.39 1.15-.585 1.971-.586.702 0 1.28.13 1.734.39v-.273a1.368 1.368 0 00-.488-1.059 1.662 1.662 0 00-1.14-.436c-.66 0-1.183.282-1.568.846l-1.04-.664c.572-.832 1.42-1.248 2.541-1.248zm-1.529 4.628a.96.96 0 00.392.78c.262.208.586.319.919.312.498 0 .976-.201 1.329-.558.391-.373.587-.81.587-1.313-.369-.297-.882-.446-1.541-.446-.48 0-.88.118-1.201.352-.324.237-.485.526-.485.873zM37 10.757l-3.946 9.178h-1.22l1.465-3.211-2.595-5.967h1.285l1.875 4.576h.026l1.823-4.576H37z" fill="#5F6368"></path>
+                  <path d="M15.359 12.545c0-.365-.03-.729-.091-1.088h-4.984v2.06h2.855a2.478 2.478 0 01-1.056 1.625v1.338h1.704c.997-.931 1.572-2.308 1.572-3.935z" fill="#4285F4"></path>
+                  <path d="M10.284 17.771c1.426 0 2.627-.474 3.503-1.29l-1.704-1.338c-.474.326-1.084.511-1.799.511-1.378 0-2.548-.94-2.966-2.207H5.563v1.378a5.278 5.278 0 004.721 2.946z" fill="#34A853"></path>
+                  <path d="M7.318 13.447a3.242 3.242 0 010-2.048v-1.378H5.563a5.407 5.407 0 000 4.804l1.755-1.378z" fill="#FBBC04"></path>
+                  <path d="M10.284 9.191a2.85 2.85 0 012.028.803l1.508-1.527a5.044 5.044 0 00-3.536-1.393 5.278 5.278 0 00-4.721 2.947L7.318 11.4c.418-1.267 1.588-2.208 2.966-2.208z" fill="#EA4335"></path>
+               </g>
+            </symbol>
+            <symbol id="map-n-pin" viewBox="0 0 32 30">
+               <path d="M28.868 14.6l2.728 11.733L4.012 13.501c.235-.134.539-.2.808-.2h13.775l2.425 4.666a2.545 2.545 0 002.29 1.4c.977 0 1.853-.533 2.29-1.4.068-.167 1.18-2.333 2.325-4.5.471.2.808.6.943 1.134zm-25.8.267l7.006 3.233L4.45 30H1.72c-.538 0-1.01-.233-1.347-.633-.337-.4-.438-.934-.337-1.434L3.07 14.867zm8.522 3.967l10.272 4.8L14.89 30H6.302l5.288-11.166zM23.513 24.4L32 28.367c0 .366-.135.7-.37 1-.337.4-.842.633-1.348.633H17.35l6.164-5.6zm-.943-7.2s-3.065-5.966-4.514-8.733c-1.414-2.766-.303-6.366 2.627-7.833 2.93-1.466 6.467-.3 7.949 2.567.876 1.733.842 3.6 0 5.266-.842 1.667-4.513 8.733-4.513 8.733-.303.634-1.246.634-1.55 0zm.774-14.032c-1.55 0-2.795 1.266-2.795 2.766 0 1.534 1.246 2.767 2.795 2.767 1.55 0 2.796-1.233 2.796-2.767 0-1.533-1.247-2.766-2.796-2.766z" fill-rule="nonzero"></path>
+            </symbol>
+            <symbol id="user_auth" width="50" height="50" viewBox="0 0 50 50" fill="none">
+               <path d="M25 45.8334C21.8502 45.8422 18.7401 45.1296 15.9084 43.75C14.872 43.2459 13.8791 42.6571 12.9396 41.9896L12.6542 41.7812C10.0705 39.8742 7.95812 37.4005 6.47921 34.55C4.9495 31.5997 4.1561 28.3232 4.16661 25C4.16661 13.4941 13.4941 4.16666 25 4.16666C36.506 4.16666 45.8335 13.4941 45.8335 25C45.8439 28.3216 45.0512 31.5966 43.523 34.5458C42.0461 37.3946 39.9367 39.8675 37.3563 41.775C36.3829 42.4875 35.3499 43.1148 34.2688 43.65L34.1021 43.7333C31.2686 45.1202 28.1547 45.8386 25 45.8334ZM25 35.4166C21.8781 35.4105 19.016 37.1542 17.5896 39.9312C22.2592 42.2441 27.7409 42.2441 32.4105 39.9312V39.9208C30.9823 37.1468 28.1201 35.4071 25 35.4166ZM25 31.25C29.5128 31.2559 33.6738 33.6877 35.8938 37.6167L35.925 37.5896L35.9542 37.5646L35.9188 37.5958L35.898 37.6125C41.1667 33.0606 43.0506 25.7132 40.6222 19.1877C38.1938 12.6622 31.9648 8.33398 25.0021 8.33398C18.0394 8.33398 11.8104 12.6622 9.38203 19.1877C6.95361 25.7132 8.83755 33.0606 14.1063 37.6125C16.3277 33.6855 20.4883 31.2555 25 31.25ZM25 29.1667C20.3977 29.1667 16.6667 25.4357 16.6667 20.8333C16.6667 16.2309 20.3977 12.5 25 12.5C29.6024 12.5 33.3334 16.2309 33.3334 20.8333C33.3334 23.0435 32.4554 25.1631 30.8926 26.7259C29.3298 28.2887 27.2102 29.1667 25 29.1667ZM25 16.6667C22.6989 16.6667 20.8334 18.5321 20.8334 20.8333C20.8334 23.1345 22.6989 25 25 25C27.3012 25 29.1667 23.1345 29.1667 20.8333C29.1667 18.5321 27.3012 16.6667 25 16.6667Z" fill="#ED6C00"></path>
+            </symbol>
+            <symbol id="user_cabinet_icon" width="42" height="42" viewBox="0 0 42 42" fill="none">
+               <path d="M21 25.2C25.6392 25.2 29.4 21.4392 29.4 16.8C29.4 12.1608 25.6392 8.4 21 8.4C16.3608 8.4 12.6 12.1608 12.6 16.8C12.6 21.4392 16.3608 25.2 21 25.2ZM21 12.6C23.3196 12.6 25.2 14.4804 25.2 16.8C25.2 19.1196 23.3196 21 21 21C18.6804 21 16.8 19.1196 16.8 16.8C16.8 14.4804 18.6804 12.6 21 12.6Z" fill="#ED6C00"></path>
+               <path d="M4.2 42C1.88041 42 0 40.1196 0 37.8V4.2C0 1.88041 1.8804 0 4.2 0H37.8C40.1196 0 42 1.8804 42 4.2V37.8C42 40.1196 40.1196 42 37.8 42H4.2ZM4.2 4.2V37.8H10.5C10.5 32.001 15.201 27.3 21 27.3C26.799 27.3 31.5 32.001 31.5 37.8H37.8V4.2H4.2ZM27.3 37.8C27.3 34.3206 24.4794 31.5 21 31.5C17.5206 31.5 14.7 34.3206 14.7 37.8H27.3Z" fill="#ED6C00"></path>
+            </symbol>
+            <symbol id="user_auth_phone_icon" viewBox="0 0 60 60" fill="none">
+               <path d="M59.9999 3.75941C60.0453 35.753 35.4731 60.0342 3.75941 60C1.68834 60 0 58.321 0 56.25L0 46.3524C0 44.494 1.36549 42.9153 3.20373 42.6424C7.60949 41.9883 11.8986 40.7056 15.9401 38.8332L16.7719 38.4478C17.9284 37.912 19.3025 38.2752 20.0433 39.3125C22.2322 42.3776 26.6383 43.549 30.0763 41.1611C34.3906 38.1646 38.1671 34.3873 41.1623 30.074C43.5495 26.6362 42.3783 22.2308 39.3137 20.0419C38.2759 19.3006 37.9125 17.9257 38.4486 16.7685L38.8321 15.9406C40.7044 11.8988 41.9872 7.60932 42.6411 3.20314C42.9139 1.36483 44.4925 0 46.351 0H56.2499C58.321 0 59.9999 1.68302 59.9999 3.75409L59.9999 3.75941Z" fill="#ED6C00"></path>
+            </symbol>
+         </svg>
+         <header class="v-header" style="height:0;">
+            <div class="v-header-darkline desktop-only">
+               <div class="container">
+                  <div class="v-header-darkline__menu">
+                     <ul>
+                        <li><a href="/akcii/">Акции</a></li>
+                        <li><a href="/promonabory/">Промонаборы</a></li>
+                        <li><a href="/dostavka-i-oplata/">Доставка и оплата</a></li>
+                        <li><a href="/sotrudnichestvo/">Сотрудничество</a></li>
+                        <li><a href="/kontakty/">Контакты</a></li>
+                     </ul>
+                  </div>
+                  <div class="v-header-darkline__search">
+                     <form action="/search/search_do/" method="get">
+                        <input type="text" name="search_string" placeholder="Начните вводить ваш запрос" autocomplete="off">
+                        <button type="submit">
+                           <svg>
+                              <use xlink:href="#magnifier"></use>
+                           </svg>
+                        </button>
+                     </form>
+                  </div>
+                  <div class="v-header-darkline__space"></div>
+                  <div class="v-header-darkline__cart v-header-darkline__cart--full">
+                     <a href="/emarket/cart/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 23" width="20" height="23" fill="none">
+                           <path d="M3.222 21.655a2.222 2.222 0 1 0 0-4.444 2.222 2.222 0 0 0 0 4.444Zm12.223 0a2.222 2.222 0 1 0 0-4.444 2.222 2.222 0 0 0 0 4.444Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                           <path d="M15.445 17.212H3.222V1.656H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                           <path d="M3.222 3.879 18.778 4.99l-1.111 7.778H3.222" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span data-amount="13">13</span>
+                     </a>
+                     <div class="js_cart_empty_notice hidden">
+                        <div class="h">Ваша корзина пуста :(</div>
+                        <div class="b">Добавьте товары в корзину, чтобы оформить заказ</div>
+                     </div>
+                  </div>
+                  <div class="v-header-darkline__login js_user_login hidden">
+                     <a class="" href="#" data-v-modal="userLogin">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 23 23" width="23" height="23" fill="none">
+                           <path d="M8.25 16.656v2.5a2.5 2.5 0 0 0 2.5 2.5h8.75a2.5 2.5 0 0 0 2.5-2.5v-15a2.5 2.5 0 0 0-2.5-2.5h-8.75a2.5 2.5 0 0 0-2.5 2.5v2.5M1 11.848h16.25m0 0-3.75 3.75m3.75-3.75-3.75-3.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span>Войти</span>
+                     </a>
+                  </div>
+                  <div class="v-header-darkline__login lk js_user_lk"><a href="/emarket/ordersList"><span>Личный кабинет</span></a></div>
+               </div>
+            </div>
+            <div class="v-header-mobileline mobile-only">
+               <div class="container">
+                  <a href="javascript:;" data-body-toggle-class="activeNav" class="v-header-mobileline__nav">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewbox="0 0 25 22">
+                        <path d="M2 1.656h21m-21 9h21m-21 9h21" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
+                     </svg>
+                     <span>Меню</span>
+                  </a>
+                  <a href="javascript:;" data-body-toggle-class="activeNav" class="v-header-mobileline__nav v-header-mobileline__nav--active">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewbox="0 0 23 21">
+                        <path d="M11.02 1.075a1.43 1.43 0 0 1 0 2.022L4.88 9.235h16.566a1.43 1.43 0 0 1 0 2.86H4.881l6.139 6.138a1.43 1.43 0 0 1-2.022 2.022l-8.58-8.58a1.43 1.43 0 0 1 0-2.021l8.58-8.58a1.43 1.43 0 0 1 2.022 0Z" fill="currentColor"></path>
+                     </svg>
+                     <span>Свернуть</span>
+                  </a>
+                  <a onclick="ga('send', 'pageview','/clik-na-tel')" href="tel:+78123170000" data-toggle="activeNav" data-dest="body" class="v-header-mobileline__phone">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewbox="0 0 20 21">
+                        <path d="M20 10.656a10.002 10.002 0 0 0-10-10v2a8.003 8.003 0 0 1 7.391 4.939 8 8 0 0 1 .61 3.061h2Zm-20-2v-5a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a8 8 0 0 0 8 8v-2a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5c-6.627 0-12-5.372-12-12Z" fill="currentColor"></path>
+                        <path d="M15.543 8.36A5.99 5.99 0 0 1 16 10.656h-1.8a4.2 4.2 0 0 0-4.2-4.2v-1.8a6 6 0 0 1 5.543 3.704Z" fill="currentColor"></path>
+                     </svg>
+                     <span>Позвонить</span>
+                  </a>
+                  <a href="#" data-box-width="384" data-v-modal="userLogin" class="v-header-mobileline__login js_user_login hidden">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 23 23" width="23" height="23" fill="none">
+                        <path d="M8.25 16.656v2.5a2.5 2.5 0 0 0 2.5 2.5h8.75a2.5 2.5 0 0 0 2.5-2.5v-15a2.5 2.5 0 0 0-2.5-2.5h-8.75a2.5 2.5 0 0 0-2.5 2.5v2.5M1 11.848h16.25m0 0-3.75 3.75m3.75-3.75-3.75-3.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                     </svg>
+                     <span>Вход/регистрация</span>
+                  </a>
+                  <a href="/emarket/ordersList" class="v-header-mobileline__login lk js_user_lk active">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 0C7.25 0 5 2.8 5 6.25C5 9.7 7.25 12.5 10 12.5C12.75 12.5 15 9.7 15 6.25C15 2.8 12.75 0 10 0ZM4.775 12.5C2.125 12.625 0 14.8 0 17.5V20H20V17.5C20 14.8 17.9 12.625 15.225 12.5C13.875 14.025 12.025 15 10 15C7.975 15 6.125 14.025 4.775 12.5Z" fill="#0076C0"></path>
+                     </svg>
+                     <span>Личный кабинет</span>
+                  </a>
+                  <a href="/emarket/cart/" class="v-header-mobileline__cart">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 23" width="20" height="23" fill="none">
+                        <path d="M3.222 21.655a2.222 2.222 0 1 0 0-4.444 2.222 2.222 0 0 0 0 4.444Zm12.223 0a2.222 2.222 0 1 0 0-4.444 2.222 2.222 0 0 0 0 4.444Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M15.445 17.212H3.222V1.656H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M3.222 3.879 18.778 4.99l-1.111 7.778H3.222" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                     </svg>
+                     <span>Корзина</span><span class="amount_count" data-amount="13">13</span>
+                  </a>
+               </div>
+            </div>
+            <div class="v-header-main">
+               <div class="container">
+                  <div class="v-header-main__images">
+                     <a class="v-header-main__logo" href="/"><img loading="lazy" src="/templates/newvodovoz/assets/img/logo2.png" alt="Весёлый Водовоз"><img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз"></a>
+                     <div class="v-header-main__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="v-header-main__icon-100" width="65" height="65" viewBox="0 0 65 65" fill="none">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H65.0028V65H64.2183H0.78724H0V0ZM63.4311 1.45522H1.57171V63.5475H63.4311V1.45522Z" fill="#0076C0"></path>
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8005 50.603C9.57051 48.5324 3.4195 41.2175 3.4195 32.7966C3.4195 24.3757 9.57051 17.058 17.8005 14.9874C21.077 14.1753 24.5114 13.7318 28.1067 13.7318C35.4552 13.7318 42.4073 16.0962 48.3975 19.7911V27.0311C43.8432 24.8885 39.8488 24.3702 35.056 24.2981C29.465 24.2981 24.5114 27.6243 24.5114 32.7966C24.5114 37.9689 29.465 41.5141 35.056 41.5141C39.9292 41.5141 44.5639 40.9237 48.3975 38.5593V45.7273C42.5653 49.4222 35.4552 51.7866 28.1067 51.7866C24.5114 51.7866 21.077 51.3431 17.8005 50.603ZM13.6453 45.2977C13.6453 43.338 14.9537 42.0324 17.0936 42.0324C19.192 42.0324 20.4616 43.4017 20.4616 45.2977C20.4616 47.1936 19.1948 48.4881 17.0936 48.4881C14.9925 48.4881 13.6453 47.2906 13.6453 45.2977ZM15.4526 45.2977C15.4526 46.2262 15.9156 47.3488 17.0964 47.3488C18.2191 47.3488 18.657 46.1486 18.657 45.2977C18.657 44.3913 18.2939 43.2465 17.0964 43.2465C15.8379 43.2465 15.4526 44.3081 15.4526 45.2977ZM25.185 43.5098C24.8718 43.3657 24.65 43.3629 24.3063 43.3629C23.8268 43.3629 23.4553 43.6013 23.1864 43.9533C22.8926 44.3414 22.7069 44.8403 22.7069 45.3559C22.7069 46.0211 22.8677 46.4646 23.1864 46.8333C23.5052 47.2047 23.8268 47.3516 24.2259 47.3516C24.6417 47.3516 25.0076 47.2601 25.2654 47.1299L25.3458 48.3107C24.9633 48.4825 24.4865 48.5684 23.9875 48.5324C23.192 48.4742 22.5489 48.2386 22.1497 47.7203C21.5842 46.9885 21.3514 46.1569 21.3514 45.281C21.3514 44.4606 21.6009 43.7454 22.1497 43.0635C22.6016 42.5064 23.2696 42.2043 24.1483 42.1766C24.7277 42.1599 25.0852 42.2819 25.2654 42.3235L25.185 43.5043V43.5098ZM29.8641 43.5098C29.5509 43.3657 29.3291 43.3629 28.9854 43.3629C28.5059 43.3629 28.1344 43.6013 27.8655 43.9533C27.5745 44.3414 27.386 44.8403 27.386 45.3559C27.386 46.0211 27.5468 46.4646 27.8655 46.8333C28.1843 47.2047 28.5059 47.3516 28.905 47.3516C29.318 47.3516 29.6867 47.2601 29.9445 47.1299L30.0249 48.3107C29.6424 48.4825 29.1656 48.5684 28.6666 48.5324C27.8711 48.4742 27.228 48.2386 26.8288 47.7203C26.2633 46.9885 26.0305 46.1569 26.0305 45.281C26.0305 44.4606 26.28 43.7454 26.8288 43.0635C27.2806 42.5064 27.9487 42.2043 28.8274 42.1766C29.4067 42.1599 29.7643 42.2819 29.9445 42.3235L29.8641 43.5043V43.5098ZM36.1759 48.294H34.4185V44.3247L32.8218 47.4736C32.65 47.8145 32.2979 48.4326 31.7823 48.4326C31.0173 48.4326 30.8232 47.9004 30.8232 47.3377V42.2736H32.5807V46.3094L34.0165 43.2992C34.1995 42.9166 34.6291 42.135 35.214 42.135C35.9375 42.135 36.1731 42.7864 36.1731 43.2992V48.294H36.1759ZM42.6097 48.294H40.8522V44.3247L39.2556 47.4736C39.0837 47.8145 38.7317 48.4326 38.2161 48.4326C37.451 48.4326 37.257 47.9004 37.257 47.3377V42.2736H39.0144V46.3094L40.4531 43.2992C40.636 42.9166 41.0657 42.135 41.6506 42.135C42.374 42.135 42.6097 42.7864 42.6097 43.2992V48.294ZM12.5282 27.2557C12.5282 25.6313 13.9669 24.3729 15.8047 24.3729C17.5621 24.3729 19.0008 25.6286 19.0008 27.2557C19.0008 28.88 17.5621 30.2105 15.8047 30.2105C15.1671 30.2105 14.4464 29.9887 13.9669 29.767V33.6087C14.5268 33.7584 15.2447 33.8305 15.8047 33.8305C19.7991 33.8305 23.0756 30.9505 23.0756 27.2557C23.0756 23.6356 19.7991 20.678 15.8047 20.678C11.7299 20.678 8.45617 23.6328 8.45617 27.2557L8.42845 43.0663C9.12145 44.3247 10.7431 45.9186 12.6086 47.2047L12.5282 27.2529V27.2557Z" fill="#0076C0"></path>
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9456 51.5953C12.6442 50.3756 11.9706 53.6991 11.9706 55.8806C11.9706 57.9234 12.9075 62.0867 15.965 62.0867C18.5762 62.0867 18.9698 58.9379 19.0669 57.139C19.1777 55.0961 18.1771 52.4157 15.9456 51.5925V51.5953ZM15.8874 60.0938C14.2686 59.8942 13.8611 57.4993 13.8112 56.324C13.7752 55.5174 14.0551 52.7788 15.6906 53.4801C16.913 54.004 17.4342 55.5341 17.4314 56.9976C17.4286 57.9317 17.5118 60.2933 15.8902 60.091L15.8874 60.0938ZM5.8196 49.0535C5.25966 48.61 4.7025 48.0196 4.14256 47.4292V43.956C4.14256 44.0281 4.22295 44.1029 4.22295 44.1029C5.98038 46.2456 7.73781 47.9447 9.41485 49.3501V51.7893C8.9353 51.4927 8.37536 51.124 7.8182 50.7554L7.77939 61.8206L5.86118 61.8012L5.8196 49.0562V49.0535ZM21.3177 53.5605C22.2796 53.6243 23.4189 53.7046 24.4334 53.7823C25.7251 53.7823 26.7508 54.5972 26.7508 55.8501C26.7508 56.4571 26.238 57.3191 25.5505 57.4771C25.5505 57.4771 25.545 57.5243 25.545 57.5991C26.6676 57.8569 27.0723 58.5083 27.0695 59.5477C27.0668 60.8754 26.0162 61.8068 24.6718 61.8068H21.2761L21.3177 53.5633V53.5605ZM30.6648 61.804H28.669L32.4222 53.5605H32.741L36.4943 61.804H34.4984L34.0189 60.7258H31.1443L30.6648 61.804ZM33.3813 59.1014L32.583 57.5492L31.7847 59.1014H33.3813ZM40.1727 61.7929H38.1741V52.8953L40.8906 52.0083C41.9689 51.6562 42.648 51.5648 43.1276 52.0803C43.6515 52.7567 43.8455 53.6215 43.8455 54.4447C43.8455 55.5535 43.6071 56.5874 43.1276 57.4744C42.5704 58.3614 41.8497 58.8049 40.8102 58.9518L40.1727 59.0266V61.7929ZM40.971 56.9588C41.6252 56.7592 41.8497 55.7004 41.8497 55.1848C41.8497 54.7081 41.6834 53.6852 40.8906 53.9292L40.2503 54.0761C40.2503 55.085 40.2503 56.0968 40.2503 57.1057L40.971 56.956V56.9588ZM49.7581 47.2795C53.1011 44.9816 54.0519 51.4068 53.9133 53.3388C53.9133 55.5618 53.1122 61.9842 49.6805 61.9842H49.5198C46.7201 61.9842 46.2156 57.4522 46.1878 55.584C46.1269 51.9168 46.6009 49.4526 49.7609 47.2767L49.7581 47.2795ZM49.6805 59.2511C51.668 58.8437 51.8288 55.4648 51.9147 54.0068C51.9147 53.0117 51.8676 49.2558 49.8413 50.0901C48.131 50.7942 47.8871 53.7019 47.8732 55.171C47.8621 56.1744 47.8843 59.4618 49.6778 59.2539L49.6805 59.2511ZM55.5433 43.92L58.8641 42.1072C59.5848 41.6637 60.0643 41.8134 60.4635 42.4759C61.0567 43.7093 61.1038 44.8791 61.1038 46.1707C61.1038 47.759 60.7878 49.4138 59.826 50.7526V50.9993C61.4282 51.5925 61.3422 54.2701 61.3422 55.5535C61.3422 56.8368 61.0373 61.804 58.9472 61.804L55.51 61.7652L55.5433 43.9172V43.92ZM58.2265 57.7737C59.1939 57.6629 59.3131 55.9748 59.3464 55.4093C59.3824 54.8078 59.2023 53.1586 58.2265 53.4136L57.5945 53.5771L57.589 57.8458L58.2293 57.771L58.2265 57.7737ZM58.0685 49.7187C58.7892 49.4776 59.0443 48.7098 59.0443 47.5012C59.0443 46.3925 58.7781 45.8825 58.0685 46.2456L57.6001 46.484L57.6305 49.8656L58.0685 49.7187ZM23.3967 58.3752V60.2296H24.0259C24.6995 60.2296 25.0017 59.8582 25.0072 59.2594C25.0127 58.6219 24.6441 58.3752 24.0176 58.3752H23.3995H23.3967ZM23.3967 55.3373V56.8147H23.8956C24.4334 56.8147 24.6746 56.5181 24.6773 56.0413C24.6829 55.5341 24.389 55.3373 23.8901 55.3373H23.3967Z" fill="#0076C0"></path>
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M8.10911 6.09521L8.05644 15.356C8.04812 16.6865 7.94556 17.7342 7.65727 18.5353C7.06407 20.179 6.24357 21.6204 4.54158 22.5268V18.6101C5.36485 18.2969 5.8943 17.6261 5.89984 16.1709L5.94974 3.27347H12.1312V15.5057L9.97464 17.2048V6.10076L8.10911 6.09521ZM21.3314 3.27347L19.1637 9.88711C18.9974 10.3999 18.4458 11.4504 18.1242 11.8828C17.3758 12.889 15.8512 13.4961 14.6094 13.8786V11.6611C15.732 11.6611 16.5664 11.2841 17.0848 10.3306L14.0217 3.27069H16.292L18.0439 7.15129L19.1138 3.27069H21.3286L21.3314 3.27347ZM29.7887 3.27347V11.4421L27.6321 11.3673V8.18797H27.4713C26.8698 8.37368 26.26 8.40971 25.6335 8.40971C23.8705 8.2046 23.2385 7.3675 23.2385 5.74873V3.27069H25.3147V5.67389C25.3147 6.30033 25.7333 6.78263 26.4319 6.78263C26.7118 6.80758 27.4436 6.67453 27.6293 6.48605V3.27069H29.7859L29.7887 3.27347ZM33.8635 3.27347V9.88711C34.6618 9.96195 35.4629 10.034 36.1809 10.1837V3.27347H38.3375V10.6272C39.1358 10.7741 39.9369 10.9959 40.7352 11.2176L40.6548 3.27347H42.8114L42.8918 14.0255C39.2605 12.6063 35.6293 11.8274 31.7097 11.5142V3.27347H33.8663H33.8635ZM45.2092 15.2839L44.81 15.137L44.7296 3.27624H46.8862V9.67091C48.7601 7.57261 49.9188 5.64063 51.2161 3.27624H51.934L51.9978 18.685L49.8384 17.4515V10.1144C48.555 12.0076 46.9583 13.6984 45.2064 15.2867L45.2092 15.2839ZM55.8342 20.8249L53.8356 19.644L56.4717 12.0325L53.9437 3.27347H56.0642L57.5112 8.55939L58.8833 3.27347H61.0344L58.6283 12.6978L61.3449 24.0014L59.1883 22.8178L57.5112 16.1681L55.8342 20.8221V20.8249Z" fill="#0076C0"></path>
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M57.4456 27.3166C60.4809 27.3166 62.9563 29.7559 62.9563 32.7855C62.9563 35.8151 60.4809 38.2544 57.4456 38.2544C54.4103 38.2544 51.9322 35.7431 51.9322 32.7855C51.9322 29.7559 54.4103 27.3166 57.4456 27.3166ZM57.4456 31.455C56.7249 31.455 56.0874 32.0454 56.0874 32.7855C56.0874 33.4508 56.7249 34.0412 57.4456 34.0412C58.1663 34.0412 58.7235 33.4508 58.7235 32.7855C58.7235 32.0454 58.1663 31.455 57.4456 31.455Z" fill="#0076C0"></path>
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M40.09 27.5328H53.7835V31.527L49.8972 31.5132L49.9277 38.0242H43.8044V31.5991L40.09 31.6129V27.5328Z" fill="#0076C0"></path>
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M39.0114 38.2515H34.3295C31.2942 38.2515 28.816 35.7402 28.816 32.7826C28.816 29.8251 31.2942 27.3138 34.3295 27.3138H39.0252L39.0169 31.4522H34.3295C33.6116 31.4522 32.9712 32.0426 32.9712 32.7826C32.9712 33.4479 33.6116 34.0383 34.3295 34.0383H39.0114V38.2515Z" fill="#0076C0"></path>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="v-header-main__menu">
+                     <ul>
+                        <li class="hasChild" data-toggle-class="active">
+                           <a href="#">Вода </a>
+                           <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                              <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                           </svg>
+                           <ul>
+                              <li>
+                                 <a href="/voda/">Заказ воды</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                              <li>
+                                 <a href="/promonabory/">Промонаборы</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                              <li>
+                                 <a href="/packages/">Пакеты с бесплатной арендой оборудования</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                              <li>
+                                 <a href="/ceny-na-vodu/">Цены на воду</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                              <li>
+                                 <a href="/o-vode/">О воде</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                              <li>
+                                 <a href="/chay-kofe-posuda/">Чай, кофе, посуда</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="hasChild" data-toggle-class="active">
+                           <a href="#">Оборудование </a>
+                           <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                              <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                           </svg>
+                           <ul>
+                              <li>
+                                 <a href="/kulery/">Кулеры</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                              <li>
+                                 <a href="/pompy/">Помпы и аксессуары </a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                              <li>
+                                 <a href="/arenda-oborudovaniya/">Аренда оборудования</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                              <li>
+                                 <a href="/purifajery/">Пурифайеры</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="hasChild" data-toggle-class="active">
+                           <a href="#">Сервис </a>
+                           <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                              <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                           </svg>
+                           <ul>
+                              <li>
+                                 <a href="/remont-kulerov-dlya-vody/">Ремонт кулеров для воды</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                              <li>
+                                 <a href="/sanitarnaya-obrabotka-kulerov/">Санитарная обработка и дезинфекция кулеров</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                                    <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                                 </svg>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                     <ul class="mobile-only">
+                        <li>
+                           <a href="/dostavka-i-oplata/">Доставка и оплата</a>
+                           <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                              <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                           </svg>
+                        </li>
+                        <li>
+                           <a href="/akcii-old/">Акции</a>
+                           <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                              <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                           </svg>
+                        </li>
+                        <li>
+                           <a href="/kontakty/">Контакты</a>
+                           <svg xmlns="http://www.w3.org/2000/svg" height="17" viewbox="0 0 15 17">
+                              <path d="M7.5 16.093 0 .527h15L7.5 16.093Z" fill="currentColor"></path>
+                           </svg>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="v-header-main__contact">
+                     <a class="v-header-main__phone" onclick="ga('send', 'pageview','/clik-na-tel')" href="tel:+78123170000">+7 (812) 317-00-00</a><button class="v-header-main__callback e-btn e-btn_md e-btn_blueOutline js-popup" type="button" data-href="/templates/newvodovoz/callback.html" data-leaflet-mod="b-leaflet__orange">Заказать звонок</button>
+                  </div>
+                  <div class="v-header-main__24-7"><img loading="lazy" src="/templates/newvodovoz/assets/img/24-7.png" alt="Весёлый Водовоз"></div>
+               </div>
+            </div>
+         </header>
+         <div class="v-header-compensator"></div>
+         <div class="b-page_lk">
+            <div class="container">
+               <div class="b-page_columns flex">
+                  <div class="col-xs-24 col-md-8 col-lg-6">
+                     <div class="b-page_columns_sidebar">
+                        <div class="cabinet-user-info">
+                           Здравствуйте,
+                           1112 
+                           <div class="cabinet-user-info-sub_text">79319850380</div>
+                        </div>
+                        <div class="cabinet-menu">
+                           <ul>
+                              <li>
+                                 <a href="#" class="cabinet-menu-item cabinet-menu-item_bottle" data-v-modal="checkBottle">
+                                    Бутылей у меня:
+                                    <div class="cabinet-user-bottle-count-wrap">
+                                       <span class="cabinet-user-bottle-count"></span>
+                                       <div class="loadingWrap">
+                                          <div class="loading-dots">
+                                             <div class="loading-dots--dot"></div>
+                                             <div class="loading-dots--dot"></div>
+                                             <div class="loading-dots--dot"></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </li>
+                              <li><a href="/emarket/ordersList" class="cabinet-menu-item cabinet-menu-item_order active">
+                                 Заказы
+                                 </a>
+                              </li>
+                              <li><a href="/lk/lk_feedback/" class="cabinet-menu-item cabinet-menu-item_feedback">
+                                 План развития ЛК
+                                 </a>
+                              </li>
+                              <li><a href="/lk/lk_adress/" class="cabinet-menu-item cabinet-menu-item_feedback">
+                                 Адреса доставки
+                                 </a>
+                              </li>
+                              <li><a href="/users/logout/" class="cabinet-menu-item cabinet-menu-item_logout">
+                                 Выйти
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-24 col-md-16 col-lg-18">
+                     <div class="b-page_columns_content">
+                        <div class="cabinet_orders_list">
+                           <div class="cabinet_order_item">
+                              <div class="cabinet_order_item_header">
+                                 <div class="cabinet_order_item_title">
+                                    Заказ от 25.06.2024 № 12865666
+                                 </div>
+                                 <div class="cabinet_order_item_price"> 975 руб</div>
+                              </div>
+                              <div class="cabinet_order_item_body">
+                                 <div class="cabinet_order_item_info">
+                                    <div class="cabinet_order_item_info_delivery">
+                                       Дата доставки - 26.06.2024
+                                    </div>
+                                    <div class="cabinet_order_item_info_adress">Санкт-Петербург, Невский проспект, 88</div>
+                                    <a href="#" class="e-btn e-btn_orange e-btn_sm" data-v-modal="popupOrder12865666">Подробнее</a>
+                                 </div>
+                                 <div class="cabinet_order_item_images"><a href="/voda/veselyj-vodovoz-premium-semiozer-e/"><img data-src="/images/cms/thumbs/f010964dc04aea08ebcc6ded3d85364e36d15396/voda_semiozer_e_premium_19l_auto_120_png.png" src="/images/cms/thumbs/f010964dc04aea08ebcc6ded3d85364e36d15396/voda_semiozer_e_premium_19l_auto_120_png.png" alt="Семиозерье Premium"></a></div>
+                              </div>
+                           </div>
+                           <div style="display:none">
+                              <div class="vModal vModal--popupOrder" id="vModal--popupOrder12865666">
+                                 <div class="vModal-userFormWrapper">
+                                    <div class="cabinet_popup_order_title ">
+                                       Заказ от 25.06.2024 № 12865666
+                                    </div>
+                                    <div class="cabinet_popup_order_item" data-cart-item-id="12865669">
+                                       <div class="cabinet_popup_order_item_image"><a href="/voda/veselyj-vodovoz-premium-semiozer-e/" target="_blank"><img src="/images/cms/thumbs/f010964dc04aea08ebcc6ded3d85364e36d15396/voda_semiozer_e_premium_19l_auto_100_png.png" alt="Семиозерье Premium
+                                          (бутыль)
+                                          "></a></div>
+                                       <div class="cabinet_popup_order_item_name"><a href="/voda/veselyj-vodovoz-premium-semiozer-e/" target="_blank">Семиозерье Premium
+                                          (бутыль)
+                                          </a>
+                                       </div>
+                                       <div class="cabinet_popup_order_item_amount">3 шт.
+                                       </div>
+                                       <div class="cabinet_popup_order_item_price">975 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_summary">
+                                       <div>Сумма</div>
+                                       <div>975 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Дата доставки:</div>
+                                       <div>26.06.2024</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Время доставки:</div>
+                                       <div>9-16</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Способ оплаты:</div>
+                                       <div>Наличными курьеру</div>
+                                    </div>
+                                    <div class="repeat_wrap">
+                                       <a href="#" class="js_repeat_order e-btn e-btn_md e-btn_orange e-btn_blok" data-order_id="12865666">
+                                          <div class="cart-preloader__ring"></div>
+                                          <span>Повторить заказ</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="cabinet_order_item">
+                              <div class="cabinet_order_item_header">
+                                 <div class="cabinet_order_item_title">
+                                    Заказ от 25.06.2024 № 12266656
+                                 </div>
+                                 <div class="cabinet_order_item_price"> 890 руб</div>
+                              </div>
+                              <div class="cabinet_order_item_body">
+                                 <div class="cabinet_order_item_info">
+                                    <div class="cabinet_order_item_info_delivery">
+                                       Дата доставки - 26.06.2024
+                                    </div>
+                                    <div class="cabinet_order_item_info_adress">Санкт-Петербург, Невский проспект, 88</div>
+                                    <a href="#" class="e-btn e-btn_orange e-btn_sm" data-v-modal="popupOrder12266656">Подробнее</a>
+                                 </div>
+                                 <div class="cabinet_order_item_images">
+                                    <a href="/voda/veselyj-vodovoz-premium-semiozer-e/"><img data-src="/images/cms/thumbs/f010964dc04aea08ebcc6ded3d85364e36d15396/voda_semiozer_e_premium_19l_auto_120_png.png" src="/images/cms/thumbs/f010964dc04aea08ebcc6ded3d85364e36d15396/voda_semiozer_e_premium_19l_auto_120_png.png" alt="Семиозерье Premium"></a><a href="/pompy/butyl-19-l-novaya/"><img data-src="/images/cms/thumbs/9799c8258567b66fc1873aa4697de592b97d61ed/butyl-polikarbonatnaya-18_9-l-soton-mnogorazovogo-ispolzovaniya_auto_120_jpg.jpg" src="/images/cms/thumbs/9799c8258567b66fc1873aa4697de592b97d61ed/butyl-polikarbonatnaya-18_9-l-soton-mnogorazovogo-ispolzovaniya_auto_120_jpg.jpg" alt="Пустая бутыль 19л."></a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div style="display:none">
+                              <div class="vModal vModal--popupOrder" id="vModal--popupOrder12266656">
+                                 <div class="vModal-userFormWrapper">
+                                    <div class="cabinet_popup_order_title ">
+                                       Заказ от 25.06.2024 № 12266656
+                                    </div>
+                                    <div class="cabinet_popup_order_item" data-cart-item-id="12380103">
+                                       <div class="cabinet_popup_order_item_image"><a href="/voda/veselyj-vodovoz-premium-semiozer-e/" target="_blank"><img src="/images/cms/thumbs/f010964dc04aea08ebcc6ded3d85364e36d15396/voda_semiozer_e_premium_19l_auto_100_png.png" alt="Семиозерье Premium
+                                          (бутыль)
+                                          "></a></div>
+                                       <div class="cabinet_popup_order_item_name"><a href="/voda/veselyj-vodovoz-premium-semiozer-e/" target="_blank">Семиозерье Premium
+                                          (бутыль)
+                                          </a>
+                                       </div>
+                                       <div class="cabinet_popup_order_item_amount">1 шт.
+                                       </div>
+                                       <div class="cabinet_popup_order_item_price">340 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_item" data-cart-item-id="12711746">
+                                       <div class="cabinet_popup_order_item_image"><a href="/pompy/butyl-19-l-novaya/" target="_blank"><img src="/images/cms/thumbs/9799c8258567b66fc1873aa4697de592b97d61ed/butyl-polikarbonatnaya-18_9-l-soton-mnogorazovogo-ispolzovaniya_auto_100_jpg.jpg" alt="Пустая бутыль 19л."></a></div>
+                                       <div class="cabinet_popup_order_item_name"><a href="/pompy/butyl-19-l-novaya/" target="_blank">Пустая бутыль 19л.</a></div>
+                                       <div class="cabinet_popup_order_item_amount">1 шт.
+                                       </div>
+                                       <div class="cabinet_popup_order_item_price">250 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_summary">
+                                       <div>Сумма</div>
+                                       <div>890 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Дата доставки:</div>
+                                       <div>26.06.2024</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Время доставки:</div>
+                                       <div>9-13</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Способ оплаты:</div>
+                                       <div>Наличными курьеру</div>
+                                    </div>
+                                    <div class="repeat_wrap">
+                                       <a href="#" class="js_repeat_order e-btn e-btn_md e-btn_orange e-btn_blok" data-order_id="12266656">
+                                          <div class="cart-preloader__ring"></div>
+                                          <span>Повторить заказ</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="cabinet_order_item">
+                              <div class="cabinet_order_item_header">
+                                 <div class="cabinet_order_item_title">
+                                    Заказ от 08.05.2024 № 11986811
+                                 </div>
+                                 <div class="cabinet_order_item_price"> 15000 руб</div>
+                              </div>
+                              <div class="cabinet_order_item_body">
+                                 <div class="cabinet_order_item_info">
+                                    <div class="cabinet_order_item_info_delivery">
+                                       Дата доставки - 10.05.2024
+                                    </div>
+                                    <div class="cabinet_order_item_info_adress">Ленинградская область, Приозерский район, Красноозёрное сельское поселение, деревня Четверяково, Моховая улица, 5</div>
+                                    <a href="#" class="e-btn e-btn_orange e-btn_sm" data-v-modal="popupOrder11986811">Подробнее</a>
+                                 </div>
+                                 <div class="cabinet_order_item_images"><a href="/voda/veselyj-vodovoz-premium-gornaya/"><img data-src="/images/cms/thumbs/4a34fffcd2304c9ec57d51a927722002e91eb8d6/voda_gornaya_19l_auto_120_png.png" src="/images/cms/thumbs/4a34fffcd2304c9ec57d51a927722002e91eb8d6/voda_gornaya_19l_auto_120_png.png" alt="Горная Premium"></a></div>
+                              </div>
+                           </div>
+                           <div style="display:none">
+                              <div class="vModal vModal--popupOrder" id="vModal--popupOrder11986811">
+                                 <div class="vModal-userFormWrapper">
+                                    <div class="cabinet_popup_order_title ">
+                                       Заказ от 08.05.2024 № 11986811
+                                    </div>
+                                    <div class="cabinet_popup_order_item" data-cart-item-id="12266628">
+                                       <div class="cabinet_popup_order_item_image"><a href="/voda/veselyj-vodovoz-premium-gornaya/" target="_blank"><img src="/images/cms/thumbs/4a34fffcd2304c9ec57d51a927722002e91eb8d6/voda_gornaya_19l_auto_100_png.png" alt="Горная Premium
+                                          (бутыль)
+                                          "></a></div>
+                                       <div class="cabinet_popup_order_item_name"><a href="/voda/veselyj-vodovoz-premium-gornaya/" target="_blank">Горная Premium
+                                          (бутыль)
+                                          </a>
+                                       </div>
+                                       <div class="cabinet_popup_order_item_amount">40 шт.
+                                       </div>
+                                       <div class="cabinet_popup_order_item_price">13000 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_summary">
+                                       <div>Сумма</div>
+                                       <div>15000 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Дата доставки:</div>
+                                       <div>10.05.2024</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Время доставки:</div>
+                                       <div>10-20</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Способ оплаты:</div>
+                                       <div>Наличными курьеру</div>
+                                    </div>
+                                    <div class="repeat_wrap">
+                                       <a href="#" class="js_repeat_order e-btn e-btn_md e-btn_orange e-btn_blok" data-order_id="11986811">
+                                          <div class="cart-preloader__ring"></div>
+                                          <span>Повторить заказ</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="cabinet_order_item">
+                              <div class="cabinet_order_item_header">
+                                 <div class="cabinet_order_item_title">
+                                    Заказ от 16.04.2024 № 11816584
+                                 </div>
+                                 <div class="cabinet_order_item_price"> 640 руб</div>
+                              </div>
+                              <div class="cabinet_order_item_body">
+                                 <div class="cabinet_order_item_info">
+                                    <div class="cabinet_order_item_info_delivery">
+                                       Дата доставки - 18.04.2024
+                                    </div>
+                                    <div class="cabinet_order_item_info_adress">Санкт-Петербург, Невский проспект, 88</div>
+                                    <a href="#" class="e-btn e-btn_orange e-btn_sm" data-v-modal="popupOrder11816584">Подробнее</a>
+                                 </div>
+                                 <div class="cabinet_order_item_images"></div>
+                              </div>
+                           </div>
+                           <div style="display:none">
+                              <div class="vModal vModal--popupOrder" id="vModal--popupOrder11816584">
+                                 <div class="vModal-userFormWrapper">
+                                    <div class="cabinet_popup_order_title ">
+                                       Заказ от 16.04.2024 № 11816584
+                                    </div>
+                                    <div class="cabinet_popup_order_summary">
+                                       <div>Сумма</div>
+                                       <div>640 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Дата доставки:</div>
+                                       <div>18.04.2024</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Время доставки:</div>
+                                       <div>9-13</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Способ оплаты:</div>
+                                       <div>Наличными курьеру</div>
+                                    </div>
+                                    <div class="repeat_wrap">
+                                       <a href="#" class="js_repeat_order e-btn e-btn_md e-btn_orange e-btn_blok" data-order_id="11816584">
+                                          <div class="cart-preloader__ring"></div>
+                                          <span>Повторить заказ</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="cabinet_order_item">
+                              <div class="cabinet_order_item_header">
+                                 <div class="cabinet_order_item_title">
+                                    Заказ от 04.04.2024 № 11539088
+                                 </div>
+                                 <div class="cabinet_order_item_price"> 2904 руб</div>
+                              </div>
+                              <div class="cabinet_order_item_body">
+                                 <div class="cabinet_order_item_info">
+                                    <div class="cabinet_order_item_info_delivery">
+                                       Дата доставки - 05.04.2024
+                                    </div>
+                                    <div class="cabinet_order_item_info_adress">Санкт-Петербург, Невский проспект, 88</div>
+                                    <a href="#" class="e-btn e-btn_orange e-btn_sm" data-v-modal="popupOrder11539088">Подробнее</a>
+                                 </div>
+                                 <div class="cabinet_order_item_images"></div>
+                              </div>
+                           </div>
+                           <div style="display:none">
+                              <div class="vModal vModal--popupOrder" id="vModal--popupOrder11539088">
+                                 <div class="vModal-userFormWrapper">
+                                    <div class="cabinet_popup_order_title ">
+                                       Заказ от 04.04.2024 № 11539088
+                                    </div>
+                                    <div class="cabinet_popup_order_summary">
+                                       <div>Сумма</div>
+                                       <div>2904 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Дата доставки:</div>
+                                       <div>05.04.2024</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Время доставки:</div>
+                                       <div>9-18</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Способ оплаты:</div>
+                                       <div>Наличными курьеру</div>
+                                    </div>
+                                    <div class="repeat_wrap">
+                                       <a href="#" class="js_repeat_order e-btn e-btn_md e-btn_orange e-btn_blok" data-order_id="11539088">
+                                          <div class="cart-preloader__ring"></div>
+                                          <span>Повторить заказ</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="cabinet_order_item">
+                              <div class="cabinet_order_item_header">
+                                 <div class="cabinet_order_item_title">
+                                    Заказ от 15.03.2024 № 11404462
+                                 </div>
+                                 <div class="cabinet_order_item_price"> 640 руб</div>
+                              </div>
+                              <div class="cabinet_order_item_body">
+                                 <div class="cabinet_order_item_info">
+                                    <div class="cabinet_order_item_info_delivery">
+                                       Дата доставки - 15.03.2024
+                                    </div>
+                                    <div class="cabinet_order_item_info_adress">Санкт-Петербург, Невский проспект, 88</div>
+                                    <a href="#" class="e-btn e-btn_orange e-btn_sm" data-v-modal="popupOrder11404462">Подробнее</a>
+                                 </div>
+                                 <div class="cabinet_order_item_images"></div>
+                              </div>
+                           </div>
+                           <div style="display:none">
+                              <div class="vModal vModal--popupOrder" id="vModal--popupOrder11404462">
+                                 <div class="vModal-userFormWrapper">
+                                    <div class="cabinet_popup_order_title ">
+                                       Заказ от 15.03.2024 № 11404462
+                                    </div>
+                                    <div class="cabinet_popup_order_summary">
+                                       <div>Сумма</div>
+                                       <div>640 <span class="rubSign">₽</span></div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Дата доставки:</div>
+                                       <div>15.03.2024</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Время доставки:</div>
+                                       <div>18-23</div>
+                                    </div>
+                                    <div class="cabinet_popup_order_props">
+                                       <div>Способ оплаты:</div>
+                                       <div>Оплата банковской картой курьеру</div>
+                                    </div>
+                                    <div class="repeat_wrap">
+                                       <a href="#" class="js_repeat_order e-btn e-btn_md e-btn_orange e-btn_blok" data-order_id="11404462">
+                                          <div class="cart-preloader__ring"></div>
+                                          <span>Повторить заказ</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div style="display:none">
+            <div class="vModal vModal--checkBottle" id="vModal--checkBottle">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <h3>
+                        <img loading="lazy" src="/templates/newvodovoz/assets/img/icons/cabinet/bouttle_popup_icon.svg">
+                        <div>Бутылей у Вас: <span class="accept">x<span class="cabinet-user-bottle-count-popup"></span></span></div>
+                     </h3>
+                     <p>
+                        Если указано ошибочное количество бутылей,
+                        сообщите нам об этом, заполнив заявку ниже. <br>Наш менеджер свяжется с Вами.
+                     </p>
+                  </div>
+                  <div class="vModal-userFormWrapper__body">
+                     <form class="vModal-userForm" action="/udata/users/sendBottleInfo/.json" method="get" novalidate="" enctype="multipart/form-data" data-ajax="">
+                        <div class="vModal-userForm__input vModal-userForm__input--submit"><button type="submit">Отправить заявку</button></div>
+                        <div class="form-error-str response"></div>
+                     </form>
+                  </div>
+                  <div class="loadingWrap">
+                     <div class="loading-dots">
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="vModal vModal--checkBottleRequest" id="vModal--checkBottleRequest">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <h3>
+                        <img loading="lazy" src="/templates/newvodovoz/assets/img/icons/cabinet/bouttle_popup_icon.svg">
+                        <div>Бутылей у Вас: <span class="accept">x<span class="cabinet-user-bottle-count-popup"></span></span></div>
+                     </h3>
+                     <h2>Спасибо за заявку!</h2>
+                     <p>
+                        Наш менеджер свяжется с Вами<br>
+                        в ближайшее время.
+                     </p>
+                  </div>
+                  <div class="vModal-userFormWrapper__body">
+                     <form class="vModal-userForm" action="/" method="get" novalidate="" enctype="multipart/form-data">
+                        <div class="vModal-userForm__input vModal-userForm__input--submit"><button type="submit">Вернуться на главную страницу</button></div>
+                        <div class="form-error-str response"></div>
+                     </form>
+                  </div>
+                  <div class="loadingWrap">
+                     <div class="loading-dots">
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <footer class="b-footer">
+            <div class="container">
+               <div class="b-footer_top">
+                  <div class="flex">
+                     <div class="col-xs-24 col-md-10 col-lg-6">
+                        <div class="flex">
+                           <div class="col-xs-24 col-sm-12 col-md-24">
+                              <div class="b-footer_top_contacts">
+                                 <p>ООО «Веселый Водовоз»</p>
+                                 <p><a href="tel:+78123170000">+7 (812) 317-00-00</a></p>
+                                 <p><a href="mailto:vodovoz-spb@yandex.ru">vodovoz-spb@yandex.ru</a></p>
+                              </div>
+                           </div>
+                           <div class="col-xs-24 col-sm-12 col-md-24">
+                              <div class="b-footer_top_address">
+                                 <p><span>Юридический адрес:</span><br>Санкт-Петербург, <br>ул. Белы Куна, д. 30, лит. А, <br>пом. 22Н, оф. 315 <br>ОГРН: 1089848019580</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-24 col-md-14 col-lg-18">
+                        <div class="flex">
+                           <div class="col-xs-24 col-lg-6">
+                              <ul class="b-footer_top_menu js-spoiler" data-resolutions="xs,sm,md">
+                                 <li>
+                                    <a class="js-spoiler-toggle">
+                                       Вода 
+                                       <span class="hidden-lg ">
+                                          <svg width="12" height="12" aria-hidden="true">
+                                             <use xlink:href="#chevron-down"></use>
+                                          </svg>
+                                       </span>
+                                    </a>
+                                    <ul class="js-spoiler-box">
+                                       <li><a href="/voda/">Заказ воды</a></li>
+                                       <li><a href="/promonabory-dlya-klientov/">Промонаборы для новых клиентов</a></li>
+                                       <li><a href="/packages/">Пакеты с бесплатной арендой оборудования</a></li>
+                                       <li><a href="/ceny-na-vodu/">Цены на воду</a></li>
+                                       <li><a href="/o-vode/">О воде</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-xs-24 col-lg-6">
+                              <ul class="b-footer_top_menu js-spoiler" data-resolutions="xs,sm,md">
+                                 <li>
+                                    <a class="js-spoiler-toggle">
+                                       Оборудование 
+                                       <span class="hidden-lg ">
+                                          <svg width="12" height="12" aria-hidden="true">
+                                             <use xlink:href="#chevron-down"></use>
+                                          </svg>
+                                       </span>
+                                    </a>
+                                    <ul class="js-spoiler-box">
+                                       <li><a href="/kulery/">Кулеры</a></li>
+                                       <li><a href="/pompy/">Помпы и аксессуары </a></li>
+                                       <li><a href="/chay-kofe-posuda/">Сопутствующие товары</a></li>
+                                       <li><a href="/arenda-oborudovaniya/">Аренда оборудования</a></li>
+                                       <li><a href="/purifajery/">Пурифайеры</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-xs-24 col-lg-6">
+                              <ul class="b-footer_top_menu js-spoiler" data-resolutions="xs,sm,md">
+                                 <li>
+                                    <a class="js-spoiler-toggle">
+                                       Сервис 
+                                       <span class="hidden-lg ">
+                                          <svg width="12" height="12" aria-hidden="true">
+                                             <use xlink:href="#chevron-down"></use>
+                                          </svg>
+                                       </span>
+                                    </a>
+                                    <ul class="js-spoiler-box">
+                                       <li><a href="/remont-kulerov-dlya-vody/">Ремонт кулеров для воды</a></li>
+                                       <li><a href="/sanitarnaya-obrabotka-kulerov/">Санитарная обработка и дезинфекция кулеров</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-xs-24 col-lg-6">
+                              <ul class="b-footer_top_menu js-spoiler" data-resolutions="xs,sm,md">
+                                 <li>
+                                    <a class="js-spoiler-toggle">
+                                       Информация 
+                                       <span class="hidden-lg ">
+                                          <svg width="12" height="12" aria-hidden="true">
+                                             <use xlink:href="#chevron-down"></use>
+                                          </svg>
+                                       </span>
+                                    </a>
+                                    <ul class="js-spoiler-box">
+                                       <li><a href="/dostavka-i-oplata/">Доставка и оплата</a></li>
+                                       <li><a href="/akcii-old/">Акции</a></li>
+                                       <li><a href="/kontakty/">Контакты</a></li>
+                                       <li><a href="/politika-konfidencialnosti/">Политика конфиденциальности</a></li>
+                                       <li><a href="/dogovor-oferty/">Договор оферты</a></li>
+                                       <li><a href="/files/sout13.rar">Отчет о специальной оценке труда</a></li>
+                                       <li><a class="purchase_return" href="#" data-box-width="600" data-leaflet-mod="b-leaflet__thin b-leaflet__user" data-html_id="form_purchase_returns">
+                                          Возврат денежных средств
+                                          </a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="b-footer_bottom">
+                  <div class="flex flex-vertical-bottom">
+                     <div class="col-xs-24 col-md-10 col-lg-6"><img src="/images/qr_cod.png" width="100" heigh="100" class="b-footer_bottom_qr"></div>
+                     <div class="col-xs-24 col-sm-24 col-md-24 col-lg-6">
+                        <div class="b-footer_bottom_app">
+                           <a href="https://apps.apple.com/ru/app/%D0%B2%D0%B5%D1%81%D0%B5%D0%BB%D1%8B%D0%B9-%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B7-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0/id1625660499">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="156" height="45" viewBox="0 0 156 45" fill="none">
+                                 <path d="M154.691 39.8103C154.691 42.2084 152.711 44.1509 150.261 44.1509H5.29956C2.85135 44.1509 0.864136 42.2084 0.864136 39.8103V5.19528C0.864136 2.79831 2.85135 0.848999 5.29956 0.848999H150.26C152.711 0.848999 154.69 2.79831 154.69 5.19528L154.691 39.8103Z" fill="black"></path>
+                                 <path d="M149.794 0.901404C152.461 0.901404 154.632 3.02062 154.632 5.625V39.375C154.632 41.9794 152.461 44.0986 149.794 44.0986H5.7613C3.09382 44.0986 0.923248 41.9794 0.923248 39.375V5.625C0.923248 3.02062 3.09382 0.901404 5.7613 0.901404H149.794ZM149.794 1.61381e-08H5.7613C2.59403 1.61381e-08 0 2.53265 0 5.625V39.375C0 42.4673 2.59403 45 5.7613 45H149.794C152.961 45 155.555 42.4673 155.555 39.375V5.625C155.555 2.53265 152.961 1.61381e-08 149.794 1.61381e-08Z" fill="#A6A6A6"></path>
+                                 <path d="M34.7153 22.257C34.6819 18.6311 37.7561 16.8671 37.8967 16.785C36.1556 14.3066 33.457 13.968 32.5087 13.941C30.2422 13.7081 28.0437 15.2651 26.8892 15.2651C25.7116 15.2651 23.9336 13.9635 22.0174 14.0018C19.5516 14.0389 17.2447 15.4328 15.9796 17.5973C13.3685 22.0106 15.3159 28.4963 17.8174 32.0636C19.0688 33.8108 20.531 35.7615 22.4449 35.6929C24.3173 35.6175 25.0167 34.5274 27.2763 34.5274C29.5152 34.5274 30.172 35.6929 32.1239 35.649C34.1334 35.6175 35.3986 33.894 36.6062 32.1311C38.0523 30.1286 38.633 28.1565 38.656 28.0553C38.6088 28.0395 34.7533 26.6029 34.7153 22.257Z" fill="white"></path>
+                                 <path d="M31.0281 11.5943C32.0352 10.3646 32.7242 8.69177 32.5329 6.99414C31.0753 7.05714 29.2525 7.97852 28.2027 9.18114C27.274 10.2409 26.4444 11.9779 26.6587 13.6114C28.2961 13.7306 29.9772 12.8048 31.0281 11.5943Z" fill="white"></path>
+                                 <path d="M61.8131 35.442H59.1963L57.7629 31.0443H52.7805L51.4151 35.442H48.8674L53.8037 20.4705H56.8526L61.8131 35.442ZM57.3308 29.1993L56.0345 25.29C55.8974 24.8906 55.6404 23.9501 55.2613 22.4696H55.2152C55.0643 23.1063 54.8212 24.0468 54.487 25.29L53.2138 29.1993H57.3308Z" fill="white"></path>
+                                 <path d="M74.5075 29.9114C74.5075 31.7474 73.9994 33.1987 72.9831 34.2641C72.0728 35.2124 70.9424 35.6861 69.5931 35.6861C68.1367 35.6861 67.0904 35.1753 66.4532 34.1538H66.4071V39.8407H63.9505V28.2003C63.9505 27.0461 63.9194 25.8614 63.8595 24.6464H66.02L66.1571 26.3576H66.2032C67.0225 25.0683 68.2657 24.4248 69.9342 24.4248C71.2386 24.4248 72.3275 24.9277 73.1986 25.9346C74.072 26.9426 74.5075 28.2678 74.5075 29.9114ZM72.0048 29.9992C72.0048 28.9484 71.7628 28.0822 71.2766 27.4004C70.7454 26.6894 70.0322 26.3339 69.138 26.3339C68.5319 26.3339 67.9811 26.5319 67.4891 26.9223C66.9959 27.3161 66.6733 27.8302 66.5224 28.4669C66.4463 28.7639 66.4083 29.0069 66.4083 29.1982V30.9982C66.4083 31.7834 66.6549 32.4461 67.148 32.9872C67.6412 33.5283 68.2819 33.7983 69.07 33.7983C69.9953 33.7983 70.7154 33.4496 71.2305 32.7543C71.7467 32.0579 72.0048 31.1399 72.0048 29.9992Z" fill="white"></path>
+                                 <path d="M87.225 29.9114C87.225 31.7474 86.7169 33.1987 85.6994 34.2641C84.7903 35.2124 83.6599 35.6861 82.3106 35.6861C80.8542 35.6861 79.8079 35.1753 79.1719 34.1538H79.1258V39.8407H76.6692V28.2003C76.6692 27.0461 76.638 25.8614 76.5781 24.6464H78.7386L78.8757 26.3576H78.9218C79.7399 25.0683 80.9832 24.4248 82.6528 24.4248C83.9561 24.4248 85.0449 24.9277 85.9184 25.9346C86.7883 26.9426 87.225 28.2678 87.225 29.9114ZM84.7223 29.9992C84.7223 28.9484 84.4792 28.0822 83.9929 27.4004C83.4617 26.6894 82.7508 26.3339 81.8555 26.3339C81.2482 26.3339 80.6986 26.5319 80.2054 26.9223C79.7123 27.3161 79.3908 27.8302 79.2398 28.4669C79.1649 28.7639 79.1258 29.0069 79.1258 29.1982V30.9982C79.1258 31.7834 79.3724 32.4461 79.8632 32.9872C80.3564 33.5272 80.997 33.7983 81.7875 33.7983C82.7128 33.7983 83.4329 33.4496 83.948 32.7543C84.4642 32.0579 84.7223 31.1399 84.7223 29.9992Z" fill="white"></path>
+                                 <path d="M101.444 31.2435C101.444 32.517 100.991 33.5531 100.082 34.353C99.083 35.2271 97.6922 35.6636 95.9051 35.6636C94.255 35.6636 92.9322 35.3531 91.9309 34.731L92.5001 32.7318C93.5786 33.3686 94.762 33.6881 96.0514 33.6881C96.9767 33.6881 97.6968 33.4833 98.2142 33.0761C98.7292 32.6688 98.9862 32.1221 98.9862 31.4404C98.9862 30.8329 98.7742 30.321 98.349 29.9059C97.9261 29.4907 97.2198 29.1049 96.2334 28.7482C93.5487 27.7706 92.2075 26.3385 92.2075 24.4552C92.2075 23.2245 92.6776 22.2153 93.619 21.4301C94.5569 20.6437 95.8083 20.2511 97.373 20.2511C98.7684 20.2511 99.9276 20.4885 100.853 20.9621L100.239 22.9173C99.3745 22.4583 98.3974 22.2289 97.3039 22.2289C96.4397 22.2289 95.7645 22.437 95.2805 22.851C94.8715 23.2211 94.6664 23.6722 94.6664 24.2066C94.6664 24.7983 94.9003 25.2877 95.3704 25.6725C95.7795 26.028 96.5227 26.4127 97.6012 26.8278C98.9205 27.3465 99.8896 27.9529 100.513 28.6481C101.134 29.3411 101.444 30.2085 101.444 31.2435Z" fill="white"></path>
+                                 <path d="M109.566 26.4465H106.858V31.6879C106.858 33.021 107.335 33.687 108.292 33.687C108.731 33.687 109.095 33.6499 109.383 33.5757L109.451 35.397C108.967 35.5737 108.33 35.6625 107.541 35.6625C106.57 35.6625 105.812 35.3734 105.265 34.7963C104.72 34.218 104.446 33.2483 104.446 31.8859V26.4443H102.832V24.6443H104.446V22.6677L106.858 21.9567V24.6443H109.566V26.4465Z" fill="white"></path>
+                                 <path d="M121.784 29.9554C121.784 31.6148 121.297 32.9771 120.327 34.0425C119.31 35.1394 117.959 35.6861 116.276 35.6861C114.653 35.6861 113.362 35.1608 112.398 34.11C111.435 33.0593 110.953 31.7329 110.953 30.1343C110.953 28.4614 111.449 27.0912 112.443 26.0258C113.435 24.9593 114.774 24.426 116.458 24.426C118.08 24.426 119.386 24.9514 120.371 26.0033C121.313 27.0237 121.784 28.341 121.784 29.9554ZM119.235 30.033C119.235 29.0374 119.017 28.1835 118.576 27.4714C118.061 26.6097 117.324 26.1799 116.37 26.1799C115.383 26.1799 114.633 26.6108 114.118 27.4714C113.676 28.1847 113.459 29.052 113.459 30.078C113.459 31.0736 113.676 31.9275 114.118 32.6385C114.649 33.5003 115.391 33.93 116.348 33.93C117.286 33.93 118.023 33.4913 118.554 32.616C119.007 31.8904 119.235 31.0275 119.235 30.033Z" fill="white"></path>
+                                 <path d="M129.769 26.7558C129.526 26.7119 129.266 26.6894 128.994 26.6894C128.13 26.6894 127.462 27.0078 126.992 27.6457C126.583 28.2082 126.378 28.9192 126.378 29.7776V35.4419H123.922L123.945 28.0462C123.945 26.8019 123.914 25.6691 123.853 24.6476H125.993L126.083 26.7131H126.151C126.41 26.0032 126.819 25.4317 127.379 25.0031C127.926 24.6172 128.517 24.4248 129.155 24.4248C129.382 24.4248 129.587 24.4406 129.769 24.4687V26.7558Z" fill="white"></path>
+                                 <path d="M140.756 29.5334C140.756 29.9632 140.727 30.3254 140.666 30.6213H133.296C133.325 31.6878 133.681 32.5034 134.365 33.0659C134.986 33.5688 135.789 33.8208 136.776 33.8208C137.867 33.8208 138.863 33.6509 139.758 33.31L140.143 34.975C139.096 35.4205 137.861 35.6422 136.436 35.6422C134.721 35.6422 133.375 35.1494 132.396 34.165C131.419 33.1807 130.929 31.8588 130.929 30.2005C130.929 28.5727 131.384 27.217 132.296 26.1359C133.25 24.9817 134.539 24.4045 136.162 24.4045C137.755 24.4045 138.962 24.9817 139.781 26.1359C140.43 27.0528 140.756 28.1868 140.756 29.5334ZM138.413 28.9113C138.429 28.2003 138.269 27.586 137.936 27.0674C137.511 26.4003 136.858 26.0673 135.978 26.0673C135.175 26.0673 134.522 26.3924 134.023 27.0449C133.614 27.5635 133.371 28.1857 133.296 28.9102H138.413V28.9113Z" fill="white"></path>
+                                 <path d="M56.5184 11.2602C56.5184 12.5843 56.1117 13.581 55.2993 14.2504C54.5469 14.868 53.4776 15.1774 52.0926 15.1774C51.4058 15.1774 50.8182 15.1482 50.3262 15.0897V7.85478C50.968 7.75353 51.6593 7.70178 52.406 7.70178C53.7253 7.70178 54.7197 7.98191 55.3904 8.54216C56.1416 9.17553 56.5184 10.0812 56.5184 11.2602ZM55.2452 11.2928C55.2452 10.4344 55.0124 9.77628 54.5469 9.31728C54.0814 8.85941 53.4016 8.62991 52.5063 8.62991C52.126 8.62991 51.8022 8.65466 51.5337 8.70641V14.2065C51.6824 14.229 51.9543 14.2392 52.3495 14.2392C53.2737 14.2392 53.9869 13.9883 54.4893 13.4865C54.9917 12.9848 55.2452 12.2535 55.2452 11.2928Z" fill="white"></path>
+                                 <path d="M63.2695 12.4167C63.2695 13.2323 63.0309 13.9006 62.5539 14.4248C62.0538 14.9637 61.3913 15.2326 60.5639 15.2326C59.7666 15.2326 59.1317 14.9749 58.6581 14.4574C58.1857 13.9411 57.9495 13.2897 57.9495 12.5044C57.9495 11.6832 58.1926 11.0093 58.6811 10.4862C59.1697 9.96305 59.8265 9.70093 60.6538 9.70093C61.4512 9.70093 62.0918 9.95855 62.5769 10.4749C63.0378 10.9767 63.2695 11.6247 63.2695 12.4167ZM62.0169 12.4549C62.0169 11.9656 61.9086 11.5459 61.6932 11.1961C61.4397 10.7731 61.079 10.5616 60.61 10.5616C60.1249 10.5616 59.7562 10.7731 59.5027 11.1961C59.2861 11.5459 59.1789 11.9723 59.1789 12.4763C59.1789 12.9657 59.2872 13.3853 59.5027 13.7352C59.7643 14.1582 60.1284 14.3697 60.5985 14.3697C61.0594 14.3697 61.4212 14.1548 61.6816 13.7239C61.9052 13.3673 62.0169 12.9443 62.0169 12.4549Z" fill="white"></path>
+                                 <path d="M72.3217 9.80884L70.6221 15.1121H69.516L68.8119 12.8092C68.6333 12.2343 68.4881 11.6628 68.3752 11.0958H68.3533C68.2485 11.6786 68.1033 12.249 67.9166 12.8092L67.1688 15.1121H66.05L64.4518 9.80884H65.6928L66.3069 12.33C66.4556 12.9262 66.5777 13.4943 66.6756 14.0321H66.6975C66.7874 13.5888 66.9361 13.0241 67.1458 12.3412L67.9166 9.80996H68.9007L69.6393 12.2872C69.8179 12.8913 69.963 13.473 70.0748 14.0332H70.1082C70.19 13.4876 70.3133 12.906 70.4769 12.2872L71.136 9.80996H72.3217V9.80884Z" fill="white"></path>
+                                 <path d="M78.5819 15.1121H77.3744V12.0746C77.3744 11.1386 77.0102 10.6706 76.2797 10.6706C75.9214 10.6706 75.6321 10.7989 75.4075 11.0565C75.1851 11.3141 75.0722 11.6179 75.0722 11.9655V15.111H73.8646V11.3243C73.8646 10.8585 73.8496 10.3534 73.8208 9.80663H74.882L74.9385 10.6358H74.9719C75.1125 10.3781 75.3222 10.1655 75.5976 9.99564C75.9248 9.79764 76.2912 9.69751 76.6922 9.69751C77.1992 9.69751 77.6209 9.85726 77.9562 10.1779C78.3734 10.5705 78.5819 11.1566 78.5819 11.9351V15.1121Z" fill="white"></path>
+                                 <path d="M81.912 15.1121H80.7056V7.37549H81.912V15.1121Z" fill="white"></path>
+                                 <path d="M89.0214 12.4167C89.0214 13.2323 88.7829 13.9006 88.3058 14.4248C87.8058 14.9637 87.1421 15.2326 86.3159 15.2326C85.5174 15.2326 84.8825 14.9749 84.4101 14.4574C83.9376 13.9411 83.7014 13.2897 83.7014 12.5044C83.7014 11.6832 83.9445 11.0093 84.4331 10.4862C84.9217 9.96305 85.5784 9.70093 86.4046 9.70093C87.2031 9.70093 87.8426 9.95855 88.3289 10.4749C88.7898 10.9767 89.0214 11.6247 89.0214 12.4167ZM87.7677 12.4549C87.7677 11.9656 87.6594 11.5459 87.444 11.1961C87.1916 10.7731 86.8298 10.5616 86.362 10.5616C85.8757 10.5616 85.507 10.7731 85.2547 11.1961C85.038 11.5459 84.9309 11.9723 84.9309 12.4763C84.9309 12.9657 85.0392 13.3853 85.2547 13.7352C85.5162 14.1582 85.8803 14.3697 86.3505 14.3697C86.8114 14.3697 87.172 14.1548 87.4324 13.7239C87.6571 13.3673 87.7677 12.9443 87.7677 12.4549Z" fill="white"></path>
+                                 <path d="M94.8656 15.1122H93.7813L93.6915 14.5013H93.658C93.287 14.9884 92.7581 15.2326 92.0714 15.2326C91.5586 15.2326 91.1438 15.0717 90.8316 14.7522C90.5481 14.4619 90.4064 14.1008 90.4064 13.6722C90.4064 13.0242 90.6829 12.5303 91.2395 12.1883C91.7948 11.8463 92.5761 11.6787 93.582 11.6866V11.5876C93.582 10.8889 93.2064 10.5402 92.4539 10.5402C91.9181 10.5402 91.4457 10.6718 91.0378 10.9328L90.7924 10.1588C91.2971 9.85393 91.9204 9.70093 92.6556 9.70093C94.0752 9.70093 94.7873 10.4322 94.7873 11.8947V13.8477C94.7873 14.3776 94.8138 14.7994 94.8656 15.1122ZM93.612 13.2897V12.4718C92.2799 12.4493 91.6139 12.8059 91.6139 13.5406C91.6139 13.8173 91.69 14.0243 91.8455 14.1627C92.0011 14.3011 92.1993 14.3697 92.4355 14.3697C92.7005 14.3697 92.9483 14.2876 93.1741 14.1244C93.4011 13.9602 93.5405 13.7521 93.5924 13.4967C93.605 13.4393 93.612 13.3696 93.612 13.2897Z" fill="white"></path>
+                                 <path d="M101.727 15.1121H100.656L100.599 14.2605H100.566C100.224 14.9085 99.6407 15.2325 98.8214 15.2325C98.1669 15.2325 97.6219 14.9816 97.1898 14.4799C96.7577 13.9781 96.5422 13.3267 96.5422 12.5269C96.5422 11.6685 96.7761 10.9732 97.2463 10.4422C97.7014 9.94724 98.2591 9.69974 98.9228 9.69974C99.6522 9.69974 100.163 9.93936 100.453 10.4197H100.476V7.37549H101.685V13.6834C101.685 14.1997 101.699 14.6756 101.727 15.1121ZM100.476 12.8756V11.9914C100.476 11.8384 100.465 11.7146 100.443 11.6201C100.375 11.3366 100.228 11.0981 100.006 10.9057C99.7812 10.7134 99.5104 10.6166 99.1982 10.6166C98.7477 10.6166 98.3951 10.791 98.1358 11.1409C97.8789 11.4907 97.7486 11.9374 97.7486 12.483C97.7486 13.0072 97.8719 13.4325 98.1197 13.7599C98.3812 14.1086 98.7338 14.283 99.1751 14.283C99.5715 14.283 99.8884 14.1379 100.129 13.8465C100.362 13.5776 100.476 13.2536 100.476 12.8756Z" fill="white"></path>
+                                 <path d="M112.055 12.4167C112.055 13.2323 111.817 13.9006 111.34 14.4248C110.839 14.9637 110.178 15.2326 109.35 15.2326C108.553 15.2326 107.918 14.9749 107.444 14.4574C106.971 13.9411 106.735 13.2897 106.735 12.5044C106.735 11.6832 106.978 11.0093 107.467 10.4862C107.955 9.96305 108.612 9.70093 109.441 9.70093C110.237 9.70093 110.879 9.95855 111.363 10.4749C111.823 10.9767 112.055 11.6247 112.055 12.4167ZM110.804 12.4549C110.804 11.9656 110.695 11.5459 110.48 11.1961C110.225 10.7731 109.866 10.5616 109.396 10.5616C108.912 10.5616 108.543 10.7731 108.288 11.1961C108.072 11.5459 107.965 11.9723 107.965 12.4763C107.965 12.9657 108.073 13.3853 108.288 13.7352C108.55 14.1582 108.914 14.3697 109.384 14.3697C109.845 14.3697 110.208 14.1548 110.468 13.7239C110.691 13.3673 110.804 12.9443 110.804 12.4549Z" fill="white"></path>
+                                 <path d="M118.548 15.1121H117.342V12.0746C117.342 11.1386 116.978 10.6706 116.246 10.6706C115.888 10.6706 115.598 10.7989 115.375 11.0565C115.151 11.3141 115.039 11.6179 115.039 11.9655V15.111H113.831V11.3243C113.831 10.8585 113.817 10.3534 113.788 9.80663H114.848L114.905 10.6358H114.938C115.08 10.3781 115.289 10.1655 115.564 9.99564C115.892 9.79764 116.257 9.69751 116.66 9.69751C117.165 9.69751 117.587 9.85726 117.922 10.1779C118.341 10.5705 118.548 11.1566 118.548 11.9351V15.1121Z" fill="white"></path>
+                                 <path d="M126.675 10.692H125.345V13.2683C125.345 13.923 125.581 14.2504 126.049 14.2504C126.266 14.2504 126.446 14.2324 126.587 14.1953L126.618 15.0897C126.38 15.1774 126.067 15.2213 125.681 15.2213C125.204 15.2213 124.832 15.0795 124.564 14.796C124.294 14.5125 124.161 14.0355 124.161 13.3662V10.692H123.367V9.80891H124.161V8.83691L125.344 8.48816V9.80778H126.674V10.692H126.675Z" fill="white"></path>
+                                 <path d="M133.068 15.1121H131.859V12.0971C131.859 11.1465 131.495 10.6706 130.765 10.6706C130.205 10.6706 129.823 10.9462 129.613 11.4975C129.578 11.6134 129.557 11.7551 129.557 11.9216V15.111H128.35V7.37549H129.557V10.5716H129.58C129.96 9.98999 130.505 9.69974 131.211 9.69974C131.712 9.69974 132.125 9.85949 132.454 10.1801C132.863 10.5795 133.068 11.1735 133.068 11.9587V15.1121Z" fill="white"></path>
+                                 <path d="M139.662 12.2097C139.662 12.4212 139.646 12.5989 139.617 12.744H135.996C136.012 13.2683 136.184 13.6677 136.52 13.9444C136.826 14.1919 137.222 14.3157 137.705 14.3157C138.241 14.3157 138.73 14.2324 139.17 14.0648L139.359 14.8838C138.844 15.102 138.238 15.2112 137.536 15.2112C136.695 15.2112 136.032 14.9693 135.553 14.4855C135.071 14.0018 134.833 13.3527 134.833 12.5382C134.833 11.7383 135.055 11.0723 135.504 10.5413C135.971 9.9743 136.604 9.6908 137.402 9.6908C138.184 9.6908 138.777 9.9743 139.178 10.5413C139.502 10.9913 139.662 11.5482 139.662 12.2097ZM138.51 11.9048C138.519 11.5549 138.439 11.2534 138.276 10.9992C138.066 10.6718 137.747 10.5075 137.315 10.5075C136.921 10.5075 136.599 10.6673 136.354 10.9879C136.153 11.2433 136.035 11.5482 135.996 11.9048H138.51Z" fill="white"></path>
+                              </svg>
+                           </a>
+                           <a href="https://play.google.com/store/apps/details?id=com.funwater.app&amp;pcampaignid=web_share">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="156" height="45" viewBox="0 0 156 45" fill="none">
+                                 <path d="M149.794 45H5.7613C2.59403 45 0 42.4673 0 39.375V5.625C0 2.53265 2.59403 1.61381e-08 5.7613 1.61381e-08H149.794C152.961 1.61381e-08 155.555 2.53265 155.555 5.625V39.375C155.555 42.4673 152.961 45 149.794 45Z" fill="black"></path>
+                                 <path d="M149.794 0.901404C152.461 0.901404 154.632 3.02062 154.632 5.625V39.375C154.632 41.9794 152.461 44.0986 149.794 44.0986H5.7613C3.09382 44.0986 0.923248 41.9794 0.923248 39.375V5.625C0.923248 3.02062 3.09382 0.901404 5.7613 0.901404H149.794ZM149.794 1.61381e-08H5.7613C2.59403 1.61381e-08 0 2.53265 0 5.625V39.375C0 42.4673 2.59403 45 5.7613 45H149.794C152.961 45 155.555 42.4673 155.555 39.375V5.625C155.555 2.53265 152.961 1.61381e-08 149.794 1.61381e-08Z" fill="#A6A6A6"></path>
+                                 <path d="M54.6374 11.5242C54.6374 12.4636 54.3493 13.216 53.7818 13.7771C53.1294 14.4422 52.2796 14.7769 51.2382 14.7769C50.243 14.7769 49.3932 14.4366 48.696 13.7658C47.9975 13.0852 47.6489 12.2499 47.6489 11.25C47.6489 10.2502 47.9975 9.41486 48.696 8.73986C49.3932 8.06346 50.243 7.72314 51.2382 7.72314C51.7337 7.72314 52.2061 7.82299 52.6569 8.00861C53.1063 8.19564 53.4722 8.44877 53.7372 8.76096L53.1351 9.3544C52.6728 8.82143 52.0434 8.55846 51.2382 8.55846C50.5123 8.55846 49.8829 8.80596 49.3485 9.30518C48.8199 9.8058 48.5549 10.4541 48.5549 11.25C48.5549 12.046 48.8199 12.6999 49.3485 13.2005C49.8829 13.6941 50.5123 13.9472 51.2382 13.9472C52.0088 13.9472 52.6569 13.6941 53.1683 13.1949C53.5053 12.8644 53.6969 12.4088 53.7473 11.8266H51.2382V11.0138H54.5855C54.6259 11.1896 54.6374 11.3597 54.6374 11.5242Z" fill="white" stroke="white" stroke-width="0.16" stroke-miterlimit="10"></path>
+                                 <path d="M59.9478 8.70609H56.8036V10.8436H59.6381V11.6564H56.8036V13.7939H59.9478V14.6222H55.9135V7.87781H59.9478V8.70609Z" fill="white" stroke="white" stroke-width="0.16" stroke-miterlimit="10"></path>
+                                 <path d="M63.6954 14.6222H62.8053V8.70609H60.8767V7.87781H65.6255V8.70609H63.6954V14.6222Z" fill="white" stroke="white" stroke-width="0.16" stroke-miterlimit="10"></path>
+                                 <path d="M69.0621 14.6222V7.87781H69.9508V14.6222H69.0621Z" fill="white" stroke="white" stroke-width="0.16" stroke-miterlimit="10"></path>
+                                 <path d="M73.8901 14.6222H73.0072V8.70609H71.0714V7.87781H75.8259V8.70609H73.8901V14.6222Z" fill="white" stroke="white" stroke-width="0.16" stroke-miterlimit="10"></path>
+                                 <path d="M84.8164 13.7546C84.1351 14.4366 83.2911 14.7769 82.2843 14.7769C81.2718 14.7769 80.4277 14.4366 79.7465 13.7546C79.0666 13.0739 78.7281 12.2386 78.7281 11.25C78.7281 10.2614 79.0666 9.42611 79.7465 8.74549C80.4277 8.06346 81.2718 7.72314 82.2843 7.72314C83.2853 7.72314 84.1294 8.06346 84.8106 8.75111C85.4962 9.43736 85.8347 10.2671 85.8347 11.25C85.8347 12.2386 85.4962 13.0739 84.8164 13.7546ZM80.4047 13.1892C80.9174 13.6941 81.5411 13.9472 82.2843 13.9472C83.0218 13.9472 83.6512 13.6941 84.1582 13.1892C84.6695 12.6844 84.9287 12.0361 84.9287 11.25C84.9287 10.4639 84.6695 9.81564 84.1582 9.3108C83.6512 8.80596 83.0218 8.55283 82.2843 8.55283C81.5411 8.55283 80.9174 8.80596 80.4047 9.3108C79.8934 9.81564 79.6341 10.4639 79.6341 11.25C79.6341 12.0361 79.8934 12.6844 80.4047 13.1892Z" fill="white" stroke="white" stroke-width="0.16" stroke-miterlimit="10"></path>
+                                 <path d="M87.0835 14.6222V7.87781H88.1637L91.5226 13.1231H91.5615L91.5226 11.8266V7.87781H92.4113V14.6222H91.4837L87.9664 9.11812H87.9275L87.9664 10.4203V14.6222H87.0835Z" fill="white" stroke="white" stroke-width="0.16" stroke-miterlimit="10"></path>
+                                 <path d="M78.5092 24.4715C75.8028 24.4715 73.5919 26.4825 73.5919 29.257C73.5919 32.009 75.8028 34.0411 78.5092 34.0411C81.2213 34.0411 83.4322 32.009 83.4322 29.257C83.4322 26.4825 81.2213 24.4715 78.5092 24.4715ZM78.5092 32.1567C77.0242 32.1567 75.7466 30.96 75.7466 29.257C75.7466 27.5315 77.0242 26.3559 78.5092 26.3559C79.9941 26.3559 81.2775 27.5315 81.2775 29.257C81.2775 30.96 79.9941 32.1567 78.5092 32.1567ZM67.7802 24.4715C65.0681 24.4715 62.8629 26.4825 62.8629 29.257C62.8629 32.009 65.0681 34.0411 67.7802 34.0411C70.4909 34.0411 72.6975 32.009 72.6975 29.257C72.6975 26.4825 70.4909 24.4715 67.7802 24.4715ZM67.7802 32.1567C66.2938 32.1567 65.0119 30.96 65.0119 29.257C65.0119 27.5315 66.2938 26.3559 67.7802 26.3559C69.2652 26.3559 70.5427 27.5315 70.5427 29.257C70.5427 30.96 69.2652 32.1567 67.7802 32.1567ZM55.0132 25.9383V27.9717H59.9866C59.8411 29.1079 59.4522 29.9433 58.8559 30.5254C58.13 31.2286 56.9994 32.009 55.0132 32.009C51.9525 32.009 49.5558 29.5973 49.5558 26.609C49.5558 23.6208 51.9525 21.209 55.0132 21.209C56.6681 21.209 57.8722 21.8404 58.7609 22.6589L60.2286 21.2259C58.9856 20.0672 57.3321 19.177 55.0132 19.177C50.8161 19.177 47.2887 22.5112 47.2887 26.609C47.2887 30.7068 50.8161 34.0411 55.0132 34.0411C57.2817 34.0411 58.9856 33.3154 60.3251 31.9542C61.6977 30.614 62.1255 28.7297 62.1255 27.2081C62.1255 26.7356 62.0852 26.3011 62.0131 25.9383H55.0132ZM107.219 27.5147C106.814 26.4445 105.566 24.4715 103.022 24.4715C100.501 24.4715 98.4029 26.4108 98.4029 29.257C98.4029 31.9373 100.48 34.0411 103.264 34.0411C105.515 34.0411 106.814 32.7009 107.349 31.9204L105.678 30.8334C105.121 31.6293 104.362 32.1567 103.264 32.1567C102.174 32.1567 101.392 31.6687 100.89 30.7068L107.445 28.0589L107.219 27.5147ZM100.536 29.1079C100.48 27.2629 102.004 26.3179 103.096 26.3179C103.951 26.3179 104.677 26.7356 104.919 27.3333L100.536 29.1079ZM95.2083 33.75H97.363V19.6875H95.2083V33.75ZM91.6795 25.5375H91.6075C91.1235 24.9778 90.2003 24.4715 89.0307 24.4715C86.5764 24.4715 84.3324 26.5753 84.3324 29.2725C84.3324 31.9542 86.5764 34.0411 89.0307 34.0411C90.2003 34.0411 91.1235 33.5306 91.6075 32.954H91.6795V33.6403C91.6795 35.4698 90.6785 36.4528 89.0639 36.4528C87.7474 36.4528 86.9308 35.5247 86.5937 34.7442L84.7199 35.5078C85.26 36.7762 86.6902 38.3372 89.0639 38.3372C91.5902 38.3372 93.7219 36.8859 93.7219 33.3548V24.7626H91.6795V25.5375ZM89.2151 32.1567C87.7301 32.1567 86.4871 30.9431 86.4871 29.2725C86.4871 27.5864 87.7301 26.3559 89.2151 26.3559C90.6785 26.3559 91.8322 27.5864 91.8322 29.2725C91.8322 30.9431 90.6785 32.1567 89.2151 32.1567ZM117.307 19.6875H112.154V33.75H114.303V28.4217H117.307C119.694 28.4217 122.034 26.7356 122.034 24.0539C122.034 21.3736 119.688 19.6875 117.307 19.6875ZM117.363 26.4656H114.303V21.6436H117.363C118.968 21.6436 119.884 22.9443 119.884 24.0539C119.884 25.1423 118.968 26.4656 117.363 26.4656ZM130.647 24.4448C129.095 24.4448 127.48 25.1142 126.816 26.5978L128.723 27.3783C129.134 26.5978 129.888 26.3447 130.686 26.3447C131.801 26.3447 132.932 26.9986 132.949 28.1531V28.3008C132.56 28.0814 131.728 27.7565 130.704 27.7565C128.65 27.7565 126.557 28.8604 126.557 30.9206C126.557 32.805 128.239 34.0186 130.13 34.0186C131.576 34.0186 132.374 33.3815 132.876 32.6404H132.949V33.7275H135.025V28.3331C135.025 25.8398 133.118 24.4448 130.647 24.4448ZM130.388 32.1511C129.685 32.1511 128.706 31.8108 128.706 30.96C128.706 29.8715 129.927 29.4539 130.985 29.4539C131.931 29.4539 132.374 29.6578 132.949 29.9264C132.781 31.2286 131.633 32.1511 130.388 32.1511ZM142.586 24.7528L140.116 30.8489H140.043L137.489 24.7528H135.172L139.009 33.2718L136.819 38.0123H139.065L144.977 24.7528H142.586ZM123.215 33.75H125.37V19.6875H123.215V33.75Z" fill="white"></path>
+                                 <path d="M12.0239 8.48121C11.6854 8.82714 11.4895 9.36574 11.4895 10.0632V34.9426C11.4895 35.6401 11.6854 36.1787 12.0239 36.5246L12.1074 36.6006L26.3868 22.6646V22.3356L12.1074 8.39965L12.0239 8.48121Z" fill="url(#paint0_linear_401_33)"></path>
+                                 <path d="M31.1412 27.3123L26.3867 22.6646V22.3355L31.147 17.6879L31.2536 17.7484L36.891 20.8801C38.4999 21.7688 38.4999 23.2313 36.891 24.1257L31.2536 27.2518L31.1412 27.3123Z" fill="url(#paint1_linear_401_33)"></path>
+                                 <path d="M31.2536 27.2518L26.3867 22.5001L12.0238 36.5246C12.5582 37.073 13.4296 37.1391 14.4205 36.5907L31.2536 27.2518Z" fill="url(#paint2_linear_401_33)"></path>
+                                 <path d="M31.2536 17.7483L14.4205 8.40938C13.4296 7.86657 12.5582 7.93266 12.0238 8.48109L26.3867 22.5L31.2536 17.7483Z" fill="url(#paint3_linear_401_33)"></path>
+                                 <defs>
+                                    <linearGradient id="paint0_linear_401_33" x1="25.1189" y1="35.2017" x2="6.24415" y2="15.8696" gradientUnits="userSpaceOnUse">
+                                       <stop stop-color="#00A0FF"></stop>
+                                       <stop offset="0.0066" stop-color="#00A1FF"></stop>
+                                       <stop offset="0.2601" stop-color="#00BEFF"></stop>
+                                       <stop offset="0.5122" stop-color="#00D2FF"></stop>
+                                       <stop offset="0.7604" stop-color="#00DFFF"></stop>
+                                       <stop offset="1" stop-color="#00E3FF"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_401_33" x1="38.986" y1="22.4985" x2="11.1049" y2="22.4985" gradientUnits="userSpaceOnUse">
+                                       <stop stop-color="#FFE000"></stop>
+                                       <stop offset="0.4087" stop-color="#FFBD00"></stop>
+                                       <stop offset="0.7754" stop-color="#FFA500"></stop>
+                                       <stop offset="1" stop-color="#FF9C00"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_401_33" x1="28.6071" y1="19.917" x2="3.01138" y2="-6.29901" gradientUnits="userSpaceOnUse">
+                                       <stop stop-color="#FF3A44"></stop>
+                                       <stop offset="1" stop-color="#C31162"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="paint3_linear_401_33" x1="8.40836" y1="44.8018" x2="19.838" y2="33.0953" gradientUnits="userSpaceOnUse">
+                                       <stop stop-color="#32A071"></stop>
+                                       <stop offset="0.0685" stop-color="#2DA771"></stop>
+                                       <stop offset="0.4762" stop-color="#15CF74"></stop>
+                                       <stop offset="0.8009" stop-color="#06E775"></stop>
+                                       <stop offset="1" stop-color="#00F076"></stop>
+                                    </linearGradient>
+                                 </defs>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-24 col-lg-5">
+                        <div class="b-footer_bottom_social">
+                           <a href="https://vk.com/vodovoz_spb">
+                              <svg width="24" height="24" aria-hidden="true">
+                                 <use xlink:href="#social-vk"></use>
+                              </svg>
+                           </a>
+                           <a href="https://www.instagram.com/vodovoz_lifestyle/">
+                              <svg width="24" height="24" aria-hidden="true">
+                                 <use xlink:href="#social-ig"></use>
+                              </svg>
+                           </a>
+                           <a href="https://www.youtube.com/channel/UCRngrGZcZVE1WscDPp0aGsA">
+                              <svg width="24" height="24" aria-hidden="true">
+                                 <use xlink:href="#social-yt"></use>
+                              </svg>
+                           </a>
+                           <a href="https://vm.tiktok.com/ZSeStx71j/">
+                              <svg fill="#000000" viewBox="4 4 42 42" width="24px" height="24px">
+                                 <path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"></path>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-xs-24 col-sm-12 col-md-24 col-lg-7">
+                        <div class="b-footer_bottom_payment">
+                           <span class="b-footer_bottom_payment_label">Принимаем<span> к оплате</span></span>
+                           <svg width="40" height="24" aria-hidden="true">
+                              <use xlink:href="#visa"></use>
+                           </svg>
+                           <svg width="40" height="24" aria-hidden="true">
+                              <use xlink:href="#mastercard"></use>
+                           </svg>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="24" viewBox="0 0 40 24">
+                              <defs>
+                                 <linearGradient x1="100%" y1="62.904%" x2="0%" y2="62.904%" id="a">
+                                    <stop stop-color="#1F5CD7" offset="0%"></stop>
+                                    <stop stop-color="#02AEFF" offset="100%"></stop>
+                                 </linearGradient>
+                              </defs>
+                              <g fill="none" fill-rule="nonzero">
+                                 <rect fill="#FFF" width="40" height="24" rx="4"></rect>
+                                 <path d="M8.774 8.002c.268-.002 1.065-.08 1.402 1.16.227.834.59 2.202 1.086 4.103h.203c.532-2.004.898-3.372 1.098-4.104.34-1.252 1.193-1.16 1.534-1.16h2.63v8.908h-2.681v-5.25h-.18l-1.494 5.25h-2.017L8.86 11.656h-.18v5.253H6V8.002h2.774zm11.802 0v5.253h.214l1.818-4.32c.353-.86 1.105-.933 1.105-.933h2.594v8.907H23.57v-5.253h-.214l-1.782 4.32c-.353.855-1.14.933-1.14.933H17.84V8.002h2.736zm15.19 4.232c-.381 1.178-1.58 2.021-2.907 2.021h-2.87v2.654h-2.603v-4.675h8.38z" fill="#0F754E"></path>
+                                 <path d="M32.984 8.002H27.25c.136 1.983 1.705 3.68 3.329 3.68h5.368c.31-1.648-.756-3.68-2.963-3.68z" fill="url(#a)"></path>
+                              </g>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <svg xmlns="http://www.w3.org/2000/svg" class="svg-sprite">
+                  <symbol id="fbh_telegram" viewBox="0 0 50 50">
+                     <circle cx="25" cy="25" r="25" fill="#229ED9"></circle>
+                     <path d="M10.119,23.466c8.155-3.695,17.733-7.704,19.208-8.284c3.252-1.279,4.67,0.028,4.448,2.113 c-0.273,2.555-1.567,9.99-2.363,15.317c-0.466,3.117-2.154,4.072-4.059,2.863c-1.445-0.917-6.413-4.17-7.72-5.282 c-0.891-0.758-1.512-1.608-0.88-2.474c0.185-0.253,0.658-0.763,0.921-1.017c1.319-1.278,1.141-1.553-0.454-0.412 c-0.19,0.136-1.292,0.935-1.745,1.237c-1.11,0.74-2.131,0.78-3.862,0.192c-1.416-0.481-2.776-0.852-3.634-1.223 C8.794,25.983,8.34,24.272,10.119,23.466z" opacity=".05"></path>
+                     <path d="M10.836,23.591c7.572-3.385,16.884-7.264,18.246-7.813c3.264-1.318,4.465-0.536,4.114,2.011 c-0.326,2.358-1.483,9.654-2.294,14.545c-0.478,2.879-1.874,3.513-3.692,2.337c-1.139-0.734-5.723-3.754-6.835-4.633 c-0.86-0.679-1.751-1.463-0.71-2.598c0.348-0.379,2.27-2.234,3.707-3.614c0.833-0.801,0.536-1.196-0.469-0.508 c-1.843,1.263-4.858,3.262-5.396,3.625c-1.025,0.69-1.988,0.856-3.664,0.329c-1.321-0.416-2.597-0.819-3.262-1.078 C9.095,25.618,9.075,24.378,10.836,23.591z" opacity=".07"></path>
+                     <path fill="#fff" d="M11.553,23.717c6.99-3.075,16.035-6.824,17.284-7.343c3.275-1.358,4.28-1.098,3.779,1.91 c-0.36,2.162-1.398,9.319-2.226,13.774c-0.491,2.642-1.593,2.955-3.325,1.812c-0.833-0.55-5.038-3.331-5.951-3.984 c-0.833-0.595-1.982-1.311-0.541-2.721c0.513-0.502,3.874-3.712,6.493-6.21c0.343-0.328-0.088-0.867-0.484-0.604 c-3.53,2.341-8.424,5.59-9.047,6.013c-0.941,0.639-1.845,0.932-3.467,0.466c-1.226-0.352-2.423-0.772-2.889-0.932 C9.384,25.282,9.81,24.484,11.553,23.717z"></path>
+                  </symbol>
+                  <symbol id="fbh_jivo" viewBox="0 0 50 50">
+                     <circle cx="25" cy="25" r="25" fill="#42415a"></circle>
+                     <path d="M34,32.7c-4.7,2.5-8.6,2.6-11.4,2c-5.4-0.8-9.2-5.8-8.4-11.2s5.8-9.2,11.2-8.4 c3.9,0.5,7.1,3.3,8.1,7.1c0.9,3.2,0.2,6.6-1.9,9.1C32.4,31.6,33.2,32.1,34,32.7z" fill="#fff"></path>
+                  </symbol>
+                  <symbol id="fbh_viber" viewBox="0 0 50 50">
+                     <circle cx="25" cy="25" r="25" fill="#9f6aad"></circle>
+                     <path d="M36.4,21.3c-0.1-0.7-0.3-1.5-0.5-2.2c-0.4-1.2-1.1-2.2-2.1-2.9c-0.8-0.6-1.7-1-2.7-1.3 c-0.9-0.3-1.8-0.4-2.8-0.6c-0.9-0.1-1.8-0.2-2.8-0.3c-1-0.1-2.1,0-3.1,0.1c-0.8,0.1-1.7,0.2-2.5,0.4c-1.2,0.2-2.4,0.7-3.5,1.3 c-1.6,0.9-2.8,2.4-3.2,4.2c-0.2,0.8-0.3,1.6-0.4,2.4c-0.1,0.9-0.2,1.8-0.2,2.6c0,1,0,1.9,0.2,2.9c0.1,0.9,0.3,1.7,0.6,2.5 c0.3,0.9,0.8,1.7,1.4,2.4c0.5,0.6,1.2,1,1.9,1.3c0.5,0.1,0.9,0.3,1.4,0.5c0.3,0.1,0.6,0.4,0.7,0.7C19,35.7,19,36,19,36.2v3 c0,0,0.1,0,0.1-0.1c0.4-0.3,0.8-0.7,1.1-1c0.7-0.7,1.4-1.3,2-2c0.3-0.3,0.7-0.5,1.1-0.5c1.2,0,2.5-0.1,3.7-0.1c1,0,2.1-0.1,3.1-0.3 c1-0.1,2-0.4,2.8-0.9c1-0.5,1.7-1.2,2.2-2.2c0.6-1.1,1-2.4,1.2-3.7c0.1-1,0.2-2,0.2-3C36.8,24.1,36.7,22.7,36.4,21.3z M31.4,29.9 c-0.1,0.2-0.2,0.4-0.4,0.6c-0.2,0.3-0.5,0.6-0.8,0.8c0,0.1-0.1,0.1-0.1,0.1c0,0-0.1,0-0.1,0.1c-0.2,0.1-0.4,0.2-0.6,0.3 c-0.1,0-0.3,0.1-0.4,0.1c-0.3,0-0.6,0-0.9-0.2c-0.3-0.1-0.7-0.3-1-0.4c0,0-0.1,0-0.1,0c-0.3-0.1-0.6-0.3-0.9-0.4c0,0-0.1,0-0.1-0.1 c-0.3-0.2-0.6-0.3-0.9-0.5c0,0,0,0-0.1,0c-1.9-1.1-3.5-2.6-4.9-4.3c-0.1-0.2-0.3-0.3-0.4-0.5c-0.1-0.1-0.2-0.2-0.2-0.3 c0,0-0.1-0.1-0.1-0.2c-0.1-0.1-0.2-0.3-0.3-0.4c0,0,0,0,0,0c-0.1-0.1-0.2-0.3-0.3-0.4l0,0c-0.4-0.7-0.8-1.5-1.1-2.3 c-0.3-0.5-0.3-1.1-0.1-1.6c0.3-0.3,0.6-0.6,1-0.9c0.3-0.3,0.7-0.5,1.1-0.6c0.2,0,0.4,0,0.6,0c0.1,0,0.2,0.1,0.3,0.1 c0.8,0.7,1.5,1.6,2.1,2.5c0.2,0.3,0.3,0.6,0.3,1c-0.2,0.3-0.4,0.6-0.8,0.8c-0.1,0.1-0.2,0.2-0.3,0.3c0,0-0.1,0-0.1,0l0,0l0,0 c-0.1,0.1-0.1,0.3-0.1,0.5c0.1,0.6,0.3,1.1,0.6,1.5c0.7,1,1.6,1.8,2.7,2.3c0.4,0.3,0.9,0.4,1.4,0.3c0,0,0.1,0,0.1-0.1c0,0,0,0,0,0 c0.1-0.1,0.3-0.3,0.4-0.4c0.2-0.2,0.3-0.4,0.5-0.5c0.1,0,0.1-0.1,0.2-0.1c0.3-0.1,0.7-0.1,1,0.1c0.2,0.1,0.8,0.4,1.2,0.7 c0.6,0.4,1.1,0.8,1.6,1.2c0.1,0.1,0.2,0.3,0.2,0.5C31.5,29.6,31.4,29.7,31.4,29.9z M27,21.3c-0.6-0.3-1.2-0.5-1.8-0.5 c-0.2,0-0.3-0.1-0.4-0.2c-0.1-0.1-0.1-0.3,0-0.5c0.1-0.2,0.3-0.2,0.9-0.1c1.3,0.1,2.4,0.8,3.2,1.8c0.4,0.6,0.7,1.2,0.7,1.9 c0,0.3,0,0.5,0,0.8c0,0.1-0.1,0.2-0.2,0.2c-0.1,0-0.3,0-0.4,0c-0.2-0.1-0.3-0.4-0.2-0.6c0-0.6-0.1-1.1-0.4-1.6 C27.9,22.1,27.5,21.6,27,21.3z M27.6,24.4c-0.2,0.1-0.4,0.1-0.5,0c-0.1-0.1-0.2-0.2-0.2-0.4c0-0.2-0.1-0.5-0.2-0.7 c-0.2-0.4-0.7-0.7-1.2-0.7c-0.2,0-0.3,0-0.5-0.2C25,22.3,25,22,25.2,21.9c0.1-0.1,0.3-0.1,0.4-0.1c0.1,0,0.3,0,0.4,0 c0.4,0.1,0.8,0.3,1.1,0.5c0.4,0.3,0.6,0.8,0.7,1.4C27.8,24,27.7,24.2,27.6,24.4z M31.4,25.2c-0.2,0.2-0.4,0.2-0.6,0 c0,0-0.1-0.1-0.1-0.1c-0.1-0.1-0.1-0.3-0.1-0.4c0-0.4-0.1-0.8-0.1-1.1c-0.2-1.4-1-2.6-2.2-3.4c-0.9-0.6-2-1-3.1-1 c-0.2,0.1-0.4,0-0.6-0.1c-0.2-0.1-0.2-0.4-0.1-0.6c0,0,0,0,0,0c0.2-0.1,0.4-0.1,0.6-0.1c0.2,0,0.4,0,0.7,0c0.7,0.1,1.4,0.2,2,0.5 c0.6,0.3,1.2,0.7,1.7,1.2c0.5,0.4,0.9,1,1.2,1.5c0.5,0.9,0.7,1.9,0.8,3C31.6,24.8,31.5,25,31.4,25.2z" fill="#fff"></path>
+                  </symbol>
+                  <symbol id="fbh_vk" viewBox="0 0 50 50">
+                     <circle cx="25" cy="25" r="25" fill="#33658c"></circle>
+                     <path d="M35,28.9c-0.5-0.6-1.1-1.2-1.7-1.8c-0.2-0.2-0.4-0.4-0.6-0.6c-0.4-0.2-0.6-0.7-0.4-1.2 c0.1-0.1,0.1-0.2,0.2-0.3c0.3-0.5,0.7-0.9,1-1.3c0.3-0.4,0.6-0.8,0.9-1.2l0.1-0.1c0.6-0.8,1.1-1.7,1.5-2.6c0.1-0.3,0.1-0.7,0-1 c-0.2-0.3-0.5-0.4-0.8-0.5c-0.1,0-0.3,0-0.4,0H31c-0.5,0-1,0.3-1.2,0.8c-0.2,0.5-0.4,1.1-0.7,1.6c-0.5,1.2-1.2,2.3-2.1,3.3l0,0 c-0.1,0.1-0.2,0.2-0.3,0.3c0,0,0,0,0,0c-0.2-0.2-0.3-0.5-0.3-0.8v-4.3c0,0,0,0,0,0c0-0.6-0.4-1.2-1.1-1.3c0,0,0,0-0.1,0h-3.8 c-0.5,0-1,0.2-1.3,0.6c-0.2,0.2-0.3,0.5-0.1,0.7c0.1,0.1,0.3,0.2,0.4,0.2c0.5,0.1,0.8,0.4,0.8,0.9c0.1,1,0.2,2,0.1,3 c0,0.3-0.1,0.5-0.2,0.8c0,0.1-0.1,0.2-0.2,0.2c-0.1,0-0.2,0-0.2-0.1c-0.3-0.2-0.6-0.5-0.8-0.9c-0.9-1.3-1.6-2.7-2.2-4.2 c-0.2-0.5-0.7-0.9-1.2-0.9c-0.6,0-1.2,0-1.7,0c-0.6,0-1.1,0-1.6,0c-0.4,0-0.7,0.1-0.9,0.4c-0.2,0.3-0.2,0.7,0,1 c1.2,2.8,2.6,5.4,4.3,7.8c0.9,1.3,2,2.4,3.4,3.2c1.4,0.8,2.9,1.2,4.5,1.1c0.2,0,0.4,0,0.6,0c0.7,0.1,1.3-0.4,1.4-1 c0-0.1,0-0.2,0-0.4c0-0.5,0.1-1,0.3-1.5c0-0.2,0.2-0.3,0.3-0.3c0.1,0,0.2,0.1,0.3,0.1c0.2,0.1,0.4,0.3,0.5,0.5 c0.1,0.2,0.3,0.3,0.4,0.5c0.3,0.3,0.6,0.7,0.9,1c0.6,0.7,1.5,1.1,2.4,1H35c0.3,0,0.6-0.2,0.8-0.5c0.2-0.4,0.2-0.9,0-1.3 C35.6,29.7,35.3,29.3,35,28.9z" fill="#fff"></path>
+                  </symbol>
+                  <symbol id="fbh_whatsapp" viewBox="0 0 50 50">
+                     <circle cx="25" cy="25" r="25" fill="#3cb656"></circle>
+                     <path d="M10,40l2.2-8c-4.3-7.4-1.8-16.8,5.6-21.1s16.8-1.8,21.1,5.6s1.8,16.8-5.6,21.1 c-2.4,1.4-5,2.1-7.7,2.1h0c-2.6,0-5.1-0.6-7.4-1.9C18.2,37.9,10,40,10,40z M18.6,35.1l0.5,0.3c2,1.2,4.2,1.8,6.5,1.8h0 c7.1,0,12.8-5.7,12.8-12.8c0-7.1-5.8-12.8-12.8-12.8c0,0,0,0,0,0c-7,0-12.8,5.6-12.8,12.7c0,2.4,0.7,4.8,2,6.9l0.3,0.5l-1.3,4.7 C13.7,36.4,18.6,35.1,18.6,35.1z M33.3,28c-0.2-0.2-0.5-0.4-0.7-0.4c-0.4-0.2-2.3-1.1-2.6-1.2c-0.3-0.2-0.6-0.1-0.8,0.1 c0,0,0,0,0,0c-0.3,0.4-1,1.2-1.2,1.5c-0.2,0.3-0.6,0.3-0.8,0.1c0,0,0,0,0,0c-1.1-0.4-2.2-1.1-3.1-1.9c-0.8-0.8-1.6-1.7-2.1-2.7 c-0.2-0.3-0.1-0.6,0.2-0.8c0,0,0,0,0,0c0.2-0.2,0.4-0.4,0.6-0.7c0.2-0.2,0.3-0.4,0.4-0.6c0.1-0.2,0.1-0.5,0-0.7 c-0.1-0.2-0.9-2.1-1.2-2.9c-0.1-0.4-0.4-0.7-0.9-0.7c0,0,0,0,0,0c-0.2,0-0.5,0-0.7,0c-0.4,0-0.8,0.2-1,0.5c-0.9,0.8-1.4,2-1.4,3.2 c0.1,1.4,0.7,2.8,1.6,4c0.2,0.3,2.7,4.1,6.6,5.8c0.7,0.3,1.5,0.6,2.2,0.8c0.8,0.2,1.6,0.3,2.4,0.2c1.1-0.2,2-0.9,2.6-1.8 C33.4,29.3,33.4,28.6,33.3,28z" fill="#fff"></path>
+                  </symbol>
+               </svg>
+               <div class="feedBackHub">
+                  <div class="bg"></div>
+                  <div class="actionSheet">
+                     <div class="title">Как вам удобнее с нами связаться?</div>
+                     <div class="list">
+                        <a href="viber://pa?chatURI=veseliyvodovoz">
+                           <svg>
+                              <use xlink:href="#fbh_viber"></use>
+                           </svg>
+                           <span>Viber</span>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=%2B79213426760&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank">
+                           <svg>
+                              <use xlink:href="#fbh_whatsapp"></use>
+                           </svg>
+                           <span>WhatsApp</span>
+                        </a>
+                        <a href="https://vk.me/club4260558" target="_blank">
+                           <svg>
+                              <use xlink:href="#fbh_vk"></use>
+                           </svg>
+                           <span>VK</span>
+                        </a>
+                        <a href="https://t.me/Vodovoz_spbBot" target="_blank">
+                           <svg>
+                              <use xlink:href="#fbh_telegram"></use>
+                           </svg>
+                           <span>Telegram</span>
+                        </a>
+                        <a href="javascript:jivo_api.open();">
+                           <svg>
+                              <use xlink:href="#fbh_jivo"></use>
+                           </svg>
+                           <span>Онлайн чат Jivo</span>
+                        </a>
+                     </div>
+                  </div>
+                  <button>
+                     <svg>
+                        <use xlink:href="#fbh_viber"></use>
+                     </svg>
+                     <svg>
+                        <use xlink:href="#fbh_whatsapp"></use>
+                     </svg>
+                     <svg>
+                        <use xlink:href="#fbh_vk"></use>
+                     </svg>
+                     <svg>
+                        <use xlink:href="#fbh_telegram"></use>
+                     </svg>
+                     <svg>
+                        <use xlink:href="#fbh_jivo"></use>
+                     </svg>
+                     <span>Отмена</span>
+                  </button>
+               </div>
+               <style type="text/css">
+                  @keyframes feedBackHub_button { 0% { opacity: 0; } 7.7% { opacity: 1; } 30.8% { opacity: 1; } 38.5% { opacity: 0; } 100% { opacity: 0; } }
+                  .feedBackHub {position:fixed;right:20px;bottom:100px;z-index:99990;font-size:20px;line-height: 1em;font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Roboto Rouble', sans-serif;}
+                  .feedBackHub .bg {display:none;pointer-events: none;cursor: pointer;}
+                  .feedBackHub .actionSheet {opacity: 0;pointer-events: none;bottom: 3.5em;transition: all 0.2s;position: absolute;display: flex;flex-flow: column nowrap;right: 0;background: white;box-shadow: 0 0.5em 2em 0em rgb(0 0 0 / 15%);border-radius: 0.5em;width: 13em;z-index: 2;}
+                  .feedBackHub .actionSheet::after {content:"";display: block;position: absolute;width: 0.8em;height: 0.8em;background: white;bottom: -0.4em;right: 1.2em;transform: rotate(45deg);z-index: 1;}
+                  .feedBackHub .actionSheet .title {color: #999;font-size: 0.7em;text-align: center;padding: 1em;line-height: 1em;}
+                  .feedBackHub .actionSheet .list {z-index: 2;font-size: 0.8em;line-height: 1em;overflow: hidden;border-radius: 0 0 0.5em 0.5em;}
+                  .feedBackHub .actionSheet .list a {text-decoration:none;position: relative;display: flex;align-items: flex-start;border-top: 1px solid #eee;padding: 1em;justify-content: flex-start;color: black;transition: all 0.2s;}
+                  .feedBackHub .actionSheet .list a svg {width: 1em;height: 1em;flex: none;margin: 0 0.5em 0 0;}
+                  .feedBackHub .actionSheet .list a svg use {}
+                  .feedBackHub .actionSheet .list a span {}
+                  .feedBackHub .actionSheet .list a:hover {background: #f4f4f4;}
+                  .feedBackHub button {width:3.2em;height:3.2em;border-radius:50%;overflow: hidden;display: block;position: absolute;right: 0;bottom: 0;border: 0;background: transparent;cursor: pointer;transition: transform 0.2s;z-index: 3;box-sizing: border-box;padding: 0;font-family: inherit;line-height: 1em;font-size:inherit;}
+                  .feedBackHub button svg {position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width: 3.3em;height: 3.3em;}
+                  .feedBackHub button svg:nth-child(1) {z-index: 1;}
+                  .feedBackHub button svg:nth-child(2) {z-index: 2;opacity:0;animation: feedBackHub_button 13s linear 2s infinite;}
+                  .feedBackHub button svg:nth-child(3) {z-index: 3;opacity:0;animation: feedBackHub_button 13s linear 5s infinite;}
+                  .feedBackHub button svg:nth-child(4) {z-index: 4;opacity:0;animation: feedBackHub_button 13s linear 8s infinite;}
+                  .feedBackHub button span {display:none;}
+                  .feedBackHub button:hover {transform:scale(1.05);}
+                  .feedBackHub.active .actionSheet {bottom: 4em;opacity: 1;pointer-events: all;}
+                  .feedBackHub.active .actionSheet .title {}
+                  .feedBackHub.active .actionSheet .list {}
+                  .b-footer_cart.show~.feedBackHub {bottom: 186px;}
+                  @media (max-width: 767px) {
+                  .feedBackHub {right: 12px;bottom:70px;}
+                  .feedBackHub.active {bottom:20px;}
+                  .feedBackHub.active .bg {display: block;position: fixed;left: 0;top: 0;width: 100vw;height: 100vh;background: rgba(0,0,0,0.7);z-index: 1;pointer-events: all;}
+                  .feedBackHub button {width: 2.4em;height: 2.4em;}
+                  .feedBackHub button svg {width:2.5em;height:2.5em;}
+                  .feedBackHub:hover button {transform:none;}
+                  .feedBackHub.active button {width: calc(100vw - 24px);background: white;border-radius: 0.5em;height: 2.5em;}
+                  .feedBackHub.active button svg {display: none;}
+                  .feedBackHub.active button span {display: block;font-size: 0.8em;line-height: 1em;}
+                  .feedBackHub .actionSheet {bottom:2.5em;width: calc(100vw - 24px);}
+                  .feedBackHub .actionSheet::after {display:none;}
+                  .feedBackHub.active .actionSheet {bottom: 3em;}
+                  .feedBackHub:not(.active) .actionSheet {transition:none;}
+                  .b-footer_cart.show~.feedBackHub {bottom: 140px;}
+                  .b-footer_cart.show~.feedBackHub.active {bottom: 20px;}
+                  }
+                  /*hide default jivo button*/
+                  #jvlabelWrap,.__jivoMobileButton {opacity:0 !important;pointer-events: none !important;}
+               </style>
+               <script type="text/javascript">
+                  window.onload = function(){
+                   jQuery(document).on("click",".feedBackHub button",function(a){
+                     a.stopPropagation();
+                     jQuery(".feedBackHub").toggleClass("active");
+                   }).on("click",".feedBackHub.active .bg",function(){
+                     jQuery(".feedBackHub").removeClass("active");
+                   })
+                  }
+                  
+               </script>
+            </div>
+         </footer>
+         <div style="display:none">
+            <div class="vModal vModal--userLogin" id="vModal--userLogin">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                     <h3>Введите номер телефона</h3>
+                     <p>Мы отправим код чтобы <br>подтвердить Ваш номер телефона</p>
+                  </div>
+                  <div class="vModal-userFormWrapper__body">
+                     <form class="vModal-userForm" action="/udata/users/user_phone/.json" method="get" novalidate="" enctype="multipart/form-data" data-ajax="">
+                        <div class="vModal-userForm__input vModal-userForm__input--phone"><label for="phone"><span class="countryPrefix">+7</span><input type="text" id="phone" name="phone" required="" minlength="13" maxlength="13" placeholder=" " inputmode="numeric" autocomplete="tel" pattern="^\d{3}\s\d{3}\s\d{2}\s\d{2}$"><span class="form-placeholder">999 999 99 99</span><span class="form-error-str">Укажите телефон в формате 999 999 99 99</span></label></div>
+                        <div class="vModal-userForm__input">
+                           <div class="recaptcha"></div>
+                        </div>
+                        <div class="vModal-userForm__input vModal-userForm__input--submit"><button type="submit">Войти</button></div>
+                        <div class="form-error-str response"></div>
+                     </form>
+                  </div>
+                  <div class="loadingWrap">
+                     <div class="loading-dots">
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="vModal vModal--userSmsCode" id="vModal--userSmsCode">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                     <h3>Введите код из смс-сообщения</h3>
+                     <p>Проверьте устройство с номером <br>телефона <span class="js_user_check_sms_for_phone"></span> <a href="#" data-v-modal="userLogin">Изменить</a></p>
+                  </div>
+                  <div class="vModal-userFormWrapper__body">
+                     <form class="vModal-userForm" action="/udata/users/user_chech_sms/.json" method="get" novalidate="" enctype="multipart/form-data" data-ajax="">
+                        <input type="hidden" class="js_user_check_sms_phone" name="phone"><input type="hidden" class="js_user_check_sms_phone_new_user" name="new_user">
+                        <div class="vModal-userForm__input vModal-userForm__input--smsCode"><label for="sms"><input type="text" id="sms" name="sms" required="" minlength="4" maxlength="4" placeholder=" " inputmode="numeric" pattern="^\d{4}$"><span class="form-error-str">Укажите четырехзначный код, полученный в sms</span></label></div>
+                        <div class="form-error-str response"></div>
+                        <div class="vModal-userForm__input vModal-userForm__input--smsCodeAction disabled">
+                           <a href="#" data-resend-code="">Получить новый код</a>
+                           <div>через <span>60</span> секунд</div>
+                        </div>
+                        <div class="vModal-userForm__input vModal-userForm__input--submit" style="display:none;"><button type="submit">Отправить</button></div>
+                     </form>
+                  </div>
+                  <div class="loadingWrap">
+                     <div class="loading-dots">
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="vModal vModal--userRegistration" id="vModal--userRegistration">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                     <h3>Регистрация</h3>
+                     <h4>Номер телефона:<br><span class="js_user_registrate_phone_text"></span> </h4>
+                  </div>
+                  <div class="vModal-userFormWrapper__body">
+                     <form class="vModal-userForm" action="/udata/users/registrate_by_phone_do/.json" method="get" novalidate="" enctype="multipart/form-data" data-ajax="">
+                        <input class="js_user_registrate_phone" type="hidden" name="phone" value="">
+                        <div class="vModal-userForm__input vModal-userForm__input--name"><label for="name"><input type="text" id="name" name="name" required="" minlength="2" maxlength="16" placeholder=" " inputmode="text" autocomplete="given-name"><span class="form-placeholder">Имя *</span><span class="form-error-str">Укажите ваше имя</span></label></div>
+                        <div class="vModal-userForm__input vModal-userForm__input--last-name"><label for="last_name"><input type="text" id="last_name" name="last_name" required="" minlength="2" maxlength="16" placeholder=" " inputmode="text" autocomplete="family-name"><span class="form-placeholder">Фамилия *</span><span class="form-error-str">Укажите вашу фамилию</span></label></div>
+                        <div class="vModal-userForm__input vModal-userForm__input--additional-name"><label for="additional_name"><input type="text" id="additional_name" name="additional_name" placeholder=" " inputmode="text" autocomplete="additional-name"><span class="form-placeholder">Отчество</span></label></div>
+                        <div class="vModal-userForm__input vModal-userForm__input--email"><label for="email"><input type="text" id="email" name="email" required="" minlength="2" maxlength="50" placeholder=" " inputmode="email" autocomplete="email" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"><span class="form-placeholder">E-mail *</span><span class="form-error-str">Укажите ваш e-mail</span></label></div>
+                        <div class="vModal-userForm__input vModal-userForm__input--aggrement">
+                           Отправляя данную форму, Вы соглашаетесь с <a href="/politika-konfidencialnosti/" target="_blank">политикой обработки персональных данных</a>
+                        </div>
+                        <div class="vModal-userForm__input vModal-userForm__input--submit"><button type="submit">Зарегистрироваться</button></div>
+                        <div class="form-error-str response"></div>
+                     </form>
+                  </div>
+                  <div class="loadingWrap">
+                     <div class="loading-dots">
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="vModal vModal--userLoginCompleted" id="vModal--userLoginCompleted">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                     <h3>Вы успешно авторизованы</h3>
+                     <p>Личный кабинет доступен справа вверху</p>
+                  </div>
+               </div>
+            </div>
+            <div class="vModal vModal--userLoginAlreadyCompleted" id="vModal--userLoginAlreadyCompleted">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                     <h3>Вы уже авторизованы</h3>
+                     <p>Личный кабинет доступен справа вверху</p>
+                  </div>
+               </div>
+            </div>
+            <div class="vModal vModal--userRegistrationCompleted" id="vModal--userRegistrationCompleted">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                     <h3>Вы успешно зарегистрированы</h3>
+                     <p>Личный кабинет доступен справа вверху</p>
+                  </div>
+               </div>
+            </div>
+            <div class="vModal vModal--calendar" id="vModal--calendar">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                     <h3>Выбранное время доставки уже недоступно :(</h3>
+                     <p>Выберите дату доставки</p>
+                  </div>
+                  <div class="vModal-userFormWrapper__body">
+                     <div class="cart-checkout-datetime cards">
+                        <div class="b-checkout_date_calendar js-datePicker"><input type="hidden" name="date" data-required="true" data-required-notice="Необходимо выбрать дату"></div>
+                        <error-message data-id="delivery-calendar-modal"></error-message>
+                     </div>
+                     <div class="vModal-userFormWrapper__button"><a href="#" class="transition-btn v-modal js-modal_calendar_submit" disabled>
+                        Далее
+                        </a>
+                     </div>
+                     <div class="form-error-str response"></div>
+                  </div>
+                  <div class="loadingWrap">
+                     <div class="loading-dots">
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="vModal vModal--calendar_periods" id="vModal--calendar_periods">
+               <div class="vModal-userFormWrapper">
+                  <div class="vModal-userFormWrapper__header">
+                     <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                     <h3>Доставка: <span class="js-delivery_date_str"></span></h3>
+                     <p>Выберите время доставки</p>
+                  </div>
+                  <div class="vModal-userFormWrapper__body">
+                     <error-message data-id="delivery-time-modal"></error-message>
+                     <div class="cart-checkout-datetime__time-inner cart-checkout-datetime__time-inner-calendar_periods"></div>
+                     <div class="vModal-userFormWrapper__button"><a class="transition-btn js-modal_period_submit" disabled>
+                        Оформить заказ
+                        </a>
+                     </div>
+                     <div class="form-error-str response"></div>
+                  </div>
+                  <div class="loadingWrap">
+                     <div class="loading-dots">
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div style="display:none">
+            <div id="user_phone">
+               <div class="user_popup_wrap js_user_phone">
+                  <div class="popup_form_h1">Войдите или зарегистрируйтесь,<br> чтобы продолжить</div>
+                  <form class="b-user_form" data-url="/udata/users/user_phone/.json">
+                     <div class="cart-checkout-phone__num b-form_box placeholder">
+                        <div class="b-form_box_field"><input class="js_user_phone_input" type="text" name="phone" placeholder="+7 (---) --- -- --" data-required="true" data-masking="+7 (999) 999-99-99" data-pattern-type="phone" maxlength="18" data-pattern="^(\+7)\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}$"></div>
+                     </div>
+                     <div class="recaptcha"></div>
+                     <button class="e-btn e-btn_orange e-btn_sm e-btn_block" type="submit">Получить код</button>
+                  </form>
+               </div>
+            </div>
+            <div id="user_check_sms">
+               <div class="user_popup_wrap js_user_check_sms">
+                  <div class="popup_form_h1">Введите код</div>
+                  <div class="popup_form_descr">Мы отправили код подтверждения<br> на номер <span class="js-user_check_sms_for_phone"></span> <a href="#" class="js_user_change_phone" data-box-width="384" data-leaflet-mod="b-leaflet__thin b-leaflet__user" data-html_id="user_phone">Изменить</a></div>
+                  <form class="b-user_form" data-url="/udata/users/user_chech_sms/.json" data-repeat-url="/udata/users/user_phone/.json">
+                     <input type="hidden" class="js_user_check_sms_phone" name="phone"><input type="hidden" class="js_user_check_sms_phone_new_user" name="new_user">
+                     <div class="cart-checkout-phone__num b-form_box placeholder">
+                        <div class="b-form_box_field">
+                           <input class="js-user_check_sms_input" type="text" name="sms" id="cart-personal-phone-sms" placeholder="XXXX" data-required="true" data-masking="0000" maxlength="4">
+                           <div class="b-form_box_error">*Неверный код</div>
+                        </div>
+                     </div>
+                     <div class="b-checkout_contacts_sms_repeat_timer js_user_check_sms-timer hidden">Отправить повторно через <span data-timer="true">60</span> секунд</div>
+                     <div class="recaptcha"></div>
+                     <a class="e-btn e-btn_white e-btn_sm e-btn_block js_user_repeat_sms_btn" href="#">Получить новый код</a>
+                  </form>
+               </div>
+            </div>
+            <div id="user_captcha">
+               <div class="user_popup_wrap js_user_captcha">
+                  <div class="popup_form_h1">Введите код с картинки:</div>
+               </div>
+            </div>
+            <div id="user_auth_several_users">
+               <div class="user_popup_wrap js_user_auth_several_users">
+                  <div class="popup_form_descr ">Увы, Ваш номер телефона прикреплён к нескольким клиентам </div>
+                  <svg width="60" height="60" aria-hidden="true">
+                     <use xlink:href="#user_auth_phone_icon"></use>
+                  </svg>
+                  <div class="popup_form_under">
+                     Нам менеджер свяжется с Вами в течение нескольких минут и поможет решить проблему
+                  </div>
+               </div>
+            </div>
+            <div id="user_auth_too_often_sms_send">
+               <div class="user_popup_wrap js_user_auth_too_often_sms_send">
+                  <div class="popup_form_descr ">Слишком много запросов на отправку sms, попробуйте через 5 минут </div>
+                  <svg width="60" height="60" aria-hidden="true">
+                     <use xlink:href="#user_auth_phone_icon"></use>
+                  </svg>
+                  <div class="popup_form_under">
+                     Если возникли вопросы свяжитесь с нашими менеджарами
+                  </div>
+               </div>
+            </div>
+            <div id="user_check_captcha">
+               <div class="user_popup_wrap js_user_auth_too_often_sms_send">
+                  <div class="popup_form_descr ">Пройдите проверку reCaptcha </div>
+                  <svg width="60" height="60" aria-hidden="true">
+                     <use xlink:href="#user_auth_phone_icon"></use>
+                  </svg>
+                  <div class="popup_form_under">
+                     Если возникли вопросы свяжитесь с нашими менеджарами
+                  </div>
+               </div>
+            </div>
+            <div id="user_auth_sms_send_error">
+               <div class="user_popup_wrap js_user_auth_sms_send_error">
+                  <div class="popup_form_descr ">Ошибка отправки sms </div>
+                  <svg width="60" height="60" aria-hidden="true">
+                     <use xlink:href="#user_auth_phone_icon"></use>
+                  </svg>
+                  <div class="popup_form_under"></div>
+               </div>
+            </div>
+            <div id="user_auth_success">
+               <div class="user_popup_wrap js_user_auth_success">
+                  <div class="popup_form_h1 ">Вы успешно авторизованны</div>
+                  <img src="/templates/newvodovoz/assets/img/icons/user_auth_success.svg">
+                  <div class="popup_form_under">
+                     Личный кабинет доступен справа вверху
+                  </div>
+               </div>
+            </div>
+            <div id="user_reg_success">
+               <div class="user_popup_wrap js_user_reg_success">
+                  <div class="popup_form_h1 ">Вы успешно зарегистрированы</div>
+                  <img src="/templates/newvodovoz/assets/img/icons/user_auth_success.svg">
+                  <div class="popup_form_under">
+                     Личный кабинет доступен справа вверху
+                  </div>
+               </div>
+            </div>
+            <div id="user_already_auth">
+               <div class="user_popup_wrap js_user_already_auth">
+                  <div class="popup_form_h1 ">Вы уже авторизованы</div>
+                  <img src="/templates/newvodovoz/assets/img/icons/user_auth_success.svg">
+                  <div class="popup_form_under">
+                     Личный кабинет доступен справа вверху
+                  </div>
+               </div>
+            </div>
+            <div id="user_unknown_error">
+               <div class="user_popup_wrap js_user_unknown_error">
+                  <div class="popup_form_h1 ">Ошибка</div>
+                  <div class="popup_form_under"></div>
+               </div>
+            </div>
+            <div id="user_erp_unknown_error">
+               <div class="user_popup_wrap js_user_auth_too_often_sms_send">
+                  <div class="popup_form_descr ">Что-то пошло не так... </div>
+                  <svg width="60" height="60" aria-hidden="true">
+                     <use xlink:href="#user_auth_phone_icon"></use>
+                  </svg>
+                  <div class="popup_form_under">
+                     <div class="b-checkout_contacts_sms_repeat_timer ">Обновить</div>
+                  </div>
+               </div>
+            </div>
+            <div id="user_erp_need_manual_handling">
+               <div class="user_popup_wrap js_user_auth_success">
+                  <div class="popup_form_h1 ">Необходима ручная обработка</div>
+                  <img src="/templates/newvodovoz/assets/img/icons/user_auth_success.svg">
+                  <div class="popup_form_under">
+                     Личный кабинет доступен справа вверху
+                  </div>
+               </div>
+            </div>
+            <div id="user_phone_test_erp">
+               <div class="user_popup_wrap js_user_phone_test_erp">
+                  <div class="popup_form_h1">Тестирование ERP</div>
+                  <form class="b-user_form">
+                     <div class="cart-checkout-phone__num b-form_box placeholder">
+                        <div class="b-form_box_field"><input class="js_user_phone_input" type="text" name="phone" placeholder="+7 (---) --- -- --" data-required="true" data-masking="+7 (999) 999-99-99" data-pattern-type="phone" maxlength="18" data-pattern="^(\+7)\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}$"></div>
+                     </div>
+                     <button class="e-btn e-btn_orange e-btn_sm e-btn_block" type="submit">Получить код</button>
+                  </form>
+               </div>
+            </div>
+            <div id="user_phone_test_erp_response">
+               <div class="user_popup_wrap js_user_phone_test_erp_response">
+                  <div class="popup_form_h1">Ответ от ERP</div>
+                  <div class="popup_form_descr user_phone_test_erp_response_wrap"></div>
+               </div>
+            </div>
+            <div id="lk_feedback_success">
+               <div class="user_popup_wrap js_lk_feedback_success">
+                  <div class="popup_form_h1 ">Ваша заявка отправлена</div>
+                  <div>
+                     Мы свяжемся с вами в ближайшее время
+                  </div>
+               </div>
+            </div>
+            <div id="form_purchase_returns">
+               <div class="user_popup_wrap js_form_purchase_returns form_purchase_returns ">
+                  <div class="b-form_message b-form_message__show hidden">
+                     <div class="b-form_message_balloon b-form_message_balloon__success">
+                        <div class="b-form_message_balloon_capsule">
+                           <div class="b-form_message_balloon_capsule_inner">
+                              <h6 class="blue_text">
+                                 Мы обработаем вашу заявку<br class="hidden-md hidden-lg">
+                                 и свяжемся с вами в ближайшее время
+                              </h6>
+                              <p><img src="/templates/newvodovoz/assets/img/purchase_return.png"></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <form class="b-user_form b-feedback_form_new js_ajaxSendCustom" method="post" action="/webforms/send/" data-checkup="true">
+                     <input type="hidden" name="system_form_id" value="431"><input type="hidden" name="ref_onsuccess" value="/webforms/posted/431/"><input type="hidden" name="system_email_to" value="7436131">
+                     <div class="popup_form_h1 ">
+                        <img class="logo_form" src="/templates/newvodovoz/assets/img/logo_form.png">
+                        Заявка на возврат денежных средств
+                     </div>
+                     <div class="flex">
+                        <div class="col-xs-24 col-md-12">
+                           <div class="b-form_box placeholder">
+                              <label class="b-form_box_title required" for="f_phone_431">+7 (999) 999-99-99</label>
+                              <div class="b-form_box_field"><input type="text" name="data[new][phone]" id="f_phone_431" data-required="true" data-masking="+7 (999) 999-99-99" data-pattern-type="phone" maxlength="18"></div>
+                           </div>
+                        </div>
+                        <div class="col-xs-24 col-md-12">
+                           <div class="b-form_box placeholder">
+                              <label class="b-form_box_title required" for="f_fio_431">ФИО</label>
+                              <div class="b-form_box_field"><input type="text" name="data[new][fio]" id="f_fio_431" data-required="true"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="flex">
+                        <div class="col-xs-24 col-md-24">
+                           <div class="b-form_box placeholder">
+                              <label class="b-form_box_field custom-select">
+                                 <select name="data[new][gde_oformlen_zakaz]" class="js-pure js-select js-selectric_pre_del" data-required="true">
+                                    <option value="" selected>Где оформлен заказ?*</option>
+                                    <option value="9385314">Сайт</option>
+                                    <option value="9385320">Мобильное приложение</option>
+                                    <option value="9385323">Оператор</option>
+                                 </select>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="flex">
+                        <div class="col-xs-24 col-md-12">
+                           <div class="b-form_box placeholder custom-datepicker">
+                              <label class="b-form_box_title required" for="f_data_oplaty_431">Дата оплаты</label>
+                              <div class="b-form_box_field"><input inputmode="none" class="js-datePicker_pre" type="text" name="data[new][data_oplaty]" id="f_data_oplaty_431" data-required="true" data-required-notice="Необходимо выбрать дату"></div>
+                           </div>
+                        </div>
+                        <div class="col-xs-24 col-md-12">
+                           <div class="b-form_box placeholder">
+                              <label class="b-form_box_title required" for="f_summa_k_vozvratu_431">Сумма к возврату</label>
+                              <div class="b-form_box_field"><input type="text" name="data[new][summa_k_vozvratu]" class="f_summa_k_vozvratu_431" id="f_summa_k_vozvratu_431" data-required="true"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="flex">
+                        <div class="col-xs-24 col-md-24">
+                           <div class="b-form_box placeholder">
+                              <label class="b-form_box_field custom-select">
+                                 <select name="data[new][prichina_vozvrata]" class="js-pure js-select js-selectric_pre_del">
+                                    <option value="" selected>Выберите причину</option>
+                                    <option value="7439499">Закрытие аренды оборудования</option>
+                                    <option value="7439500">Покупка нового оборудования</option>
+                                    <option value="7439505">Переплата</option>
+                                    <option value="7439515">Дважды оплачен заказ</option>
+                                    <option value="7439522">Товар ненадлежащего качества</option>
+                                    <option value="7439524">Услуга не оказана</option>
+                                    <option value="7439526">Ненадлежащий сервис</option>
+                                 </select>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="flex">
+                        <div class="col-xs-24 col-md-12">
+                           <div class="b-form_box placeholder">
+                              <label class="b-form_box_title required" for="f_naimenovanie_banka_431">Наименование банка</label>
+                              <div class="b-form_box_field"><input type="text" name="data[new][naimenovanie_banka]" id="f_naimenovanie_banka_431" data-required="true"></div>
+                           </div>
+                        </div>
+                        <div class="col-xs-24 col-md-12">
+                           <div class="b-form_box placeholder">
+                              <label class="b-form_box_title required" for="f_raschtnyj_scht_klienta_431">Расчётный счёт клиента</label>
+                              <div class="b-form_box_field"><input type="text" name="data[new][raschtnyj_scht_klienta]" id="f_raschtnyj_scht_klienta_431" data-required="true"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="flex">
+                        <div class="col-xs-24 col-md-12">
+                           <div class="b-form_box placeholder">
+                              <label class="b-form_box_title required" for="f_inn_banka_431">ИНН банка</label>
+                              <div class="b-form_box_field"><input type="text" name="data[new][inn_banka]" id="f_inn_banka_431" data-required="true"></div>
+                           </div>
+                        </div>
+                        <div class="col-xs-24 col-md-12">
+                           <div class="b-form_box placeholder">
+                              <label class="b-form_box_title required" for="f_bik_banka_431">БИК банка</label>
+                              <div class="b-form_box_field"><input type="text" name="data[new][bik_banka]" id="f_bik_banka_431" data-required="true"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="b-form_box placeholder transition recaptcha_wrap">
+                        <div class="recaptcha"></div>
+                     </div>
+                     <div class="b-form_notice">
+                        <p>Нажимая на кнопку "Отправить", Вы соглашаетесь с <a href="/politika-konfidencialnosti/" target="_blank">Политикой конфиденциальности</a></p>
+                     </div>
+                     <button class="e-btn e-btn_orange  e-btn_sm e-btn_block" type="submit">Отправить</button>
+                  </form>
+               </div>
+            </div>
+            <div class="vModal vModal--add_delivery_point" id="vModal--add_delivery_point">
+               <div class="vModal-userFormWrapper">
+                  <form class="vModal-userForm" action="/udata/users/addErpDeliveryPoints/.json" method="get" novalidate="" enctype="multipart/form-data">
+                     <input type="hidden" name="delivery_point_adress" value="" class="js_delivery_point_address"><input type="hidden" name="settlement_type_full" value="" class="js_delivery_point_settlement_type_full"><input type="hidden" name="settlement_type" value="" class="js_delivery_point_settlement_type"><input type="hidden" name="settlement" value="" class="js_delivery_point_settlement"><input type="hidden" name="street_type_full" value="" class="js_delivery_point_street_type_full"><input type="hidden" name="street_type" value="" class="js_delivery_point_street_type"><input type="hidden" name="street" value="" class="js_delivery_point_street"><input type="hidden" name="house" value="" class="js_delivery_point_house"><input type="hidden" name="delivery-address-lat" value="" class="js-delivery-address-lat"><input type="hidden" name="delivery-address-lon" value="" class="js-delivery-address-lon">
+                     <div class="delivery_point_step1">
+                        <div class="vModal-userFormWrapper__header">
+                           <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                           <h3>Введите адрес доставки</h3>
+                           <p>Начните вводить адрес доставки и выберете нужный адрес из предложенных вариантов или <a href="#" class="js_add_delivery_point_on_map">укажите адрес на карте</a></p>
+                        </div>
+                        <div class="vModal-userFormWrapper__body">
+                           <div class="vModal-userForm__input b-form_box">
+                              <label for="delivery_point_address" class="suggestions-container delivery_point_suggestions">
+                                 <input type="text" class="js-delivery-address_fake js-delivery-delivery_point" data-suggest-point="true" data-rowed="true" id="delivery_point_address" name="delivery_point_address" required="" placeholder=" ">
+                                 <div class="suggestions"></div>
+                                 <span class="form-placeholder">Адрес*</span><span class="form-error-str">Выберите адрес из списка</span>
+                              </label>
+                           </div>
+                           <div class="b-deliveryPointMap" id="delivery-address" data-zoom="12" data-zoom-size="true"></div>
+                           <div class="js-delivery-address-text"></div>
+                           <div class="vModal-userForm__input vModal-userForm__input--submit js_delivery_point_step2"><button type="button">Далее</button></div>
+                           <div class="form-error-str response"></div>
+                        </div>
+                     </div>
+                     <div class="delivery_point_step2 hidden">
+                        <div class="vModal-userFormWrapper__header">
+                           <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+                           <h3>Заполните данные</h3>
+                           <p>Адрес: <br><span class="js_delivery_point_address_value"></span></p>
+                        </div>
+                        <div class="vModal-userFormWrapper__body">
+                           <div class="vModal-userForm__checkbox ">
+                              <label for="delivery-point_house">
+                                 <div class="checkbox__body">Частный дом </div>
+                                 <input type="checkbox" class="js-delivery-point_house js-pure" id="delivery-point_house" name="delivery_point_house">
+                                 <div class="checkbox__checkmark"></div>
+                              </label>
+                           </div>
+                           <div class="flex">
+                              <div class="col-xs-12 dop_input">
+                                 <div class="vModal-userForm__input "><label for="delivery_point_floor"><input type="text" class="js_delivery_point_floor" id="delivery_point_floor" name="delivery_point_floor" required="" placeholder=" "><span class="form-placeholder">Этаж*</span><span class="form-error-str">Укажите этаж</span></label></div>
+                              </div>
+                              <div class="col-xs-12 dop_input">
+                                 <div class="vModal-userForm__input "><label for="delivery_point_entrance"><input type="text" class="js_delivery_point_entrance" id="delivery_point_entrance" name="delivery_point_entrance" required="" placeholder=" "><span class="form-placeholder">Парадная*</span><span class="form-error-str">Укажите парадную</span></label></div>
+                              </div>
+                              <div class="col-xs-12 dop_input">
+                                 <div class="vModal-userForm__input "><label for="delivery_point_flat"><input type="text" class="js_delivery_point_flat" id="delivery_point_flat" name="delivery_point_flat" required="" placeholder=" "><span class="form-placeholder">Квартира*</span><span class="form-error-str">Укажите квартиру</span></label></div>
+                              </div>
+                              <div class="col-xs-12 dop_input">
+                                 <div class="vModal-userForm__input "><label for="delivery_point_flat_code"><input type="text" class="js_delivery_point_flat_code" id="delivery_point_flat_code" name="delivery_point_flat_code" placeholder=" "><span class="form-placeholder">Домофон</span><span class="form-error-str">Укажите домофон</span></label></div>
+                              </div>
+                              <div class="col-xs-24">
+                                 <div class="vModal-userForm__input "><label for="delivery_point_comment"><input type="text" class="js_delivery_point_comment" id="delivery_point_comment" name="delivery_point_comment" placeholder=" "><span class="form-placeholder">Комментарий</span><span class="form-error-str">Укажите комментарий</span></label></div>
+                              </div>
+                           </div>
+                           <div class="vModal-userForm__input vModal-userForm__input--submit"><button type="submit">Сохранить</button></div>
+                           <a href="#" class="js_return_delivery_point_step1 return_delivery_point_step1">Назад</a>
+                           <div class="form-error-str response"></div>
+                        </div>
+                     </div>
+                  </form>
+                  <div class="loadingWrap">
+                     <div class="loading-dots">
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                        <div class="loading-dots--dot"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="cart-preloader">
+            <div class="cart-preloader__ring"></div>
+         </div>
+      </div>
+      <script type="text/javascript">
+         var lazyLoadImages,lazyLoadClonedImages,imageObserver;if(window.NodeList&&!NodeList.prototype.forEach){NodeList.prototype.forEach=function(callback,thisArg){thisArg=thisArg||window;for(var i=0;i<this.length;i++){callback.call(thisArg,this[i],i,this)}}} document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('[data-bg-image]').forEach(function(item){item.style.backgroundImage='url("'+item.dataset.bgImage+'")'});if('IntersectionObserver' in window){lazyLoadImages=document.querySelectorAll('.lazy');imageObserver=new IntersectionObserver(function(entries,observer){entries.forEach(function(entry){if(entry.isIntersecting){var image=entry.target;image.src=('devicePixelRatio' in window&&window.devicePixelRatio>1&&image.classList.contains('js-2x'))?image.dataset.src.replace(/\.([^.]*?)$/,'@2x.$1'):image.dataset.src;image.classList.remove('lazy');imageObserver.unobserve(image)}})});lazyLoadImages.forEach(function(image){imageObserver.observe(image)})}else{var lazyLoadThrottleTimeout;lazyLoadImages=document.querySelectorAll('.lazy');function lazyLoad(){if(!!lazyLoadThrottleTimeout){clearTimeout(lazyLoadThrottleTimeout)} lazyLoadThrottleTimeout=setTimeout(function(){var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;lazyLoadImages.forEach(function(img){if(img.getBoundingClientRect().top-(window.innerHeight*1.25)<=0){img.src=('devicePixelRatio' in window&&window.devicePixelRatio>1&&img.classList.contains('js-2x'))?img.dataset.src.replace(/\.([^.]*?)$/,'@2x.$1'):img.dataset.src;img.classList.remove('lazy');lazyLoadImages=document.querySelectorAll('.lazy')}});if(lazyLoadImages.length===0){document.removeEventListener('scroll',lazyLoad);window.removeEventListener('load',lazyLoad);window.removeEventListener('resize',lazyLoad);window.removeEventListener('orientationChange',lazyLoad)}},20)} lazyLoad();document.addEventListener('scroll',lazyLoad);window.addEventListener('load',lazyLoad);window.addEventListener('resize',lazyLoad);window.addEventListener('orientationChange',lazyLoad)} var lazyLoadScriptThrottleTimeout,lazyLoadScripts=document.querySelectorAll('.lazy-script');function lazyLoadScript(){if(!!lazyLoadScriptThrottleTimeout){clearTimeout(lazyLoadScriptThrottleTimeout)} lazyLoadScriptThrottleTimeout=setTimeout(function(){var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;lazyLoadScripts.forEach(function(s){if(s.closest('.lazy-script-wrap').getBoundingClientRect().top>0&&s.closest('.lazy-script-wrap').getBoundingClientRect().top-(window.innerHeight)<=0){s.src=s.dataset.src;s.classList.remove('lazy-script');lazyLoadImages=document.querySelectorAll('.lazy-script')}});if(lazyLoadImages.length===0){document.removeEventListener('scroll',lazyLoadScript);window.removeEventListener('resize',lazyLoadScript);window.removeEventListener('orientationChange',lazyLoadScript)}},20)} window.addEventListener('load',function(){lazyLoadScript();document.addEventListener('scroll',lazyLoadScript);window.addEventListener('resize',lazyLoadScript);window.addEventListener('orientationChange',lazyLoadScript)})})
+         
+      </script><script type="text/javascript">
+         //(function(w){'use strict';var loadCSS=function(href,before,media,attributes){var doc=w.document,ss=doc.createElement('link'),ref;if(before){ref=before}else{var refs=(doc.body||doc.getElementsByTagName('head')[0]).childNodes;ref=refs[refs.length-1]} var sheets=doc.styleSheets;if(attributes){for(var attributeName in attributes){if(attributes.hasOwnProperty(attributeName)){ss.setAttribute(attributeName,attributes[attributeName])}}} ss.rel ='stylesheet';ss.href=href;ss.media='only x';function ready(cb){if(doc.body){return cb()} setTimeout(function(){ready(cb)})} ready(function(){ref.parentNode.insertBefore(ss,(before?ref:ref.nextSibling))});var onloadcssdefined=function(cb){var resolvedHref=ss.href;var i=sheets.length;while(i--){if(sheets[i].href===resolvedHref){onloadjsdefined();setTimeout(function(){if(typeof document.getElementById('critical-styles') !=='undefined' && document.getElementById('critical-styles') != null){if(typeof document.getElementById('critical-styles').remove !=='undefined'){if(typeof document.getElementById('critical-styles').remove==='function'){document.getElementById('critical-styles').remove()} else { document.getElementById('critical-styles').outerHTML=''}}} document.getElementsByTagName('html')[0].className+=' domIsReady'},400);return cb()}} setTimeout(function(){onloadcssdefined(cb)})};var timer=null,onloadjsdefined=function(){if(typeof site!=='undefined'){if(typeof site.onDomReady!=='undefined'){site.onDomReady()} if (typeof timer!==null){clearTimeout(timer)}} else { var timer=setTimeout(onloadjsdefined,100)}};function loadCB(){if(ss.addEventListener){ss.removeEventListener('load',loadCB)} ss.media = media||'all'} if (ss.addEventListener){ss.addEventListener('load',loadCB)} ss.onloadcssdefined=onloadcssdefined;onloadcssdefined(loadCB);return ss};if(typeof exports!=='undefined'){exports.loadCSS=loadCSS}else{w.loadCSS=loadCSS}}(typeof global!=='undefined'?global:this))
+         
+         (function(w){'use strict';var loadCSS=function(href,before,media,attributes){var doc=w.document,ss=doc.createElement('link'),ref;if(before){ref=before}else{var refs=(doc.body||doc.getElementsByTagName('head')[0]).childNodes;ref=refs[refs.length-1]} var sheets=doc.styleSheets;if(attributes){for(var attributeName in attributes){if(attributes.hasOwnProperty(attributeName)){ss.setAttribute(attributeName,attributes[attributeName])}}} ss.rel ='stylesheet';ss.href=href;ss.media='only x';function ready(cb){if(doc.body){return cb()} setTimeout(function(){ready(cb)})} ready(function(){ref.parentNode.insertBefore(ss,(before?ref:ref.nextSibling))});var onloadcssdefined=function(cb){var resolvedHref=ss.href;var i=sheets.length;while(i--){if(sheets[i].href===resolvedHref){onloadjsdefined();setTimeout(function(){if(typeof document.getElementById('critical-styles') !=='undefined' && document.getElementById('critical-styles') != null){if(typeof document.getElementById('critical-styles').remove !=='undefined'){if(typeof document.getElementById('critical-styles').remove==='function'){document.getElementById('critical-styles').remove()} else { document.getElementById('critical-styles').outerHTML=''}}} document.getElementsByTagName('html')[0].className+=' domIsReady'},2000);return cb()}} setTimeout(function(){onloadcssdefined(cb)})};var timer=null,onloadjsdefined=function(){if(typeof site!=='undefined'){if(typeof site.onDomReady!=='undefined'){site.onDomReady()} if (typeof timer!==null){clearTimeout(timer)}} else { var timer=setTimeout(onloadjsdefined,2000)}};function loadCB(){if(ss.addEventListener){ss.removeEventListener('load',loadCB)} ss.media = media||'all'} if (ss.addEventListener){ss.addEventListener('load',loadCB)} ss.onloadcssdefined=onloadcssdefined;onloadcssdefined(loadCB);return ss};if(typeof exports!=='undefined'){exports.loadCSS=loadCSS}else{w.loadCSS=loadCSS}}(typeof global!=='undefined'?global:this))
+         loadCSS('/templates/newvodovoz/assets/build/site.min.css?ver=342');
+         loadCSS('/templates/newvodovoz/assets/build/layout2023.css?ver=342');
+         loadCSS('/templates/newvodovoz/assets/build/custom.css?ver=342');
+         loadCSS('/templates/newvodovoz/assets/build/new_cart.css?ver=342');
+         loadCSS('/templates/newvodovoz/assets/build/smartbanner.css?ver=342');
+         
+      </script><script src="https://www.google.com/recaptcha/api.js" defer></script><script type="text/javascript" src="/templates/newvodovoz/assets/build/site_new.js?ver=342" defer></script><script type="text/javascript" src="/templates/newvodovoz/assets/build/layout2023.js?ver=342" defer></script><script type="text/javascript" src="/templates/newvodovoz/assets/build/users.js?ver=342" defer></script><script type="text/javascript" src="/templates/newvodovoz/assets/build/form_send.js?ver=342" defer></script><script type="text/javascript" src="//api-maps.yandex.ru/2.1/?load=package.full&amp;lang=ru-RU&amp;onload=YandexMaps.init&amp;apikey=386a1297-8051-4f31-81a2-055976076c19&amp;suggest_apikey=d67df327-3552-43b4-839e-ddcf95d4c9d5" defer></script><script type="text/javascript" src="/templates/newvodovoz/assets/build/contacts.js?ver=342" defer></script><script type="text/javascript" src="/templates/newvodovoz/assets/build/smartbanner.js?ver=342" defer></script>
+   </body>
+</html>
