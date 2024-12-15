@@ -1,0 +1,19 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip163_429">
+			<rect id="company_icon_active" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip163_429)">
+		<mask id="mask163_432" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.500000" y="0.500000" width="23.000000" height="23.000000">
+			<rect id="Frame 1326" x="0.500000" y="0.500000" width="23.000000" height="23.000000" fill="#000000" fill-opacity="1.000000"/>
+		</mask>
+		<g mask="url(#mask163_432)">
+			<path id="Vector 35" d="M14 12.5C14 11.93 13.54 11.5 13 11.5L10 11.5C9.44 11.5 9 11.93 9 12.5L9 15L9 15.5C9 16.04 9.44 16.5 10 16.5L13 16.5C13.54 16.5 14 16.04 14 15.5L14 15L14 12.5Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+			<path id="Vector 35" d="M9 15L2 15C1.44 15 1 14.55 1 14L1 8C1 7.43 1.44 7 2 7L8 7L15 7L21 7C21.54 7 22 7.43 22 8L22 14C22 14.55 21.54 15 21 15L14 15M13 11.5L10 11.5C9.44 11.5 9 11.93 9 12.5L9 15L9 15.5C9 16.04 9.44 16.5 10 16.5L13 16.5C13.54 16.5 14 16.04 14 15.5L14 15L14 12.5C14 11.93 13.54 11.5 13 11.5ZM8 7L8 3C8 2.43 8.44 2 9 2L14 2C14.54 2 15 2.43 15 3L15 7M2 15L2 20.5C2 21.05 2.44 21.5 3 21.5L20 21.5C20.54 21.5 21 21.05 21 20.5L21 15" stroke="#2E3A59" stroke-opacity="1.000000" stroke-width="2.000000"/>
+		</g>
+	</g>
+</svg>

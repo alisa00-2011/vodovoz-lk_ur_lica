@@ -691,40 +691,102 @@
     <div class="b-page_lk">
       <div class="container">
         <div class="b-page_columns flex">
-          <div class="col-xs-24 col-md-8 col-lg-6">
+          <div class="cabinet-left-column col-xs-3 col-md-8 col-lg-6">
             <div class="b-page_columns_sidebar">
-              <div class="cabinet-user-info">
-                Здравствуйте, А
-                <div class="cabinet-user-info-sub_text">+7 (911) 814-91-77</div>
+              <div class="cabinet-user-info cabinet-user-dropdown cabinet-user-icon-individual">
+                  <div class="cabinet-user-info-content" onclick="toggleDropdown()">
+                      <span class="cabinet-user-info-subtitle">Физическое лицо</span>
+                      <div class="cabinet-user-info-title">
+                        <span>Фамилия Имя Отчество</span>
+                        <img class="arrow" src="/templates/newvodovoz/assets/img/icons/cabinet/user-arrow.svg" alt="arrow">
+                      </div>
+                  </div>
+                  <ul class="dropdown-list">
+                      <li class="dropdown-item">
+                      <img class="item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/user-individual_icon.svg" alt="person">
+                          <span>Фамилия Имя Отчество</span>
+                      </li>
+                      <li class="dropdown-item">
+                          <img class="item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/user-company_icon.svg" alt="person">
+                          <span>OOO «Компания»</span>
+                      </li>
+                      <li class="dropdown-item">
+                          <img class="item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/user-company_icon.svg" alt="person">
+                          <span>OOO «Компания»</span>
+                      </li>
+                  </ul>
               </div>
               <div class="cabinet-menu">
                 <ul>
                   <li><a href="#" class="cabinet-menu-item cabinet-menu-item_bottle" data-v-modal="checkBottle">
-                        Бутылей у меня:
+                        <span>Бутылей у меня:</span>
                         <div class="cabinet-user-bottle-count-wrap">
-<span class="cabinet-user-bottle-count"></span><div class="loadingWrap"><div class="loading-dots">
-<div class="loading-dots--dot"></div>
-<div class="loading-dots--dot"></div>
-<div class="loading-dots--dot"></div>
-</div></div>
-</div></a></li>
-                  <li><a href="/lk/lk_orders/" class="cabinet-menu-item cabinet-menu-item_order active">
-                      Заказы
+                          <span class="cabinet-user-bottle-count"></span>
+                          <div class="loadingWrap">
+                            <div class="loading-dots">
+                            <div class="loading-dots--dot"></div>
+                            <div class="loading-dots--dot"></div>
+                            <div class="loading-dots--dot"></div>
+                            </div>
+                          </div>
+                        </div>
+                  </a></li>
+                  <li><a href="/lk/lk_orders/" class="cabinet-menu-item cabinet-menu-item_order">
+                      <span>Мои заказы</span>
                     </a></li>
                   <li><a href="/lk/lk_adress/" class="cabinet-menu-item cabinet-menu-item_delivery_point">
-                      Адреса доставки
+                      <span>Адреса доставки</span>
                     </a></li>
+                  <li><a href="" class="cabinet-menu-item cabinet-menu-item_company active">
+                    <span>Мои компании</span>
+                  </a></li>
                   <li><a href="/users/logout/" class="cabinet-menu-item cabinet-menu-item_logout">
-                      Выйти
+                      <span>Выйти</span>
                     </a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-xs-24 col-md-16 col-lg-18">
+          <div class="cabinet-right-column col-xs-21 col-md-16 col-lg-18">
             <div class="b-page_columns_content">
-              <div class="cabinet_orders_list"></div>
-              <div class="cabinet_orders_list_pagination"></div>
+            <a href="#" class="cabinet_companies_btn" data-v-modal="enterINN">
+              <img class="cabinet_companies_btn-img" src="/templates/newvodovoz/assets/img/icons/cabinet/user-company_icon-white.svg" alt="">
+              Добавить новую компанию
+            </a>
+            <div class="cabinet_companies-info list_company">
+              <div class="list_empty-block">
+                <div class="list_empty-title">
+                  У Вас еще нет компаний ;(
+                </div>
+                <div class="list_empty-text">
+                Вы можете добавить компанию, чтобы оформлять заказы, как юридическое лицо или индивидуальный предприниматель
+                </div>
+              </div>
+              <div class="list_company-block">
+                <div class="list_company-item">
+                  <div class="list_company-item-text">
+                    <div class="company_name">ООО “Название компании”</div>
+                    <div class="company_inn">2653761253</div>
+                    <div class="company_kpp">812365421</div>
+                    <div class="company_legal-address">адрес компании</div>
+                  </div>
+                  <a href="#">
+                    <img class="list_company-item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/companies_item-arrow.svg" alt="">
+                  </a>
+                </div>
+                <div class="list_company-item">
+                  <div class="list_company-item-text">
+                    <div class="company_name">ООО “Название компании”</div>
+                    <div class="company_inn">2653761253</div>
+                    <div class="company_kpp">812365421</div>
+                    <div class="company_legal-address">адрес компании</div>
+                  </div>
+                  <a href="#">
+                    <img class="list_company-item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/companies_item-arrow.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -789,6 +851,182 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+
+
+    <div style="display:none">
+      <div class="vModal vModal--enterINN " id="vModal--enterINN">
+        <div class="vModal-userFormWrapper">
+          <div class="vModal-userFormWrapper__header">
+              <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+              <h3>Введите ИНН компании или ИП</h3>
+          </div>
+          <div class="vModal-userFormWrapper__body">
+            <form class="vModal-userForm" action="" method="get" novalidate="" enctype="" data-ajax="">
+              <div class="vModal-userForm__input vModal-userForm__input--submit">
+                <label for="inn">
+                  <input type="text" id="inn" name="inn" required="" minlength="10" maxlength="12" placeholder="ИНН*" inputmode="numeric" >
+                </label>
+                <button data-v-modal="INN-ListCompany" type="submit" id="btnInn" >Далее</button>
+              </div>
+              <div class="form-error-str response"></div>
+            </form>
+          </div>
+          <div class="loadingWrap">
+            <div class="loading-dots">
+              <div class="loading-dots--dot"></div>
+              <div class="loading-dots--dot"></div>
+              <div class="loading-dots--dot"></div>
+            </div>
+            <span>Ищем компанию среди наших клиентов...</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="vModal vModal--INN-ListCompany" id="vModal--INN-ListCompany">
+        <div class="vModal-userFormWrapper">
+          <div class="vModal-userFormWrapper__header">
+          <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+              <h3>Выберите компанию</h3>
+          </div>
+          <div class="vModal-userFormWrapper__body">
+            <div class="list_company-block">
+              <div class="list_company-item">
+                <div class="list_company-item-text">
+                  <div class="company_name">ООО “Название компании”</div>
+                  <div class="company_inn">2653761253</div>
+                  <div class="company_kpp">812365421</div>
+                  <div class="company_legal-address">адрес компании</div>
+                </div>
+                <a href="#" data-v-modal="INN-ConfirmationAccessCompany">
+                  <img class="list_company-item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/companies_item-arrow.svg" alt="">
+                </a>                
+              </div>
+              <div class="list_company-item">
+                <div class="list_company-item-text">
+                  <div class="company_name">ООО “Название компании”</div>
+                  <div class="company_inn">2653761253</div>
+                  <div class="company_kpp">812365421</div>
+                  <div class="company_legal-address">адрес компании</div>
+                </div>
+                <a href="#" data-v-modal="INN-ConfirmationAccessCompany">
+                  <img class="list_company-item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/companies_item-arrow.svg" alt="">
+                </a>
+              </div>
+              <div class="list_company-item">
+                <div class="list_company-item-text">
+                  <div class="company_name">ООО “Название компании”</div>
+                  <div class="company_inn">2653761253</div>
+                  <div class="company_kpp">812365421</div>
+                  <div class="company_legal-address">адрес компании</div>
+                </div>
+                <a href="#" data-v-modal="INN-ConfirmationAccessCompany">
+                  <img class="list_company-item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/companies_item-arrow.svg" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="btn-back">
+              <a href="#" class="js_return_INN-ListCompany__point_step1 return_INN-ListCompany_point_step1" data-orig-tabindex="undefined" tabindex="-1">Назад</a>
+            </div>
+            <div class="form-error-str response"></div>
+          </div>
+          <div class="loadingWrap">
+            <div class="loading-dots">
+              <div class="loading-dots--dot"></div>
+              <div class="loading-dots--dot"></div>
+              <div class="loading-dots--dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vModal vModal--INN-ConfirmationAccessCompany" id="vModal--INN-ConfirmationAccessCompany">
+        <div class="vModal-userFormWrapper">
+          <div class="vModal-userFormWrapper__header">
+          <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+            <h3>Пожалуйста, подтвердите доступ к аккаунту компании по одному из номеров телефонов ниже: </h3>
+          </div>
+          <div class="vModal-userFormWrapper__body">
+            <div class="list-contacts">
+              <div class="contacts-item">
+                <div class="item-text">+7 999 *** 99 99</div>
+                <a href="#" data-v-modal="INN-enterCode">
+                  <img class="item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/companies_item-arrow.svg" alt="">
+                </a>                
+              </div>
+              <div class="contacts-item">
+                <div class="item-text">+7 888 *** 88 88</div>
+                <a href="#" data-v-modal="INN-enterCode">
+                  <img class="item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/companies_item-arrow.svg" alt="">
+                </a>                
+              </div>
+              <div class="contacts-item">
+                <div class="item-text">+7 777 *** 77 77</div>
+                <a href="#" data-v-modal="INN-enterCode">
+                  <img class="item-img" src="/templates/newvodovoz/assets/img/icons/cabinet/companies_item-arrow.svg" alt="">
+                </a>                
+              </div>
+            </div>
+            <div class="vModal-userForm__input vModal-userForm__input--anotherwayAction">
+              <a href="#" >Подтвердить <span>по e-mail</span></a>
+            </div>
+          </div>
+          <div class="loadingWrap">
+            <div class="loading-dots">
+              <div class="loading-dots--dot"></div>
+              <div class="loading-dots--dot"></div>
+              <div class="loading-dots--dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vModal vModal--INN-enterCode fancybox__content" id="vModal--INN-enterCode">
+        <div class="vModal-userFormWrapper">
+          <div class="vModal-userFormWrapper__header">
+          <img loading="lazy" src="/templates/newvodovoz/assets/img/logo-line.png" alt="Весёлый Водовоз">
+            <h3>Мы отправили код для подтверждения доступа на +7 888 *** 88 88</h3>
+          </div>
+          <div class="vModal-userFormWrapper__body">
+            <form class="vModal-userForm" action="" method="get" novalidate="" enctype="" data-ajax="">
+              <div class="vModal-userForm__input vModal-userForm__input--INN-enterCode">
+                <label for="CodeForInn">
+                  <input type="text" id="CodeForInn" name="CodeForInn" required="" minlength="4" maxlength="4" placeholder="Введите код" onkeyup="activeBthCodeForInn()" inputmode="numeric" pattern="^\d{4}$">
+                  <span class="form-error-str">Укажите четырехзначный код, полученный в sms</span>
+                </label>
+              </div>
+              <div class="form-error-str response"></div>
+              <div class="vModal-userForm__input vModal-userForm__input--submit" >
+                <button type="submit" data-v-modal="INN-userLoginCompleted" data-orig-tabindex="undefined" tabindex="-1" disabled="disabled" id="btnCodeForInn">Далее</button>
+              </div>
+            </form>
+          </div>
+          <div class="loadingWrap">
+            <div class="loading-dots">
+              <div class="loading-dots--dot"></div>
+              <div class="loading-dots--dot"></div>
+              <div class="loading-dots--dot"></div>
+            </div>
+          </div>
+        </div>
+        <button data-fancybox-close="" class="f-button is-close-btn" title="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" tabindex="-1"><path d="M20 20L4 4m16 0L4 20"></path></svg>
+        </button>
+      </div>
+
+      <div class="vModal vModal--INN-userLoginCompleted fancybox__content" id="vModal--INN-userLoginCompleted">
+        <div class="vModal-userFormWrapper">
+          <div class="vModal-userFormWrapper__header">
+            <img loading="lazy" src="/templates/newvodovoz/assets/img/icons/cabinet/user_auth_success.svg" alt="Успешно!">
+            <h3>Аккаунт компании привязан к Вашей учетной записи</h3>
+            <p>Чтобы сделать заказ как компания, выберите профиль компании в личном кабинете.</p>
+          </div>
+        </div>
+        <button data-fancybox-close="" class="f-button is-close-btn" title="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" tabindex="-1"><path d="M20 20L4 4m16 0L4 20"></path></svg>
+        </button>
       </div>
     </div>
     <div class="b-feedback">
@@ -1993,6 +2231,25 @@
       <div class="cart-preloader__ring"></div>
     </div>
   </div>
+  <script>
+    /*dropdown for user*/
+    function toggleDropdown() {
+        const dropdown = document.querySelector('.cabinet-user-dropdown');
+        const list = document.querySelector('.dropdown-list');
+        dropdown.classList.toggle('open');
+        list.classList.toggle('open');
+    }
+  </script>
+  <script type="text/javascript">
+      /*activating button for vModal--INN-enterCode*/
+    function activeBthCodeForInn(){
+      var vInp=document.getElementById("CodeForInn").value;
+      var lengthvIn=vInp.length;
+      if(lengthvIn==4){
+      document.getElementById("btnCodeForInn").disabled=false;
+      }
+    }
+  </script>
   <script type="text/javascript">
     var lazyLoadImages, lazyLoadClonedImages, imageObserver;
     if (window.NodeList && !NodeList.prototype.forEach) {

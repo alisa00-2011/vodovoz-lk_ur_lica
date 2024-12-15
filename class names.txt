@@ -1,0 +1,12 @@
+для класса cabinet-user-info:
+cabinet-user-block - блок имеет вид простого div
+cabinet-user-dropdown - блок имеет вид выпадающего списка
+cabinet-user-icon-individual - выводит иконку физ. лица
+cabinet-user-icon-company - выводит иконку компании
+
+для класса cabinet_companies-info:
+list_company - вид центр. блока, когда есть юр. лица
+list_empty - вид центр. блока, когда нет юр. лиц
+
+для класса vModal--enterINN:
+empty_inn - делает всплывающее окно для ввода ИНН неактивным
